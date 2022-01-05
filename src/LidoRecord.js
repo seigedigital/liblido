@@ -20,4 +20,8 @@ export default class LidoRecord {
     return lidotools.getLabel(this.node,this.select)
   }
 
+  getKenomImages() {
+    return lidotools.getKenomImages(this.node,this.select)
+  }
+
 }

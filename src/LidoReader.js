@@ -20,6 +20,6 @@ export default class LidoReader {
       this.records.push(new LidoRecord(records[key]))
     }
     return this.records
-  }
+  }  
 
 }

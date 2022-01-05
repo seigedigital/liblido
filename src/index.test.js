@@ -7,6 +7,7 @@ describe('Part 1', () => {
   let lid = ''
   let rid = ''
   let label = ''
+  let images = []
 
   beforeEach(() => {
     const data = fs.readFileSync('./testdata/lido1.xml').toString()
@@ -15,6 +16,8 @@ describe('Part 1', () => {
     lid = records[0].getLidoRecordID()
     rid = records[0].getRecordID()
     label = records[0].getLabel()
+    images = records[1].getKenomImages()
+    console.log(images)
   })
 
   it('Test parsed OAI-PMH file.', () => {
@@ -28,5 +31,10 @@ describe('Part 1', () => {
     expect(label).toBe('Münze, 1 Crown, 1847')
   })
 
+  it('Test images.', () => {
+    expect(images.length).toBe(2)
+    expect(images[0].url).toBe('https://www.kenom.de/iiif/image/record_DE-15_kenom_161081/record_DE-15_kenom_161081_vs.jpg/full/full/0/default.jpg')
+    expect(images[1].width).toBe('2924')
+  })
 
 })

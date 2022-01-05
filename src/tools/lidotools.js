@@ -44,6 +44,45 @@ module.exports = {
     return xmltools.getXmlValue('.//lido:lido/lido:lidoRecID',node,select)
   },
 
+  getKenomResourceRepresentations: function(node,select) {
+    let nodes = xmltools.getNodes('.//lido:resourceRepresentation',node,select)
+    let retval = []
+    for(let key in nodes) {
+      try {
+        let url = xmltools.getXmlValue('./lido:linkResource',nodes[key],select)
+        let width = xmltools.getXmlValue('./lido:resourceMeasurementsSet[lido:measurementType = "width"]/lido:measurementValue',nodes[key],select)
+        let height = xmltools.getXmlValue('./lido:resourceMeasurementsSet[lido:measurementType = "height"]/lido:measurementValue',nodes[key],select)
+        let qp = width*height
+        retval.push({url:url,width:width,height:height,qp:qp})
+      } catch (e) { console.log(e) }
+    }
+    return retval
+  },
+
+  getKenomMaxResourceRepresentation: function(node,select) {
+    let reps = this.getKenomResourceRepresentations(node,select)
+    let retval = false
+    let maxqp = 0
+    for(let key in reps) {
+      if(reps[key].qp>maxqp) {
+        retval = reps[key]
+        maxqp = reps[key].qp
+      }
+    }
+    return retval
+  },
+
+  getKenomImages: function(node,select) {
+    let rnodes = xmltools.getNodes('.//lido:administrativeMetadata/lido:resourceWrap/lido:resourceSet',node,select)
+    let retval =  []
+    for(let key in rnodes) {
+      let img = {}
+      img = Object.assign(img,this.getKenomMaxResourceRepresentation(rnodes[key],select))
+      retval.push(img)
+    }
+    return retval
+  },
+
   getWorkType: function(node,select,defaultLanguages) {
     let results = xmltools.getXmlLangValues('.//lido:descriptiveMetadata/lido:objectClassificationWrap/lido:objectWorkTypeWrap/lido:objectWorkType/lido:term',node,select,defaultLanguages)
     if(results.length===0 || results===null) {
