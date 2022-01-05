@@ -1,0 +1,25 @@
+{
+  "name": "liblido",
+  "version": "0.0.1",
+  "description": "a simple library to parse LIDO XML",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/seigedigital/liblido.git"
+  },
+  "author": "Leander Seige",
+  "license": "GPLV3",
+  "bugs": {
+    "url": "https://github.com/seigedigital/liblido/issues"
+  },
+  "homepage": "https://github.com/seigedigital/liblido#readme",
+  "dependencies": {
+    "@babel/plugin-transform-modules-commonjs": "^7.16.7",
+    "jest": "^27.4.7",
+    "xmldom": "^0.6.0",
+    "xpath": "^0.0.32"
+  }
+}
