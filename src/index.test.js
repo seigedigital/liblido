@@ -1,4 +1,4 @@
-const { LidoReader, LidoRecord } = require('liblido')
+const LidoReader = require('./index.js')
 const fs = require('fs');
 
 describe('Part 1', () => {

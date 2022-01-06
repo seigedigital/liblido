@@ -3,7 +3,6 @@
   "version": "0.0.1",
   "description": "a simple library to parse LIDO XML",
   "main": "src/index.js",
-  "type": "module",
   "scripts": {
     "test": "jest"
   },
