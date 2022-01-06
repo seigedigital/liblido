@@ -1,5 +1,5 @@
-import xpath from 'xpath'
-import * as xmltools from './xmltools.js'
+const xpath = require('xpath')
+const xmltools = require('./xmltools.js')
 
 module.exports = {
 

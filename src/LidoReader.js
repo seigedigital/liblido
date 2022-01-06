@@ -1,7 +1,7 @@
-import { DOMParser } from 'xmldom'
-import LidoRecord  from './LidoRecord.js'
-import * as xmltools from './tools/xmltools.js'
-import * as lidotools from './tools/lidotools.js'
+const { DOMParser } = require('xmldom')
+const xmltools = require('./tools/xmltools.js')
+const lidotools = require('./tools/lidotools.js')
+const LidoRecord = require('./LidoRecord.js').default
 
 export default class LidoReader {
 
@@ -20,6 +20,6 @@ export default class LidoReader {
       this.records.push(new LidoRecord(records[key]))
     }
     return this.records
-  }
+  }  
 
 }

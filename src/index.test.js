@@ -1,5 +1,5 @@
-import { LidoReader } from './index.js'
-import * as fs from 'fs'
+const { LidoReader } = require('./index.js')
+const fs = require('fs');
 
 describe('Part 1', () => {
   let records = []
