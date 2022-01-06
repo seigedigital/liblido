@@ -1,5 +1,5 @@
-import LidoReader from './LidoReader'
-import LidoRecord from './LidoRecord'
+const LidoReader = require('./LidoReader.js')
+const LidoRecord = require('./LidoRecord.js')
 
 module.exports.LidoReader = LidoReader
 module.exports.LidoRecord = LidoRecord
