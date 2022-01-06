@@ -1,7 +1,7 @@
 const xmltools = require('./tools/xmltools.js')
 const lidotools = require('./tools/lidotools.js')
 
-export default class LidoRecord {
+class LidoRecord {
 
   constructor(node) {
     this.node = node
@@ -25,3 +25,5 @@ export default class LidoRecord {
   }
 
 }
+
+module.exports = LidoRecord

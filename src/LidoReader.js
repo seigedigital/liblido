@@ -1,7 +1,7 @@
 const { DOMParser } = require('xmldom')
 const xmltools = require('./tools/xmltools.js')
 const lidotools = require('./tools/lidotools.js')
-const LidoRecord = require('./LidoRecord.js').default
+const LidoRecord = require('./LidoRecord.js')
 
 class LidoReader {
 
