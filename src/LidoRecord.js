@@ -1,5 +1,5 @@
-const xmltools = require('./tools/xmltools.js')
-const lidotools = require('./tools/lidotools.js')
+import * as xmltools from './tools/xmltools.js'
+import * as lidotools from './tools/lidotools.js'
 
 export default class LidoRecord {
 
