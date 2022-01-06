@@ -3,7 +3,7 @@ const xmltools = require('./tools/xmltools.js')
 const lidotools = require('./tools/lidotools.js')
 const LidoRecord = require('./LidoRecord.js').default
 
-export default class LidoReader {
+class LidoReader {
 
   constructor(data) {
     this.doc = new DOMParser().parseFromString(data)
@@ -20,6 +20,8 @@ export default class LidoReader {
       this.records.push(new LidoRecord(records[key]))
     }
     return this.records
-  }  
+  }
 
 }
+
+module.exports = LidoReader
