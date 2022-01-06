@@ -1,4 +1,4 @@
-const LidoReader = require('./index.js')
+const { LidoReader } = require('./index.js')
 const fs = require('fs');
 
 describe('Part 1', () => {
@@ -10,6 +10,7 @@ describe('Part 1', () => {
   let images = []
 
   beforeEach(() => {
+    console.log({LidoReader:LidoReader})
     const data = fs.readFileSync('./testdata/lido1.xml').toString()
     let myreader = new LidoReader(data)
     records = myreader.getAllRecords()
