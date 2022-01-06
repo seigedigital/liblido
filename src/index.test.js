@@ -10,7 +10,6 @@ describe('Part 1', () => {
   let images = []
 
   beforeEach(() => {
-    console.log({LidoReader:LidoReader})
     const data = fs.readFileSync('./testdata/lido1.xml').toString()
     let myreader = new LidoReader(data)
     records = myreader.getAllRecords()
