@@ -1,4 +1,4 @@
-const { LidoReader } = require('./index.js')
+const { LidoReader } = require('./LidoReader.js')
 const fs = require('fs');
 
 describe('Part 1', () => {
