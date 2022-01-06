@@ -1,4 +1,4 @@
-import LidoReader from './LidoReader.js'
+const { LidoReader, LidoRecord } = require('liblido')
 const fs = require('fs');
 
 describe('Part 1', () => {

@@ -1,4 +1,5 @@
 import LidoReader from './LidoReader'
 import LidoRecord from './LidoRecord'
 
-export { LidoReader, LidoRecord }
+module.exports.LidoReader = LidoReader
+module.exports.LidoRecord = LidoRecord
