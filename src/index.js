@@ -1,3 +1,3 @@
-const LidoReader = require('./LidoReader.js').default
+import LidoReader from './LidoReader.js'
 
 module.exports = LidoReader
