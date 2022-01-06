@@ -18,7 +18,6 @@ describe('Part 1', () => {
     rid = records[0].getRecordID()
     label = records[0].getLabel()
     images = records[1].getKenomImages()
-    console.log(images)
   })
 
   it('Test parsed OAI-PMH file.', () => {
