@@ -24,6 +24,26 @@ class LidoRecord {
     return lidotools.getKenomImages(this.node,this.select)
   }
 
+  getCreationYear() {
+    return lidotools.getCreationYear(this.node,this.select)
+  }
+
+  getCreationPlace() {
+    return lidotools.getCreationPlace(this.node,this.select)
+  }
+
+  getEventActorRoles() {
+    return lidotools.getEventActorRoles(this.node,this.select)
+  }
+
+  getLicenseUri() {
+    return lidotools.getLicenseUri(this.node,this.select)
+  }
+
+  getReqStatement() {
+    return lidotools.getReqStatement(this.node,this.select)
+  }
+
 }
 
 module.exports = LidoRecord
