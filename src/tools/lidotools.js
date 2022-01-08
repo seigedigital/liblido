@@ -176,7 +176,7 @@ module.exports = {
     if(stmt===null) {
       stmt = ""
       stmt += xmltools.getXmlValue('.//lido:administrativeMetadata/lido:recordWrap/lido:recordRights/lido:rightsHolder/lido:legalBodyName/lido:appellationValue',node,select)
-      stmt += " "+xmltools.getXmlValue('.//lido:administrativeMetadata/lido:recordWrap/lido:recordRights/lido:rightsType/lido:term',node,select)
+      stmt += ", "+xmltools.getXmlValue('.//lido:administrativeMetadata/lido:recordWrap/lido:recordRights/lido:rightsType[lido:conceptID]/lido:term',node,select)
     }
     return stmt
     // return {

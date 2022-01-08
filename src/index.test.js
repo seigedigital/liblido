@@ -47,7 +47,7 @@ describe('Part 1', () => {
     expect(md.license).toBe('https://creativecommons.org/publicdomain/zero/1.0/deed.de')
     expect(md.place).toBe('Großbritannien')
     expect(md.person).toBe('Viktoria <Großbritannien, Königin> (Münzherr)')
-
+    expect(md.stmt).toBe('Universitätsbibliothek Leipzig, kein Copyright / Public domain (CC0 1.0)')
   })
 
 })
