@@ -40,6 +40,7 @@ describe('Part 1', () => {
     expect(images.length).toBe(2)
     expect(images[0].url).toBe('https://www.kenom.de/iiif/image/record_DE-15_kenom_161081/record_DE-15_kenom_161081_vs.jpg/full/full/0/default.jpg')
     expect(images[1].width).toBe('2924')
+    expect(images[1].perspective).toBe('back')
   })
 
   it('Test metadata.', () => {

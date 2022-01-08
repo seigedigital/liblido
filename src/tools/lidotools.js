@@ -52,8 +52,9 @@ module.exports = {
         let url = xmltools.getXmlValue('./lido:linkResource',nodes[key],select)
         let width = xmltools.getXmlValue('./lido:resourceMeasurementsSet[lido:measurementType = "width"]/lido:measurementValue',nodes[key],select)
         let height = xmltools.getXmlValue('./lido:resourceMeasurementsSet[lido:measurementType = "height"]/lido:measurementValue',nodes[key],select)
+        let perspective = xmltools.getXmlValue('./lido:resourcePerspective/lido:term',node,select)
         let qp = width*height
-        retval.push({url:url,width:width,height:height,qp:qp})
+        retval.push({url:url,width:width,height:height,perspective:perspective,qp:qp})
       } catch (e) { console.log(e) }
     }
     return retval
