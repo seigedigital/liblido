@@ -44,6 +44,18 @@ module.exports = {
     return xmltools.getXmlValue('.//lido:lido/lido:lidoRecID',node,select)
   },
 
+  getRelatedLinks: function(node,select) {
+    let nodes = xmltools.getNodes('.//lido:lido/lido:objectPublishedID[@lido:type="http://terminology.lido-schema.org/identifier_type/uri"]',node,select)
+    let retval = []
+    for(let key in nodes) {
+      let url = xmltools.getXmlValue('.',nodes[key],select)
+      if(url) {
+        retval.push(url)
+      }
+    }
+    return retval
+  },
+
   getKenomResourceRepresentations: function(node,select) {
     let nodes = xmltools.getNodes('.//lido:resourceRepresentation',node,select)
     let retval = []

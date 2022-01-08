@@ -9,6 +9,7 @@ describe('Part 1', () => {
   let label = ''
   let images = []
   let md={}
+  let links = []
 
   beforeEach(() => {
     const data = fs.readFileSync('./testdata/lido1.xml').toString()
@@ -23,6 +24,7 @@ describe('Part 1', () => {
     md.stmt = records[0].getReqStatement()
     md.place = records[1].getCreationPlace()
     md.person = records[0].getEventActorRoles()
+    links = records[0].getRelatedLinks()
   })
 
   it('Test parsed OAI-PMH file.', () => {
@@ -49,6 +51,11 @@ describe('Part 1', () => {
     expect(md.place).toBe('Großbritannien')
     expect(md.person).toBe('Viktoria <Großbritannien, Königin> (Münzherr)')
     expect(md.stmt).toBe('Universitätsbibliothek Leipzig, kein Copyright / Public domain (CC0 1.0)')
+  })
+
+  it('Test metadata.', () => {
+    expect(links[0]).toBe('http://www.kenom.de/id/record_DE-15_kenom_161017')
+    expect(links[1]).toBe('http://hdl.handle.net/428894.vzg/1ef66282-82d5-4f33-bdfc-3b51f9c59f26')
   })
 
 })

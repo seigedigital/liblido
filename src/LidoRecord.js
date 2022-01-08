@@ -44,6 +44,10 @@ class LidoRecord {
     return lidotools.getReqStatement(this.node,this.select)
   }
 
+  getRelatedLinks() {
+    return lidotools.getRelatedLinks(this.node,this.select)
+  }
+
 }
 
 module.exports = LidoRecord
