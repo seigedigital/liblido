@@ -14,30 +14,33 @@ describe('Part 1', () => {
   let md2={}
   let links = []
 
+  const data = fs.readFileSync('./testdata/lido1.xml').toString()
+  const data2 = fs.readFileSync('./testdata/lido2.xml').toString()
+  let myreader = new LidoReader(data)
+  let myreader2 = new LidoReader(data2)
+  records = myreader.getAllRecords()
+  records2 = myreader2.getAllRecords()
+  lid = records[0].getLidoRecordID()
+  rid = records[0].getRecordID()
+  rid2 = records2[0].getRecordID()
+  label = records[0].getLabel()
+  images = records[1].getKenomImages()
+  md.year = records[0].getCreationYear()
+  md2.year = records2[0].getCreationYear()
+  md.license = records[0].getLicenseUri()
+  md.stmt = records[0].getReqStatement()
+  md.place = records[1].getCreationPlace()
+  md.person = records[0].getEventActorRoles()
+  links = records[0].getRelatedLinks()
+
   beforeEach(() => {
-    const data = fs.readFileSync('./testdata/lido1.xml').toString()
-    const data2 = fs.readFileSync('./testdata/lido2.xml').toString()
-    let myreader = new LidoReader(data)
-    let myreader2 = new LidoReader(data2)
-    records = myreader.getAllRecords()
-    records2 = myreader2.getAllRecords()
-    lid = records[0].getLidoRecordID()
-    rid = records[0].getRecordID()
-    rid2 = records2[0].getRecordID()
-    label = records[0].getLabel()
-    images = records[1].getKenomImages()
-    md.year = records[0].getCreationYear()
-    md2.year = records2[0].getCreationYear()
-    md.license = records[0].getLicenseUri()
-    md.stmt = records[0].getReqStatement()
-    md.place = records[1].getCreationPlace()
-    md.person = records[0].getEventActorRoles()
-    links = records[0].getRelatedLinks()
+    // nothing
   })
 
   it('Test parsed OAI-PMH file.', () => {
     expect(typeof records).toBe('object')
     expect(records.length).toBe(20)
+    expect(records2.length).toBe(10)
   })
 
   it('Test primary record data.', () => {

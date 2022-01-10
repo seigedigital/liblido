@@ -11,9 +11,9 @@ class LidoReader {
   }
 
   getAllRecords() {
-    let records = xmltools.getNodes('//record',this.doc,this.select)
+    let records = xmltools.getNodes('//record[./metadata/lido]',this.doc,this.select)
     if(Object.keys(records).length === 0) {
-      records = xmltools.getNodes('//oai:record',this.doc,this.select)
+      records = xmltools.getNodes('//oai:record[./oai:metadata/lido:lido]',this.doc,this.select)
     }
     this.records = []
     for(let key in records) {
