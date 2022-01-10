@@ -37,15 +37,15 @@ module.exports = {
   },
 
   getRecordID: function(node,select) {
-    return xmltools.getXmlValue('//lido:administrativeMetadata/lido:recordWrap/lido:recordID',node,select)
+    return xmltools.getXmlValue('.//lido:administrativeMetadata/lido:recordWrap/lido:recordID',node,select)
   },
 
   getLidoRecordID: function(node,select) {
-    return xmltools.getXmlValue('//lido:lido/lido:lidoRecID',node,select)
+    return xmltools.getXmlValue('.//lido:lido/lido:lidoRecID',node,select)
   },
 
   getRelatedLinks: function(node,select) {
-    let nodes = xmltools.getNodes('//lido:lido/lido:objectPublishedID[@lido:type="http://terminology.lido-schema.org/identifier_type/uri"]',node,select)
+    let nodes = xmltools.getNodes('.//lido:lido/lido:objectPublishedID[@lido:type="http://terminology.lido-schema.org/identifier_type/uri"]',node,select)
     let retval = []
     for(let key in nodes) {
       let url = xmltools.getXmlValue('.',nodes[key],select)
