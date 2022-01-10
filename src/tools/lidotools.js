@@ -138,7 +138,14 @@ module.exports = {
           }
 
           date = xmltools.getXmlValue('.//lido:eventDate/lido:date/lido:earliestDate',nodes[key],select)
-          return date
+          if(date!==null) {
+            return date
+          }
+
+          date = xmltools.getXmlValue('.//lido:eventDate/lido:date/lido:latestDate',nodes[key],select)
+          if(date!==null) {
+            return date
+          }
 
       }
     }
