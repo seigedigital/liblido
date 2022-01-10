@@ -114,7 +114,7 @@ module.exports = {
   },
 
   getCreationYear: function(node,select) {
-    let nodes = xmltools.getNodes('.//lido:descriptiveMetadata/lido:eventWrap/lido:eventSet/lido:event',node,select)
+    let nodes = xmltools.getNodes('//lido:descriptiveMetadata/lido:eventWrap/lido:eventSet/lido:event',node,select)
     for(let key in nodes) {
       let concept = xmltools.getXmlValue('.//lido:eventType/lido:conceptID',nodes[key],select)
       if(

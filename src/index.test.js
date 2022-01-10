@@ -11,6 +11,7 @@ describe('Part 1', () => {
   let label = ''
   let images = []
   let md={}
+  let md2={}
   let links = []
 
   beforeEach(() => {
@@ -26,6 +27,7 @@ describe('Part 1', () => {
     label = records[0].getLabel()
     images = records[1].getKenomImages()
     md.year = records[0].getCreationYear()
+    md2.year = records2[0].getCreationYear()
     md.license = records[0].getLicenseUri()
     md.stmt = records[0].getReqStatement()
     md.place = records[1].getCreationPlace()
@@ -54,6 +56,7 @@ describe('Part 1', () => {
 
   it('Test metadata.', () => {
     expect(md.year).toBe('1847')
+    expect(md2.year).toBe('um 1905')
     expect(md.license).toBe('https://creativecommons.org/publicdomain/zero/1.0/deed.de')
     expect(md.place).toBe('Großbritannien')
     expect(md.person).toBe('Viktoria <Großbritannien, Königin> (Münzherr)')
