@@ -77,7 +77,7 @@ module.exports = {
     let retval = false
     let maxqp = 0
     for(let key in reps) {
-      if(reps[key].qp>maxqp) {
+      if(reps[key].qp>=maxqp) {
         retval = reps[key]
         maxqp = reps[key].qp
       }

@@ -10,6 +10,7 @@ describe('Part 1', () => {
   let rid2 = ''
   let label = ''
   let images = []
+  let images2 = []
   let md={}
   let md2={}
   let links = []
@@ -25,8 +26,10 @@ describe('Part 1', () => {
   rid2 = records2[0].getRecordID()
   label = records[0].getLabel()
   images = records[1].getKenomImages()
+  images2 = records2[1].getKenomImages()
   md.year = records[0].getCreationYear()
   md2.year = records2[0].getCreationYear()
+  md2.label = records2[0].getLabel()
   md.license = records[0].getLicenseUri()
   md.stmt = records[0].getReqStatement()
   md.place = records[1].getCreationPlace()
@@ -55,11 +58,16 @@ describe('Part 1', () => {
     expect(images[0].url).toBe('https://www.kenom.de/iiif/image/record_DE-15_kenom_161081/record_DE-15_kenom_161081_vs.jpg/full/full/0/default.jpg')
     expect(images[1].width).toBe('2924')
     expect(images[1].perspective).toBe('back')
+    expect(images2.length).toBe(1)
+    expect(images2[0].url).toBe('http://resources.digicult-museen.net/dam/provided_image/m58c213370d075')
+    expect(images2[0].width).toBe(null)
+    expect(images2[0].perspective).toBe(null)
   })
 
   it('Test metadata.', () => {
-    expect(md.year).toBe('1847')
-    expect(md2.year).toBe('um 1905')
+    expect(md.year).toBe('1847-01-01')
+    expect(md2.year).toBe('1900')
+    expect(md2.label).toBe('Nikolaifleet')
     expect(md.license).toBe('https://creativecommons.org/publicdomain/zero/1.0/deed.de')
     expect(md.place).toBe('Großbritannien')
     expect(md.person).toBe('Viktoria <Großbritannien, Königin> (Münzherr)')
