@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type='text/xsl' href='./oai2.xsl'?>
 <OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
   <responseDate>2022-01-05T17:03:22Z</responseDate>
@@ -46,9 +46,7 @@
                   <lido:appellationValue>Münze, 1 Crown, 1847</lido:appellationValue>
                 </lido:titleSet>
                 <lido:titleSet lido:type="generated_long" lido:sortorder="3">
-                  <lido:appellationValue>1 Crown, 1847
-Großbritannien?
-Viktoria &lt;Großbritannien, Königin&gt;</lido:appellationValue>
+                  <lido:appellationValue>1 Crown, 1847Großbritannien?Viktoria &lt;Großbritannien, Königin&gt;</lido:appellationValue>
                 </lido:titleSet>
               </lido:titleWrap>
               <lido:inscriptionsWrap>
@@ -84,9 +82,7 @@ Viktoria &lt;Großbritannien, Königin&gt;</lido:appellationValue>
               </lido:objectDescriptionWrap>
               <lido:objectMeasurementsWrap>
                 <lido:objectMeasurementsSet>
-                  <lido:displayObjectMeasurements>Durchmesser: 38,89 mm
-Gewicht: 27,5 g
-Stempelstellung: 12 h</lido:displayObjectMeasurements>
+                  <lido:displayObjectMeasurements>Durchmesser: 38,89 mmGewicht: 27,5 gStempelstellung: 12 h</lido:displayObjectMeasurements>
                   <lido:objectMeasurements>
                     <lido:measurementsSet>
                       <lido:measurementType xml:lang="en">diameter</lido:measurementType>
@@ -457,9 +453,7 @@ Stempelstellung: 12 h</lido:displayObjectMeasurements>
                   <lido:appellationValue>Münze, 2 Pence, 1797</lido:appellationValue>
                 </lido:titleSet>
                 <lido:titleSet lido:type="generated_long" lido:sortorder="3">
-                  <lido:appellationValue>2 Pence, 1797
-Großbritannien
-Georg &lt;III., Großbritannien, König&gt;</lido:appellationValue>
+                  <lido:appellationValue>2 Pence, 1797GroßbritannienGeorg &lt;III., Großbritannien, König&gt;</lido:appellationValue>
                 </lido:titleSet>
               </lido:titleWrap>
               <lido:inscriptionsWrap>
@@ -490,9 +484,7 @@ Georg &lt;III., Großbritannien, König&gt;</lido:appellationValue>
               </lido:repositoryWrap>
               <lido:objectMeasurementsWrap>
                 <lido:objectMeasurementsSet>
-                  <lido:displayObjectMeasurements>Durchmesser: 40,8 mm
-Gewicht: 59 g
-Stempelstellung: 6 h</lido:displayObjectMeasurements>
+                  <lido:displayObjectMeasurements>Durchmesser: 40,8 mmGewicht: 59 gStempelstellung: 6 h</lido:displayObjectMeasurements>
                   <lido:objectMeasurements>
                     <lido:measurementsSet>
                       <lido:measurementType xml:lang="en">diameter</lido:measurementType>
@@ -878,9 +870,7 @@ Stempelstellung: 6 h</lido:displayObjectMeasurements>
                   <lido:appellationValue>Medaille, Medaille, 1806</lido:appellationValue>
                 </lido:titleSet>
                 <lido:titleSet lido:type="generated_long" lido:sortorder="3">
-                  <lido:appellationValue>Medaille, 1806
-Kaiserreich Frankreich / Empire français / Französisches Kaiserreich
-Napoléon &lt;I., Frankreich, Kaiser&gt;</lido:appellationValue>
+                  <lido:appellationValue>Medaille, 1806Kaiserreich Frankreich / Empire français / Französisches KaiserreichNapoléon &lt;I., Frankreich, Kaiser&gt;</lido:appellationValue>
                 </lido:titleSet>
               </lido:titleWrap>
               <lido:inscriptionsWrap>
@@ -911,9 +901,7 @@ Napoléon &lt;I., Frankreich, Kaiser&gt;</lido:appellationValue>
               </lido:repositoryWrap>
               <lido:objectMeasurementsWrap>
                 <lido:objectMeasurementsSet>
-                  <lido:displayObjectMeasurements>Durchmesser: 40,5 mm
-Gewicht: 34,88 g
-Stempelstellung: 12 h</lido:displayObjectMeasurements>
+                  <lido:displayObjectMeasurements>Durchmesser: 40,5 mmGewicht: 34,88 gStempelstellung: 12 h</lido:displayObjectMeasurements>
                   <lido:objectMeasurements>
                     <lido:measurementsSet>
                       <lido:measurementType xml:lang="en">diameter</lido:measurementType>
@@ -1310,9 +1298,7 @@ Stempelstellung: 12 h</lido:displayObjectMeasurements>
                   <lido:appellationValue>Münze, Guldengroschen (Klappmützentaler), 1507 - 1525</lido:appellationValue>
                 </lido:titleSet>
                 <lido:titleSet lido:type="generated_long" lido:sortorder="3">
-                  <lido:appellationValue>Guldengroschen (Klappmützentaler), 1507 - 1525
-Kurfürstentum Sachsen und Herzogtum Sachsen
-Friedrich &lt;III., Sachsen, Kurfürst&gt;; Johann &lt;Sachsen, Kurfürst&gt;</lido:appellationValue>
+                  <lido:appellationValue>Guldengroschen (Klappmützentaler), 1507 - 1525Kurfürstentum Sachsen und Herzogtum SachsenFriedrich &lt;III., Sachsen, Kurfürst&gt;; Johann &lt;Sachsen, Kurfürst&gt;</lido:appellationValue>
                 </lido:titleSet>
               </lido:titleWrap>
               <lido:inscriptionsWrap>
@@ -1343,9 +1329,7 @@ Friedrich &lt;III., Sachsen, Kurfürst&gt;; Johann &lt;Sachsen, Kurfürst&gt;</l
               </lido:repositoryWrap>
               <lido:objectMeasurementsWrap>
                 <lido:objectMeasurementsSet>
-                  <lido:displayObjectMeasurements>Durchmesser: 40 mm
-Gewicht: 28,88 g
-Stempelstellung: 9 h</lido:displayObjectMeasurements>
+                  <lido:displayObjectMeasurements>Durchmesser: 40 mmGewicht: 28,88 gStempelstellung: 9 h</lido:displayObjectMeasurements>
                   <lido:objectMeasurements>
                     <lido:measurementsSet>
                       <lido:measurementType xml:lang="en">diameter</lido:measurementType>
@@ -1514,8 +1498,7 @@ Stempelstellung: 9 h</lido:displayObjectMeasurements>
                 <lido:relatedWorkSet>
                   <lido:relatedWork>
                     <lido:object>
-                      <lido:objectNote>Schnee, G: Sächsische Taler 1500-1800 und Abschläge von Talerstempeln in Gold und Silber, Frankfurt am Main, 1982.
-Seite/Nr.: 26</lido:objectNote>
+                      <lido:objectNote>Schnee, G: Sächsische Taler 1500-1800 und Abschläge von Talerstempeln in Gold und Silber, Frankfurt am Main, 1982.Seite/Nr.: 26</lido:objectNote>
                       <lido:objectNote lido:type="type">Literatur</lido:objectNote>
                     </lido:object>
                   </lido:relatedWork>
@@ -1773,9 +1756,7 @@ Seite/Nr.: 26</lido:objectNote>
                   <lido:appellationValue>Münze, Brakteat, 1125 - 1190</lido:appellationValue>
                 </lido:titleSet>
                 <lido:titleSet lido:type="generated_long" lido:sortorder="3">
-                  <lido:appellationValue>Brakteat, 1125 - 1190
-Deutschland
-Friedrich &lt;I., Römisch-Deutsches Reich, Kaiser&gt;</lido:appellationValue>
+                  <lido:appellationValue>Brakteat, 1125 - 1190DeutschlandFriedrich &lt;I., Römisch-Deutsches Reich, Kaiser&gt;</lido:appellationValue>
                 </lido:titleSet>
               </lido:titleWrap>
               <lido:inscriptionsWrap>
@@ -1799,8 +1780,7 @@ Friedrich &lt;I., Römisch-Deutsches Reich, Kaiser&gt;</lido:appellationValue>
               </lido:repositoryWrap>
               <lido:objectMeasurementsWrap>
                 <lido:objectMeasurementsSet>
-                  <lido:displayObjectMeasurements>Durchmesser: 33 mm
-Gewicht: 0,69 g</lido:displayObjectMeasurements>
+                  <lido:displayObjectMeasurements>Durchmesser: 33 mmGewicht: 0,69 g</lido:displayObjectMeasurements>
                   <lido:objectMeasurements>
                     <lido:measurementsSet>
                       <lido:measurementType xml:lang="en">diameter</lido:measurementType>
@@ -1942,8 +1922,7 @@ Gewicht: 0,69 g</lido:displayObjectMeasurements>
                 <lido:relatedWorkSet>
                   <lido:relatedWork>
                     <lido:object>
-                      <lido:objectNote>Künker 130
-Seite/Nr.: 2236</lido:objectNote>
+                      <lido:objectNote>Künker 130Seite/Nr.: 2236</lido:objectNote>
                       <lido:objectNote lido:type="type">Literatur</lido:objectNote>
                     </lido:object>
                   </lido:relatedWork>
@@ -2201,9 +2180,7 @@ Seite/Nr.: 2236</lido:objectNote>
                   <lido:appellationValue>Münze, 4 Pfennige, 1862</lido:appellationValue>
                 </lido:titleSet>
                 <lido:titleSet lido:type="generated_long" lido:sortorder="3">
-                  <lido:appellationValue>4 Pfennige, 1862
-Königreich Preußen
-Wilhelm &lt;I., Deutsches Reich, Kaiser&gt;</lido:appellationValue>
+                  <lido:appellationValue>4 Pfennige, 1862Königreich PreußenWilhelm &lt;I., Deutsches Reich, Kaiser&gt;</lido:appellationValue>
                 </lido:titleSet>
               </lido:titleWrap>
               <lido:inscriptionsWrap>
@@ -2234,9 +2211,7 @@ Wilhelm &lt;I., Deutsches Reich, Kaiser&gt;</lido:appellationValue>
               </lido:repositoryWrap>
               <lido:objectMeasurementsWrap>
                 <lido:objectMeasurementsSet>
-                  <lido:displayObjectMeasurements>Durchmesser: 26 mm
-Gewicht: 5,96 g
-Stempelstellung: 12 h</lido:displayObjectMeasurements>
+                  <lido:displayObjectMeasurements>Durchmesser: 26 mmGewicht: 5,96 gStempelstellung: 12 h</lido:displayObjectMeasurements>
                   <lido:objectMeasurements>
                     <lido:measurementsSet>
                       <lido:measurementType xml:lang="en">diameter</lido:measurementType>
@@ -2364,8 +2339,7 @@ Stempelstellung: 12 h</lido:displayObjectMeasurements>
                 <lido:relatedWorkSet>
                   <lido:relatedWork>
                     <lido:object>
-                      <lido:objectNote>Schrötter, Friedrich Freiherr von: Das preußische Münzwesen im 18. Jahrhundert, Heft 4, Wilhelm I.
-Seite/Nr.: 149</lido:objectNote>
+                      <lido:objectNote>Schrötter, Friedrich Freiherr von: Das preußische Münzwesen im 18. Jahrhundert, Heft 4, Wilhelm I.Seite/Nr.: 149</lido:objectNote>
                       <lido:objectNote lido:type="type">Literatur</lido:objectNote>
                     </lido:object>
                   </lido:relatedWork>
@@ -2623,8 +2597,7 @@ Seite/Nr.: 149</lido:objectNote>
                   <lido:appellationValue>Münze, einseitiger Pfennig, Brakteat, Wende 13./14. Jh.</lido:appellationValue>
                 </lido:titleSet>
                 <lido:titleSet lido:type="generated_long" lido:sortorder="3">
-                  <lido:appellationValue>einseitiger Pfennig, Brakteat, Wende 13./14. Jh.
-Nordharzgebiet??</lido:appellationValue>
+                  <lido:appellationValue>einseitiger Pfennig, Brakteat, Wende 13./14. Jh.Nordharzgebiet??</lido:appellationValue>
                 </lido:titleSet>
               </lido:titleWrap>
               <lido:inscriptionsWrap>
@@ -2648,8 +2621,7 @@ Nordharzgebiet??</lido:appellationValue>
               </lido:repositoryWrap>
               <lido:objectMeasurementsWrap>
                 <lido:objectMeasurementsSet>
-                  <lido:displayObjectMeasurements>Durchmesser: 23 mm
-Gewicht: 0,19 g</lido:displayObjectMeasurements>
+                  <lido:displayObjectMeasurements>Durchmesser: 23 mmGewicht: 0,19 g</lido:displayObjectMeasurements>
                   <lido:objectMeasurements>
                     <lido:measurementsSet>
                       <lido:measurementType xml:lang="en">diameter</lido:measurementType>
@@ -2951,8 +2923,7 @@ Gewicht: 0,19 g</lido:displayObjectMeasurements>
                   <lido:appellationValue>Münze, einseitiger Pfennig, Brakteat, 1290/1310</lido:appellationValue>
                 </lido:titleSet>
                 <lido:titleSet lido:type="generated_long" lido:sortorder="3">
-                  <lido:appellationValue>einseitiger Pfennig, Brakteat, 1290/1310
-Erzbistum Mainz</lido:appellationValue>
+                  <lido:appellationValue>einseitiger Pfennig, Brakteat, 1290/1310Erzbistum Mainz</lido:appellationValue>
                 </lido:titleSet>
               </lido:titleWrap>
               <lido:inscriptionsWrap>
@@ -2976,8 +2947,7 @@ Erzbistum Mainz</lido:appellationValue>
               </lido:repositoryWrap>
               <lido:objectMeasurementsWrap>
                 <lido:objectMeasurementsSet>
-                  <lido:displayObjectMeasurements>Durchmesser: 26 mm
-Gewicht: 0,31 g</lido:displayObjectMeasurements>
+                  <lido:displayObjectMeasurements>Durchmesser: 26 mmGewicht: 0,31 g</lido:displayObjectMeasurements>
                   <lido:objectMeasurements>
                     <lido:measurementsSet>
                       <lido:measurementType xml:lang="en">diameter</lido:measurementType>
@@ -3308,8 +3278,7 @@ Gewicht: 0,31 g</lido:displayObjectMeasurements>
                   <lido:appellationValue>Münze, einseitiger Pfennig, Brakteat, 2. Hälfte 13. Jh.</lido:appellationValue>
                 </lido:titleSet>
                 <lido:titleSet lido:type="generated_long" lido:sortorder="3">
-                  <lido:appellationValue>einseitiger Pfennig, Brakteat, 2. Hälfte 13. Jh.
-Niederlausitz</lido:appellationValue>
+                  <lido:appellationValue>einseitiger Pfennig, Brakteat, 2. Hälfte 13. Jh.Niederlausitz</lido:appellationValue>
                 </lido:titleSet>
               </lido:titleWrap>
               <lido:inscriptionsWrap>
@@ -3651,9 +3620,7 @@ Niederlausitz</lido:appellationValue>
                   <lido:appellationValue>Münze, einseitiger Pfennig, Brakteat, um 1208-1215</lido:appellationValue>
                 </lido:titleSet>
                 <lido:titleSet lido:type="generated_long" lido:sortorder="3">
-                  <lido:appellationValue>einseitiger Pfennig, Brakteat, um 1208-1215
-Landgrafschaft Thüringen
-Hermann &lt;I., Thüringen, Landgraf&gt;</lido:appellationValue>
+                  <lido:appellationValue>einseitiger Pfennig, Brakteat, um 1208-1215Landgrafschaft ThüringenHermann &lt;I., Thüringen, Landgraf&gt;</lido:appellationValue>
                 </lido:titleSet>
               </lido:titleWrap>
               <lido:inscriptionsWrap>
@@ -3678,8 +3645,7 @@ Hermann &lt;I., Thüringen, Landgraf&gt;</lido:appellationValue>
               </lido:repositoryWrap>
               <lido:objectMeasurementsWrap>
                 <lido:objectMeasurementsSet>
-                  <lido:displayObjectMeasurements>Durchmesser: 41 mm
-Gewicht: 0,56 g</lido:displayObjectMeasurements>
+                  <lido:displayObjectMeasurements>Durchmesser: 41 mmGewicht: 0,56 g</lido:displayObjectMeasurements>
                   <lido:objectMeasurements>
                     <lido:measurementsSet>
                       <lido:measurementType xml:lang="en">diameter</lido:measurementType>
@@ -4036,9 +4002,7 @@ Gewicht: 0,56 g</lido:displayObjectMeasurements>
                   <lido:appellationValue>Münze, einseitiger Pfennig, Brakteat, um 1208-1215</lido:appellationValue>
                 </lido:titleSet>
                 <lido:titleSet lido:type="generated_long" lido:sortorder="3">
-                  <lido:appellationValue>einseitiger Pfennig, Brakteat, um 1208-1215
-Landgrafschaft Thüringen
-Hermann &lt;I., Thüringen, Landgraf&gt;</lido:appellationValue>
+                  <lido:appellationValue>einseitiger Pfennig, Brakteat, um 1208-1215Landgrafschaft ThüringenHermann &lt;I., Thüringen, Landgraf&gt;</lido:appellationValue>
                 </lido:titleSet>
               </lido:titleWrap>
               <lido:inscriptionsWrap>
@@ -4063,8 +4027,7 @@ Hermann &lt;I., Thüringen, Landgraf&gt;</lido:appellationValue>
               </lido:repositoryWrap>
               <lido:objectMeasurementsWrap>
                 <lido:objectMeasurementsSet>
-                  <lido:displayObjectMeasurements>Durchmesser: 42 mm
-Gewicht: 0,61 g</lido:displayObjectMeasurements>
+                  <lido:displayObjectMeasurements>Durchmesser: 42 mmGewicht: 0,61 g</lido:displayObjectMeasurements>
                   <lido:objectMeasurements>
                     <lido:measurementsSet>
                       <lido:measurementType xml:lang="en">diameter</lido:measurementType>
@@ -4421,8 +4384,7 @@ Gewicht: 0,61 g</lido:displayObjectMeasurements>
                   <lido:appellationValue>Münze, einseitiger Pfennig, Brakteat, 2. Hälfte 13. Jh.</lido:appellationValue>
                 </lido:titleSet>
                 <lido:titleSet lido:type="generated_long" lido:sortorder="3">
-                  <lido:appellationValue>einseitiger Pfennig, Brakteat, 2. Hälfte 13. Jh. 
-Markgrafschaft Brandenburg</lido:appellationValue>
+                  <lido:appellationValue>einseitiger Pfennig, Brakteat, 2. Hälfte 13. Jh. Markgrafschaft Brandenburg</lido:appellationValue>
                 </lido:titleSet>
               </lido:titleWrap>
               <lido:inscriptionsWrap>
@@ -4446,8 +4408,7 @@ Markgrafschaft Brandenburg</lido:appellationValue>
               </lido:repositoryWrap>
               <lido:objectMeasurementsWrap>
                 <lido:objectMeasurementsSet>
-                  <lido:displayObjectMeasurements>Durchmesser: 19 mm
-Gewicht: 0,37 g</lido:displayObjectMeasurements>
+                  <lido:displayObjectMeasurements>Durchmesser: 19 mmGewicht: 0,37 g</lido:displayObjectMeasurements>
                   <lido:objectMeasurements>
                     <lido:measurementsSet>
                       <lido:measurementType xml:lang="en">diameter</lido:measurementType>
@@ -4761,8 +4722,7 @@ Gewicht: 0,37 g</lido:displayObjectMeasurements>
                   <lido:appellationValue>Münze, Pfennig, 1163</lido:appellationValue>
                 </lido:titleSet>
                 <lido:titleSet lido:type="generated_long" lido:sortorder="3">
-                  <lido:appellationValue>Pfennig, 1163
-Fürstentum Breslau</lido:appellationValue>
+                  <lido:appellationValue>Pfennig, 1163Fürstentum Breslau</lido:appellationValue>
                 </lido:titleSet>
               </lido:titleWrap>
               <lido:inscriptionsWrap>
@@ -4786,8 +4746,7 @@ Fürstentum Breslau</lido:appellationValue>
               </lido:repositoryWrap>
               <lido:objectMeasurementsWrap>
                 <lido:objectMeasurementsSet>
-                  <lido:displayObjectMeasurements>Durchmesser: 20 mm
-Gewicht: 0,23 g</lido:displayObjectMeasurements>
+                  <lido:displayObjectMeasurements>Durchmesser: 20 mmGewicht: 0,23 g</lido:displayObjectMeasurements>
                   <lido:objectMeasurements>
                     <lido:measurementsSet>
                       <lido:measurementType xml:lang="en">diameter</lido:measurementType>
@@ -5116,8 +5075,7 @@ Gewicht: 0,23 g</lido:displayObjectMeasurements>
                   <lido:appellationValue>Münze, einseitiger Pfennig, Brakteat, Wende 13./14. Jhr.</lido:appellationValue>
                 </lido:titleSet>
                 <lido:titleSet lido:type="generated_long" lido:sortorder="3">
-                  <lido:appellationValue>einseitiger Pfennig, Brakteat, Wende 13./14. Jhr.
-Grafschaft Hohenstein</lido:appellationValue>
+                  <lido:appellationValue>einseitiger Pfennig, Brakteat, Wende 13./14. Jhr.Grafschaft Hohenstein</lido:appellationValue>
                 </lido:titleSet>
               </lido:titleWrap>
               <lido:inscriptionsWrap>
@@ -5142,8 +5100,7 @@ Grafschaft Hohenstein</lido:appellationValue>
               </lido:repositoryWrap>
               <lido:objectMeasurementsWrap>
                 <lido:objectMeasurementsSet>
-                  <lido:displayObjectMeasurements>Durchmesser: 22 mm
-Gewicht: 0,29 g</lido:displayObjectMeasurements>
+                  <lido:displayObjectMeasurements>Durchmesser: 22 mmGewicht: 0,29 g</lido:displayObjectMeasurements>
                   <lido:objectMeasurements>
                     <lido:measurementsSet>
                       <lido:measurementType xml:lang="en">diameter</lido:measurementType>
@@ -5466,9 +5423,7 @@ Gewicht: 0,29 g</lido:displayObjectMeasurements>
                   <lido:appellationValue>Münze, Pfennig, 1280/85</lido:appellationValue>
                 </lido:titleSet>
                 <lido:titleSet lido:type="generated_long" lido:sortorder="3">
-                  <lido:appellationValue>Pfennig, 1280/85
-Markgrafschaft Brandenburg
-Otto &lt;IV., Brandenburg, Markgraf&gt;</lido:appellationValue>
+                  <lido:appellationValue>Pfennig, 1280/85Markgrafschaft BrandenburgOtto &lt;IV., Brandenburg, Markgraf&gt;</lido:appellationValue>
                 </lido:titleSet>
               </lido:titleWrap>
               <lido:inscriptionsWrap>
@@ -5497,8 +5452,7 @@ Otto &lt;IV., Brandenburg, Markgraf&gt;</lido:appellationValue>
               </lido:repositoryWrap>
               <lido:objectMeasurementsWrap>
                 <lido:objectMeasurementsSet>
-                  <lido:displayObjectMeasurements>Durchmesser: 16 mm
-Gewicht: 0,76 g</lido:displayObjectMeasurements>
+                  <lido:displayObjectMeasurements>Durchmesser: 16 mmGewicht: 0,76 g</lido:displayObjectMeasurements>
                   <lido:objectMeasurements>
                     <lido:measurementsSet>
                       <lido:measurementType xml:lang="en">diameter</lido:measurementType>
@@ -5842,9 +5796,7 @@ Gewicht: 0,76 g</lido:displayObjectMeasurements>
                   <lido:appellationValue>Münze, Brakteat, Pfennig, 1205/1232</lido:appellationValue>
                 </lido:titleSet>
                 <lido:titleSet lido:type="generated_long" lido:sortorder="3">
-                  <lido:appellationValue>Brakteat, Pfennig, 1205/1232
-Erzbistum Magdeburg
-Albrecht &lt;von Käfernburg&gt;</lido:appellationValue>
+                  <lido:appellationValue>Brakteat, Pfennig, 1205/1232Erzbistum MagdeburgAlbrecht &lt;von Käfernburg&gt;</lido:appellationValue>
                 </lido:titleSet>
               </lido:titleWrap>
               <lido:inscriptionsWrap>
@@ -5868,8 +5820,7 @@ Albrecht &lt;von Käfernburg&gt;</lido:appellationValue>
               </lido:repositoryWrap>
               <lido:objectMeasurementsWrap>
                 <lido:objectMeasurementsSet>
-                  <lido:displayObjectMeasurements>Durchmesser: 19 mm
-Gewicht: 0,48 g</lido:displayObjectMeasurements>
+                  <lido:displayObjectMeasurements>Durchmesser: 19 mmGewicht: 0,48 g</lido:displayObjectMeasurements>
                   <lido:objectMeasurements>
                     <lido:measurementsSet>
                       <lido:measurementType xml:lang="en">diameter</lido:measurementType>
@@ -6211,9 +6162,7 @@ Gewicht: 0,48 g</lido:displayObjectMeasurements>
                   <lido:appellationValue>Münze, Pfennig, 1244 - 1261</lido:appellationValue>
                 </lido:titleSet>
                 <lido:titleSet lido:type="generated_long" lido:sortorder="3">
-                  <lido:appellationValue>Pfennig, 1244 - 1261
-Erzbistum Köln
-Konrad &lt;von Hochstaden&gt;</lido:appellationValue>
+                  <lido:appellationValue>Pfennig, 1244 - 1261Erzbistum KölnKonrad &lt;von Hochstaden&gt;</lido:appellationValue>
                 </lido:titleSet>
               </lido:titleWrap>
               <lido:inscriptionsWrap>
@@ -6244,9 +6193,7 @@ Konrad &lt;von Hochstaden&gt;</lido:appellationValue>
               </lido:repositoryWrap>
               <lido:objectMeasurementsWrap>
                 <lido:objectMeasurementsSet>
-                  <lido:displayObjectMeasurements>Durchmesser: 17 mm
-Gewicht: 1,35 g
-Stempelstellung: 7 h</lido:displayObjectMeasurements>
+                  <lido:displayObjectMeasurements>Durchmesser: 17 mmGewicht: 1,35 gStempelstellung: 7 h</lido:displayObjectMeasurements>
                   <lido:objectMeasurements>
                     <lido:measurementsSet>
                       <lido:measurementType xml:lang="en">diameter</lido:measurementType>
@@ -6604,9 +6551,7 @@ Stempelstellung: 7 h</lido:displayObjectMeasurements>
                   <lido:appellationValue>Münze, Pfennig, um 1270</lido:appellationValue>
                 </lido:titleSet>
                 <lido:titleSet lido:type="generated_long" lido:sortorder="3">
-                  <lido:appellationValue>Pfennig, um 1270
-Markgrafschaft Brandenburg
-Otto &lt;IV., Brandenburg, Markgraf&gt;</lido:appellationValue>
+                  <lido:appellationValue>Pfennig, um 1270Markgrafschaft BrandenburgOtto &lt;IV., Brandenburg, Markgraf&gt;</lido:appellationValue>
                 </lido:titleSet>
               </lido:titleWrap>
               <lido:inscriptionsWrap>
@@ -6636,8 +6581,7 @@ Otto &lt;IV., Brandenburg, Markgraf&gt;</lido:appellationValue>
               </lido:repositoryWrap>
               <lido:objectMeasurementsWrap>
                 <lido:objectMeasurementsSet>
-                  <lido:displayObjectMeasurements>Durchmesser: 15 mm
-Gewicht: 0,67 g</lido:displayObjectMeasurements>
+                  <lido:displayObjectMeasurements>Durchmesser: 15 mmGewicht: 0,67 g</lido:displayObjectMeasurements>
                   <lido:objectMeasurements>
                     <lido:measurementsSet>
                       <lido:measurementType xml:lang="en">diameter</lido:measurementType>
@@ -6979,8 +6923,7 @@ Gewicht: 0,67 g</lido:displayObjectMeasurements>
                   <lido:appellationValue>Münze, einseitiger Pfennig, Brakteat, 1325-1375</lido:appellationValue>
                 </lido:titleSet>
                 <lido:titleSet lido:type="generated_long" lido:sortorder="3">
-                  <lido:appellationValue>einseitiger Pfennig, Brakteat, 1325-1375
-Fürstentum Mecklenburg</lido:appellationValue>
+                  <lido:appellationValue>einseitiger Pfennig, Brakteat, 1325-1375Fürstentum Mecklenburg</lido:appellationValue>
                 </lido:titleSet>
               </lido:titleWrap>
               <lido:inscriptionsWrap>
@@ -7004,8 +6947,7 @@ Fürstentum Mecklenburg</lido:appellationValue>
               </lido:repositoryWrap>
               <lido:objectMeasurementsWrap>
                 <lido:objectMeasurementsSet>
-                  <lido:displayObjectMeasurements>Durchmesser: 16 mm
-Gewicht: 0,46 g</lido:displayObjectMeasurements>
+                  <lido:displayObjectMeasurements>Durchmesser: 16 mmGewicht: 0,46 g</lido:displayObjectMeasurements>
                   <lido:objectMeasurements>
                     <lido:measurementsSet>
                       <lido:measurementType xml:lang="en">diameter</lido:measurementType>
@@ -7319,8 +7261,7 @@ Gewicht: 0,46 g</lido:displayObjectMeasurements>
                   <lido:appellationValue>Münze, einseitiger Pfennig, Brakteat, 1290/1310</lido:appellationValue>
                 </lido:titleSet>
                 <lido:titleSet lido:type="generated_long" lido:sortorder="3">
-                  <lido:appellationValue>einseitiger Pfennig, Brakteat, 1290/1310
-Erzbistum Mainz</lido:appellationValue>
+                  <lido:appellationValue>einseitiger Pfennig, Brakteat, 1290/1310Erzbistum Mainz</lido:appellationValue>
                 </lido:titleSet>
               </lido:titleWrap>
               <lido:inscriptionsWrap>
@@ -7345,8 +7286,7 @@ Erzbistum Mainz</lido:appellationValue>
               </lido:repositoryWrap>
               <lido:objectMeasurementsWrap>
                 <lido:objectMeasurementsSet>
-                  <lido:displayObjectMeasurements>Durchmesser: 26 mm
-Gewicht: 0,26 g</lido:displayObjectMeasurements>
+                  <lido:displayObjectMeasurements>Durchmesser: 26 mmGewicht: 0,26 g</lido:displayObjectMeasurements>
                   <lido:objectMeasurements>
                     <lido:measurementsSet>
                       <lido:measurementType xml:lang="en">diameter</lido:measurementType>

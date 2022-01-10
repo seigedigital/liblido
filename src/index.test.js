@@ -3,9 +3,11 @@ const fs = require('fs');
 
 describe('Part 1', () => {
   let records = []
+  let records2 = []
   let recn = 0
   let lid = ''
   let rid = ''
+  let rid2 = ''
   let label = ''
   let images = []
   let md={}
@@ -13,10 +15,14 @@ describe('Part 1', () => {
 
   beforeEach(() => {
     const data = fs.readFileSync('./testdata/lido1.xml').toString()
+    const data2 = fs.readFileSync('./testdata/lido2.xml').toString()
     let myreader = new LidoReader(data)
+    let myreader2 = new LidoReader(data2)
     records = myreader.getAllRecords()
+    records2 = myreader2.getAllRecords()
     lid = records[0].getLidoRecordID()
     rid = records[0].getRecordID()
+    rid2 = records2[0].getRecordID()
     label = records[0].getLabel()
     images = records[1].getKenomImages()
     md.year = records[0].getCreationYear()
@@ -35,6 +41,7 @@ describe('Part 1', () => {
   it('Test primary record data.', () => {
     expect(lid).toBe('record_DE-15_kenom_161017')
     expect(rid).toBe('161017')
+    expect(rid2).toBe('mkg-e00139657')
     expect(label).toBe('Münze, 1 Crown, 1847')
   })
 
