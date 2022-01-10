@@ -125,7 +125,7 @@ module.exports = {
         ,'http://terminology.lido-schema.org/eventType/production'
         ].includes(concept)) {
 
-          date = xmltools.getXmlValue('.//lido:eventDate/lido:date/lido:earliestDate',nodes[key],select)
+          let date = xmltools.getXmlValue('.//lido:eventDate/lido:date/lido:earliestDate',nodes[key],select)
           if(date!==null) {
             return date
           }
@@ -135,7 +135,7 @@ module.exports = {
             return date
           }
 
-          let date = xmltools.getXmlValue('.//lido:eventDate/lido:displayDate',nodes[key],select)
+          date = xmltools.getXmlValue('.//lido:eventDate/lido:displayDate',nodes[key],select)
           if(date!==null) {
             return date
           }
