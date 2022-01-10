@@ -124,6 +124,7 @@ module.exports = {
         ,'http://terminology.lido-schema.org/lido00228'
         ,'http://terminology.lido-schema.org/eventType/production'
         ].includes(concept)) {
+
           let date = xmltools.getXmlValue('.//lido:eventDate/lido:displayDate',nodes[key],select)
           if(date!==null) {
             // date = date.replace(/^(-?[0-9]{4}).*$/,"$1")
@@ -135,6 +136,10 @@ module.exports = {
             // return retval
             return date
           }
+
+          date = xmltools.getXmlValue('.//lido:eventDate/lido:date/lido:earliestDate',nodes[key],select)
+          return date
+
       }
     }
     return null
