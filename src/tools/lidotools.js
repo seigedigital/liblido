@@ -125,24 +125,17 @@ module.exports = {
         ,'http://terminology.lido-schema.org/eventType/production'
         ].includes(concept)) {
 
-          let date = xmltools.getXmlValue('.//lido:eventDate/lido:displayDate',nodes[key],select)
-          if(date!==null) {
-            // date = date.replace(/^(-?[0-9]{4}).*$/,"$1")
-            // let retval = this.clone(this.template_md)
-            // retval.label['en'] = [this.terminology.creationYear['en']]
-            // retval.label['de'] = [this.terminology.creationYear['de']]
-            // retval.value['en'] = [date]
-            // retval.value['de'] = [date]
-            // return retval
-            return date
-          }
-
           date = xmltools.getXmlValue('.//lido:eventDate/lido:date/lido:earliestDate',nodes[key],select)
           if(date!==null) {
             return date
           }
 
           date = xmltools.getXmlValue('.//lido:eventDate/lido:date/lido:latestDate',nodes[key],select)
+          if(date!==null) {
+            return date
+          }
+
+          let date = xmltools.getXmlValue('.//lido:eventDate/lido:displayDate',nodes[key],select)
           if(date!==null) {
             return date
           }
