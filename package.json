@@ -2,7 +2,7 @@
   "name": "liblido",
   "version": "0.0.1",
   "description": "a simple library to parse LIDO XML",
-  "main": "src/index.js",
+  "main": "index.js",
   "type": "commonjs",
   "scripts": {
     "test": "jest"
