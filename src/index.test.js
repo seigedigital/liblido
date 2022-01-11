@@ -33,6 +33,8 @@ describe('Part 1', () => {
   md.license = records[0].getLicenseUri()
   md.stmt = records[0].getReqStatement()
   md.place = records[1].getCreationPlace()
+  md.placeIDs = records[0].getCreationPlaceIDs()
+  md2.placeIDs = records2[0].getCreationPlaceIDs()
   md.person = records[0].getEventActorRoles()
   links = records[0].getRelatedLinks()
 
@@ -69,7 +71,15 @@ describe('Part 1', () => {
     expect(md2.year).toBe('1900')
     expect(md2.label).toBe('Nikolaifleet')
     expect(md.license).toBe('https://creativecommons.org/publicdomain/zero/1.0/deed.de')
-    expect(md.place).toBe('Großbritannien')
+    expect(md.place).toBe('London')
+    expect(md2.placeIDs.toString()).toBe([
+      'http://digicult.vocnet.org/ort/6.67',
+      'http://d-nb.info/gnd/4023118-5',
+      'http://vocab.getty.edu/page/tgn/7005289',
+      '02000000',
+      'http://sws.geonames.org/2911298/'
+    ].toString())
+    expect(md.placeIDs.toString()).toBe(['http://d-nb.info/gnd/7844609-0'].toString())
     expect(md.person).toBe('Viktoria <Großbritannien, Königin> (Münzherr)')
     expect(md.stmt).toBe('Universitätsbibliothek Leipzig, kein Copyright / Public domain (CC0 1.0)')
   })

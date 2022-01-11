@@ -145,6 +145,7 @@ module.exports = {
     return null
   },
 
+
   getCreationPlace: function(node,select) {
     let nodes = xmltools.getNodes('.//lido:descriptiveMetadata/lido:eventWrap/lido:eventSet/lido:event',node,select)
     for(let key in nodes) {
@@ -156,25 +157,48 @@ module.exports = {
         ,'http://terminology.lido-schema.org/lido00228'
         ,'http://terminology.lido-schema.org/eventType/production'
         ].includes(concept)) {
-          let place = xmltools.getXmlValue('.//lido:eventPlace/lido:displayPlace',nodes[key],select)
+
+          let place = xmltools.getXmlValue('.//lido:eventPlace[lido:place[@lido:politicalEntity="minting_place"]]/lido:displayPlace',nodes[key],select)
           if(place!==null) {
-            // place=place[0] // just choose the 1st one
-            // console.log({place:place})
-            // console.log({place_cn:place.childNodes})
-            // let placeuri = xmltools.getXmlValueFromNode(place)
-            // console.log({placeuri:placeuri})
-            // let placeid = placeuri.replace(/^.*\/([^\/]*)$/,"$1")
-            // console.log({placeid:placeid})
-            // // const response = await fetch('https://hub.culturegraph.org/entityfacts/'+placeid);
-            // // const efdata = await response.json();
-            // let retval = this.clone(this.template_md)
-            // retval.label['en'] = [this.terminology.creationPlace['en']]
-            // retval.label['de'] = [this.terminology.creationPlace['de']]
-            // retval.value['en'] = [placeid]
-            // retval.value['de'] = [placeid]
-            // console.log({returning:retval})
             return place
           }
+
+          place = xmltools.getXmlValue('.//lido:eventPlace/lido:displayPlace',nodes[key],select)
+          if(place!==null) {
+            return place
+          }
+
+          place = xmltools.getXmlValue('.//lido:eventPlace/lido:namePlaceSet/lido:appellationValue[@lido:pref="preferred"]',nodes[key],select)
+          if(place!==null) {
+            return place
+          }
+      }
+    }
+    return null
+  },
+
+  getCreationPlaceIDs: function(node,select) {
+    let nodes = xmltools.getNodes('.//lido:descriptiveMetadata/lido:eventWrap/lido:eventSet/lido:event',node,select)
+    for(let key in nodes) {
+      let concept = xmltools.getXmlValue('.//lido:eventType/lido:conceptID',nodes[key],select)
+      if(
+        ['http://terminology.lido-schema.org/lido00007'
+        ,'http://terminology.lido-schema.org/lido00031'
+        ,'http://terminology.lido-schema.org/lido00224'
+        ,'http://terminology.lido-schema.org/lido00228'
+        ,'http://terminology.lido-schema.org/eventType/production'
+        ].includes(concept)) {
+
+          let ids = xmltools.getXmlValues('.//lido:eventPlace/lido:place[@lido:politicalEntity="minting_place"]/lido:placeID',nodes[key],select)
+          if(ids.length>0) {
+            return ids
+          }
+
+          ids = xmltools.getXmlValues('.//lido:eventPlace/lido:place/lido:placeID',nodes[key],select)
+          if(ids.length>0) {
+            return ids
+          }
+
       }
     }
     return null

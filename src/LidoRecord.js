@@ -32,6 +32,10 @@ class LidoRecord {
     return lidotools.getCreationPlace(this.node,this.select)
   }
 
+  getCreationPlaceIDs() {
+    return lidotools.getCreationPlaceIDs(this.node,this.select)
+  }
+
   getEventActorRoles() {
     return lidotools.getEventActorRoles(this.node,this.select)
   }

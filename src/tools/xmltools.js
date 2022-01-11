@@ -46,6 +46,18 @@ module.exports = {
     }
   },
 
+  getXmlValues: function (query,doc,select) {
+    let res = select(query,doc)
+    let retval = []
+    for(let key in res) {
+      let v = this.getXmlValueFromNode(res[key])
+      if(v) {
+        retval.push(v)
+      }
+    }
+    return retval
+  },
+
   getXmlValueFromNode: function (node) {
     return(node.childNodes[0].nodeValue)
   },
