@@ -36,6 +36,8 @@ describe('Part 1', () => {
   md.placeIDs = records[0].getCreationPlaceIDs()
   md2.placeIDs = records2[0].getCreationPlaceIDs()
   md.person = records[0].getEventActorRoles()
+  md.wtype = records[0].getWorkType()
+  md2.wtype = records2[0].getWorkType()
   links = records[0].getRelatedLinks()
 
   beforeEach(() => {
@@ -82,6 +84,8 @@ describe('Part 1', () => {
     expect(md.placeIDs.toString()).toBe(['http://d-nb.info/gnd/7844609-0'].toString())
     expect(md.person).toBe('Viktoria <Großbritannien, Königin> (Münzherr)')
     expect(md.stmt).toBe('Universitätsbibliothek Leipzig, kein Copyright / Public domain (CC0 1.0)')
+    expect(md.wtype).toBe('Münze')
+    expect(md2.wtype).toBe('Fotografie')
   })
 
   it('Test metadata.', () => {

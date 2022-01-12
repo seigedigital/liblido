@@ -97,16 +97,11 @@ module.exports = {
   },
 
   getWorkType: function(node,select,defaultLanguages) {
-    let results = xmltools.getXmlLangValues('.//lido:descriptiveMetadata/lido:objectClassificationWrap/lido:objectWorkTypeWrap/lido:objectWorkType/lido:term',node,select,defaultLanguages)
-    if(results.length===0 || results===null) {
-      return null
+    let result = xmltools.getXmlValue('.//lido:descriptiveMetadata/lido:objectClassificationWrap/lido:objectWorkTypeWrap/lido:objectWorkType/lido:term',node,select)
+    if(result===null) {
+      result = xmltools.getXmlValue('.//lido:descriptiveMetadata/lido:objectClassificationWrap/lido:objectWorkTypeWrap/lido:objectWorkType/lido:term[lido:pref="preferred"]',node,select)
     }
-    let retval = this.clone(this.template_md)
-    for(let key in results) {
-      retval.label[key] = [this.terminology.objectWorkType[key]]
-      retval.value[key] = results[key]
-    }
-    return retval
+    return result
   },
 
   getLabel: function(node,select) {

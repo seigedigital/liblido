@@ -52,6 +52,10 @@ class LidoRecord {
     return lidotools.getRelatedLinks(this.node,this.select)
   }
 
+  getWorkType() {
+    return lidotools.getWorkType(this.node,this.select)
+  }
+
 }
 
 module.exports = LidoRecord
