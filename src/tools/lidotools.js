@@ -140,7 +140,6 @@ module.exports = {
     return null
   },
 
-
   getCreationPlace: function(node,select) {
     let nodes = xmltools.getNodes('.//lido:descriptiveMetadata/lido:eventWrap/lido:eventSet/lido:event',node,select)
     for(let key in nodes) {
@@ -170,6 +169,15 @@ module.exports = {
       }
     }
     return null
+  },
+
+  getClassificationByType: function(node,select,type) {
+    let nodes = xmltools.getNodes(`.//lido:descriptiveMetadata/lido:objectClassificationWrap/lido:classificationWrap/lido:classification[@lido:type="${type}"]`,node,select)
+    if(nodes.length>0) {
+      return xmltools.getXmlValue('.//lido:term[@lido:addedSearchTerm="no" and @lido:pref="preferred"]',nodes[0],select)
+    } else {
+      return null
+    }
   },
 
   getCreationPlaceIDs: function(node,select) {

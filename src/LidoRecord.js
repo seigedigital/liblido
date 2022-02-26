@@ -56,6 +56,10 @@ class LidoRecord {
     return lidotools.getWorkType(this.node,this.select)
   }
 
+  getClassificationByType(type) {
+    return lidotools.getClassificationByType(this.node,this.select,type)
+  }
+
 }
 
 module.exports = LidoRecord

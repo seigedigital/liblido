@@ -38,6 +38,7 @@ describe('Part 1', () => {
   md.person = records[0].getEventActorRoles()
   md.wtype = records[0].getWorkType()
   md2.wtype = records2[0].getWorkType()
+  md2.sachgruppe = records2[0].getClassificationByType('Sachgruppe')
   links = records[0].getRelatedLinks()
 
   beforeEach(() => {
@@ -91,6 +92,7 @@ describe('Part 1', () => {
   it('Test metadata.', () => {
     expect(links[0]).toBe('http://www.kenom.de/id/record_DE-15_kenom_161017')
     expect(links[1]).toBe('http://hdl.handle.net/428894.vzg/1ef66282-82d5-4f33-bdfc-3b51f9c59f26')
+    expect(md2.sachgruppe).toBe('Architekturfotografie')
   })
 
 })
