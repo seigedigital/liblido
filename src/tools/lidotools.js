@@ -171,6 +171,14 @@ module.exports = {
     return null
   },
 
+  getIdentificationByType: function(node,select,type) {
+    return xmltools.getXmlValue(`.//lido:objectIdentificationWrap/lido:repositoryWrap/lido:repositorySet/lido:workID[@lido:type="${type}"]`,node,select)
+  },
+
+  getRecordInfoLink: function(node,select) {
+    return xmltools.getXmlValue(`.//lido:recordInfoSet/lido:recordInfoLink`,node,select)
+  },
+
   getClassificationByType: function(node,select,type) {
     let nodes = xmltools.getNodes(`.//lido:descriptiveMetadata/lido:objectClassificationWrap/lido:classificationWrap/lido:classification[@lido:type="${type}"]`,node,select)
     if(nodes.length>0) {

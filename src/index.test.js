@@ -14,6 +14,7 @@ describe('Part 1', () => {
   let md={}
   let md2={}
   let links = []
+  let links2 = []
 
   const data = fs.readFileSync('./testdata/lido1.xml').toString()
   const data2 = fs.readFileSync('./testdata/lido2.xml').toString()
@@ -39,7 +40,11 @@ describe('Part 1', () => {
   md.wtype = records[0].getWorkType()
   md2.wtype = records2[0].getWorkType()
   md2.sachgruppe = records2[0].getClassificationByType('Sachgruppe')
+  md2.sammlung = records2[0].getClassificationByType('Sammlung')
+  md2.inventarnummer = records2[0].getIdentificationByType('Inventarnummer')
+  md2.permalink = records2[0].getRecordInfoLink()
   links = records[0].getRelatedLinks()
+  links2 = records2[0].getRelatedLinks()
 
   beforeEach(() => {
     // nothing
@@ -93,6 +98,10 @@ describe('Part 1', () => {
     expect(links[0]).toBe('http://www.kenom.de/id/record_DE-15_kenom_161017')
     expect(links[1]).toBe('http://hdl.handle.net/428894.vzg/1ef66282-82d5-4f33-bdfc-3b51f9c59f26')
     expect(md2.sachgruppe).toBe('Architekturfotografie')
+    expect(md2.sammlung).toBe('Fotografie und neue Medien')
+    expect(md2.inventarnummer).toBe('P1994.1387')
+    expect(md2.permalink).toBe('http://sammlungonline.mkg-hamburg.de/de/object/Nikolaifleet/P1994.1387/mkg-e00139657')
+    expect(links2.length).toBe(0)
   })
 
 })

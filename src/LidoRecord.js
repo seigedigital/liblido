@@ -60,6 +60,14 @@ class LidoRecord {
     return lidotools.getClassificationByType(this.node,this.select,type)
   }
 
+  getIdentificationByType(type) {
+    return lidotools.getIdentificationByType(this.node,this.select,type)
+  }
+
+  getRecordInfoLink() {
+    return lidotools.getRecordInfoLink(this.node,this.select)
+  }
+
 }
 
 module.exports = LidoRecord
