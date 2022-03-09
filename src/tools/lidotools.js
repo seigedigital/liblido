@@ -1,3 +1,4 @@
+const { XMLSerializer } = require('xmldom')
 const xpath = require('xpath')
 const xmltools = require('./xmltools.js')
 
@@ -109,7 +110,7 @@ module.exports = {
   },
 
   getCreationYear: function(node,select) {
-    let nodes = xmltools.getNodes('//lido:descriptiveMetadata/lido:eventWrap/lido:eventSet/lido:event',node,select)
+    let nodes = xmltools.getNodes('.//lido:descriptiveMetadata/lido:eventWrap/lido:eventSet/lido:event',node,select)
     for(let key in nodes) {
       let concept = xmltools.getXmlValue('./lido:eventType/lido:conceptID',nodes[key],select)
       if(
@@ -120,19 +121,19 @@ module.exports = {
         ,'http://terminology.lido-schema.org/eventType/production'
         ].includes(concept)) {
 
-          let date = xmltools.getXmlValue('.//lido:eventDate/lido:date/lido:earliestDate',nodes[key],select)
+          let date = xmltools.getXmlValue('./lido:eventDate/lido:displayDate',nodes[key],select)
           if(date!==null) {
-            return date
+            return date.match(/\d{4}/)[0]
           }
 
-          date = xmltools.getXmlValue('.//lido:eventDate/lido:date/lido:latestDate',nodes[key],select)
+          date = xmltools.getXmlValue('./lido:eventDate/lido:date/lido:earliestDate',nodes[key],select)
           if(date!==null) {
-            return date
+            return date.match(/\d{4}/)[0]
           }
 
-          date = xmltools.getXmlValue('.//lido:eventDate/lido:displayDate',nodes[key],select)
+          date = xmltools.getXmlValue('./lido:eventDate/lido:date/lido:latestDate',nodes[key],select)
           if(date!==null) {
-            return date
+            return date.match(/\d{4}/)[0]
           }
 
       }

@@ -1,3 +1,4 @@
+const { XMLSerializer } = require('xmldom')
 const xmltools = require('./tools/xmltools.js')
 const lidotools = require('./tools/lidotools.js')
 
@@ -6,6 +7,10 @@ class LidoRecord {
   constructor(node) {
     this.node = node
     this.select = lidotools.useNamespaces()
+  }
+
+  serialize() {
+    return new XMLSerializer().serializeToString(this.node)
   }
 
   getRecordID() {

@@ -4,6 +4,7 @@ const fs = require('fs');
 describe('Part 1', () => {
   let records = []
   let records2 = []
+  let records3 = []
   let recn = 0
   let lid = ''
   let rid = ''
@@ -13,15 +14,20 @@ describe('Part 1', () => {
   let images2 = []
   let md={}
   let md2={}
+  let md3={}
   let links = []
   let links2 = []
+  let links3 = []
 
   const data = fs.readFileSync('./testdata/lido1.xml').toString()
   const data2 = fs.readFileSync('./testdata/lido2.xml').toString()
+  const data3 = fs.readFileSync('./testdata/lido3.xml').toString()
   let myreader = new LidoReader(data)
   let myreader2 = new LidoReader(data2)
+  let myreader3 = new LidoReader(data3)
   records = myreader.getAllRecords()
   records2 = myreader2.getAllRecords()
+  records3 = myreader3.getAllRecords()
   lid = records[0].getLidoRecordID()
   rid = records[0].getRecordID()
   rid2 = records2[0].getRecordID()
@@ -45,6 +51,9 @@ describe('Part 1', () => {
   md2.permalink = records2[0].getRecordInfoLink()
   links = records[0].getRelatedLinks()
   links2 = records2[0].getRelatedLinks()
+  md3.inventarnummer1 = records3[5].getIdentificationByType('Inventarnummer')
+  md3.year = records3[5].getCreationYear()
+  md3.inventarnummer2 = records3[5].getIdentificationByType('Inventarnummer')
 
   beforeEach(() => {
     // nothing
@@ -75,8 +84,8 @@ describe('Part 1', () => {
   })
 
   it('Test metadata.', () => {
-    expect(md.year).toBe('1847-01-01')
-    expect(md2.year).toBe('1900')
+    expect(md.year).toBe('1847')
+    expect(md2.year).toBe('1905')
     expect(md2.label).toBe('Nikolaifleet')
     expect(md.license).toBe('https://creativecommons.org/publicdomain/zero/1.0/deed.de')
     expect(md.place).toBe('London')
@@ -102,6 +111,12 @@ describe('Part 1', () => {
     expect(md2.inventarnummer).toBe('P1994.1387')
     expect(md2.permalink).toBe('http://sammlungonline.mkg-hamburg.de/de/object/Nikolaifleet/P1994.1387/mkg-e00139657')
     expect(links2.length).toBe(0)
+  })
+
+  it('Test metadata.', () => {
+    expect(md3.year).toBe('1912')
+    expect(md3.inventarnummer1).toBe('AB1988.661')
+    expect(md3.inventarnummer2).toBe('AB1988.661')
   })
 
 })
