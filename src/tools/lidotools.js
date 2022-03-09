@@ -121,17 +121,17 @@ module.exports = {
         ,'http://terminology.lido-schema.org/eventType/production'
         ].includes(concept)) {
 
-          let date = xmltools.getXmlValue('./lido:eventDate/lido:displayDate',nodes[key],select)
-          if(date!==null && date.match(/\d{4}/)!==null) {
-            return date.match(/\d{4}/)[0]
-          }
-
-          date = xmltools.getXmlValue('./lido:eventDate/lido:date/lido:earliestDate',nodes[key],select)
+          let date = xmltools.getXmlValue('./lido:eventDate/lido:date/lido:earliestDate',nodes[key],select)
           if(date!==null && date.match(/\d{4}/)!==null) {
             return date.match(/\d{4}/)[0]
           }
 
           date = xmltools.getXmlValue('./lido:eventDate/lido:date/lido:latestDate',nodes[key],select)
+          if(date!==null && date.match(/\d{4}/)!==null) {
+            return date.match(/\d{4}/)[0]
+          }
+
+          date = xmltools.getXmlValue('./lido:eventDate/lido:displayDate',nodes[key],select)
           if(date!==null && date.match(/\d{4}/)!==null) {
             return date.match(/\d{4}/)[0]
           }

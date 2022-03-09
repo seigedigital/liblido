@@ -85,7 +85,7 @@ describe('Part 1', () => {
 
   it('Test metadata.', () => {
     expect(md.year).toBe('1847')
-    expect(md2.year).toBe('1905')
+    expect(md2.year).toBe('1900')
     expect(md2.label).toBe('Nikolaifleet')
     expect(md.license).toBe('https://creativecommons.org/publicdomain/zero/1.0/deed.de')
     expect(md.place).toBe('London')
