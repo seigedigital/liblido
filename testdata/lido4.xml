@@ -1,0 +1,2490 @@
+<Response><responseDate>2022-02-22T09:06:12Z</responseDate><request verb="ListRecords" set="" metadataPrefix="lido"></request><error code=""></error><GetRecord><record><header status=""></header><metadata></metadata><about></about></record></GetRecord><Identify></Identify><ListIdentifiers><resumptionToken completeListSize="" cursor="" expirationDate=""></resumptionToken></ListIdentifiers><ListMetadataFormats></ListMetadataFormats><ListRecords><record xmlns="http://www.openarchives.org/OAI/2.0/"><header status=""><identifier>DE-MUS-059918/lido/dc00126327</identifier><datestamp>2021-01-31T20:15:30Z</datestamp></header><metadata>
+<lido:lido xmlns:lido="http://www.lido-schema.org" xsi:schemaLocation="http://www.lido-schema.org http://www.lido-schema.org/schema/v1.0/lido-v1.0.xsd">
+  <lido:lidoRecID lido:type="http://terminology.lido-schema.org/identifier_type/local_identifier" lido:source="digiCULT-Verbund eG">DE-MUS-059918/lido/dc00126327</lido:lidoRecID>
+  <lido:category>
+      </lido:category>
+  <lido:descriptiveMetadata xml:lang="de">
+    <lido:objectClassificationWrap>
+      <lido:objectWorkTypeWrap>
+        <lido:objectWorkType>
+          <lido:conceptID lido:type="http://terminology.lido-schema.org/identifier_type/uri">http://obg.vocnet.org/gr000181</lido:conceptID>
+          <lido:term lido:pref="preferred" lido:addedSearchTerm="no" xml:lang="de">Lanze</lido:term>
+        </lido:objectWorkType>
+      </lido:objectWorkTypeWrap>
+      <lido:classificationWrap>
+        <lido:classification lido:type="Sachgruppe">
+          <lido:conceptID lido:type="http://terminology.lido-schema.org/identifier_type/uri">http://digicult.vocnet.org/sachgruppe/hs00054</lido:conceptID>
+          <lido:term lido:pref="preferred" lido:addedSearchTerm="no" xml:lang="de">Stangenwaffen (Kriegswesen/Militär)</lido:term>
+        </lido:classification>
+        <lido:classification lido:type="Sachgruppe">
+          <lido:conceptID lido:type="http://terminology.lido-schema.org/identifier_type/uri">http://digicult.vocnet.org/sachgruppe/hs00032</lido:conceptID>
+          <lido:term lido:pref="preferred" lido:addedSearchTerm="no" xml:lang="de">Waffen (Kriegswesen/Militär)</lido:term>
+        </lido:classification>
+        <lido:classification lido:type="Sachgruppe">
+          <lido:conceptID lido:type="http://terminology.lido-schema.org/identifier_type/uri">http://digicult.vocnet.org/sachgruppe/1.1103</lido:conceptID>
+          <lido:term lido:pref="preferred" lido:addedSearchTerm="no" xml:lang="de">Votivgaben</lido:term>
+        </lido:classification>
+        <lido:classification lido:type="Sachgruppe">
+          <lido:conceptID lido:type="http://terminology.lido-schema.org/identifier_type/uri">http://digicult.vocnet.org/sachgruppe/hs00088</lido:conceptID>
+          <lido:term lido:pref="preferred" lido:addedSearchTerm="no" xml:lang="de">Grabbeigaben</lido:term>
+        </lido:classification>
+        <lido:classification lido:type="Stil">
+          <lido:conceptID lido:type="http://terminology.lido-schema.org/identifier_type/uri">http://digicult.vocnet.org/stil/601.152</lido:conceptID>
+          <lido:term lido:pref="preferred" lido:addedSearchTerm="no" xml:lang="de">früharchaisch</lido:term>
+        </lido:classification>
+        <lido:classification lido:type="Stil">
+          <lido:conceptID lido:type="http://terminology.lido-schema.org/identifier_type/uri">http://digicult.vocnet.org/stil/601.113</lido:conceptID>
+          <lido:term lido:pref="preferred" lido:addedSearchTerm="no" xml:lang="de">Griechische Antike</lido:term>
+        </lido:classification>
+        <lido:classification lido:type="Sammlung">
+                    <lido:term lido:pref="preferred" lido:addedSearchTerm="no" xml:lang="de">Antike</lido:term>
+        </lido:classification>
+      </lido:classificationWrap>
+    </lido:objectClassificationWrap>
+    <lido:objectIdentificationWrap>
+      <lido:titleWrap>
+        <lido:titleSet>
+          <lido:appellationValue lido:pref="preferred">Lanzenspitze</lido:appellationValue>
+        </lido:titleSet>
+      </lido:titleWrap>
+      <lido:inscriptionsWrap>
+        <lido:inscriptions lido:type="Signatur">
+          <lido:inscriptionDescription>
+            <lido:descriptiveNoteValue></lido:descriptiveNoteValue>
+          </lido:inscriptionDescription>
+        </lido:inscriptions>
+      </lido:inscriptionsWrap>
+      <lido:repositoryWrap>
+        <lido:repositorySet>
+          <lido:repositoryName>
+            <lido:legalBodyID lido:type="URI">info:isil/DE-MUS-059918</lido:legalBodyID>
+            <lido:legalBodyName>
+              <lido:appellationValue>Museum für Kunst und Gewerbe Hamburg</lido:appellationValue>
+            </lido:legalBodyName>
+            <lido:legalBodyWeblink>http://www.mkg-hamburg.de</lido:legalBodyWeblink>
+          </lido:repositoryName>
+          <lido:workID lido:type="Inventarnummer">1967.51</lido:workID>
+        </lido:repositorySet>
+      </lido:repositoryWrap>
+      <lido:objectDescriptionWrap>
+        <lido:objectDescriptionSet lido:type="Beschreibung Veröffentlichung">
+          <lido:descriptiveNoteValue>Schmale, blattförmige Spitze mit abgerundeter Schulter, Mittelrippe und ausladender Aufsatztülle. Zwei gegenüberliegende Löcher hinter dem leicht abgesetzten Tüllenrand sind für den Befestigungsnagel.</lido:descriptiveNoteValue>
+        </lido:objectDescriptionSet>
+      </lido:objectDescriptionWrap>
+      <lido:objectMeasurementsWrap>
+        <lido:objectMeasurementsSet>
+          <lido:displayObjectMeasurements>Gesamt: Höhe: 21,9 cm; Breite: 3,1 cm; Tiefe: 2 cm</lido:displayObjectMeasurements>
+        </lido:objectMeasurementsSet>
+      </lido:objectMeasurementsWrap>
+    </lido:objectIdentificationWrap>
+    <lido:eventWrap>
+      <lido:eventSet>
+        <lido:event>
+          <lido:eventType>
+            <lido:conceptID lido:type="http://terminology.lido-schema.org/identifier_type/uri" lido:source="http://terminology.lido-schema.org/eventType">http://terminology.lido-schema.org/lido00007</lido:conceptID>
+            <lido:term lido:pref="preferred" lido:addedSearchTerm="no" xml:lang="de">Herstellung</lido:term>
+          </lido:eventType>
+          <lido:eventDate>
+            <lido:displayDate>spätes 7. Jahrhundert v. Chr.</lido:displayDate>
+            <lido:date>
+              <lido:earliestDate>-0620</lido:earliestDate>
+              <lido:latestDate>-0600</lido:latestDate>
+            </lido:date>
+          </lido:eventDate>
+          <lido:eventPlace>
+            <lido:displayPlace>Kreta </lido:displayPlace>
+            <lido:place>
+              <lido:placeID lido:type="uri">http://digicult.vocnet.org/ort/6.5004</lido:placeID>
+              <lido:placeID lido:type="uri" lido:source="GND">http://d-nb.info/gnd/4073791-3</lido:placeID>
+              <lido:placeID lido:type="local" lido:source="TGN">7012056</lido:placeID>
+              <lido:placeID lido:type="url" lido:source="Wikipedia de">http://de.wikipedia.org/wiki/Kreta</lido:placeID>
+              <lido:namePlaceSet>
+                <lido:appellationValue lido:pref="preferred" xml:lang="de">Kreta (Insel)</lido:appellationValue>
+                <lido:appellationValue lido:pref="alternative" xml:lang="de">Candia</lido:appellationValue>
+                <lido:appellationValue lido:pref="alternative" xml:lang="de">Creta</lido:appellationValue>
+                <lido:appellationValue lido:pref="alternative" xml:lang="de">Crete</lido:appellationValue>
+                <lido:appellationValue lido:pref="alternative" xml:lang="de">Krete</lido:appellationValue>
+                <lido:appellationValue lido:pref="alternative" xml:lang="de">Kríti</lido:appellationValue>
+              </lido:namePlaceSet>
+            </lido:place>
+          </lido:eventPlace>
+          <lido:eventMaterialsTech>
+            <lido:displayMaterialsTech>Bronze</lido:displayMaterialsTech>
+            <lido:materialsTech>
+              <lido:termMaterialsTech lido:type="Material">
+                <lido:conceptID lido:type="http://terminology.lido-schema.org/identifier_type/uri">http://hamburg.vocnet.org/material/mat00528</lido:conceptID>
+                <lido:term lido:pref="preferred" lido:addedSearchTerm="no" xml:lang="de">Bronze</lido:term>
+              </lido:termMaterialsTech>
+            </lido:materialsTech>
+          </lido:eventMaterialsTech>
+          <lido:eventMaterialsTech>
+            <lido:displayMaterialsTech>gegossen</lido:displayMaterialsTech>
+            <lido:materialsTech>
+              <lido:termMaterialsTech lido:type="Technik">
+                <lido:conceptID lido:type="http://terminology.lido-schema.org/identifier_type/uri">http://hamburg.vocnet.org/technik/tech00011</lido:conceptID>
+                <lido:term lido:pref="preferred" lido:addedSearchTerm="no" xml:lang="de">gegossen</lido:term>
+                <lido:term lido:pref="alternative" lido:addedSearchTerm="yes" xml:lang="de">Guß (alte Rechtschreibung)</lido:term>
+                <lido:term lido:pref="alternative" lido:addedSearchTerm="yes" xml:lang="de">Guss</lido:term>
+              </lido:termMaterialsTech>
+            </lido:materialsTech>
+          </lido:eventMaterialsTech>
+          <lido:eventMaterialsTech>
+            <lido:displayMaterialsTech>geschmiedet</lido:displayMaterialsTech>
+            <lido:materialsTech>
+              <lido:termMaterialsTech lido:type="Technik">
+                <lido:conceptID lido:type="http://terminology.lido-schema.org/identifier_type/uri">http://hamburg.vocnet.org/technik/tech00289</lido:conceptID>
+                <lido:term lido:pref="preferred" lido:addedSearchTerm="no" xml:lang="de">geschmiedet</lido:term>
+              </lido:termMaterialsTech>
+            </lido:materialsTech>
+          </lido:eventMaterialsTech>
+        </lido:event>
+      </lido:eventSet>
+      <lido:eventSet>
+        <lido:event>
+          <lido:eventType>
+            <lido:conceptID lido:type="http://terminology.lido-schema.org/identifier_type/uri" lido:source="http://terminology.lido-schema.org/eventType">http://terminology.lido-schema.org/lido00002</lido:conceptID>
+            <lido:term lido:pref="preferred" lido:addedSearchTerm="no" xml:lang="de">Fund</lido:term>
+          </lido:eventType>
+          <lido:eventDate>
+            <lido:date>
+              <lido:latestDate>0000</lido:latestDate>
+            </lido:date>
+          </lido:eventDate>
+          <lido:eventPlace>
+            <lido:displayPlace>Kreta Aphrathi (Arkades) im Lassithi-Gebirge</lido:displayPlace>
+            <lido:place>
+              <lido:placeID lido:type="uri">http://digicult.vocnet.org/ort/6.5004</lido:placeID>
+              <lido:placeID lido:type="uri" lido:source="GND">http://d-nb.info/gnd/4073791-3</lido:placeID>
+              <lido:placeID lido:type="local" lido:source="TGN">7012056</lido:placeID>
+              <lido:placeID lido:type="url" lido:source="Wikipedia de">http://de.wikipedia.org/wiki/Kreta</lido:placeID>
+              <lido:namePlaceSet>
+                <lido:appellationValue lido:pref="preferred" xml:lang="de">Kreta (Insel)</lido:appellationValue>
+                <lido:appellationValue lido:pref="alternative" xml:lang="de">Candia</lido:appellationValue>
+                <lido:appellationValue lido:pref="alternative" xml:lang="de">Creta</lido:appellationValue>
+                <lido:appellationValue lido:pref="alternative" xml:lang="de">Crete</lido:appellationValue>
+                <lido:appellationValue lido:pref="alternative" xml:lang="de">Krete</lido:appellationValue>
+                <lido:appellationValue lido:pref="alternative" xml:lang="de">Kríti</lido:appellationValue>
+              </lido:namePlaceSet>
+            </lido:place>
+          </lido:eventPlace>
+        </lido:event>
+      </lido:eventSet>
+    </lido:eventWrap>
+    <lido:objectRelationWrap>
+      <lido:subjectWrap/>
+      <lido:relatedWorksWrap>
+        <lido:relatedWorkSet>
+          <lido:relatedWork>
+            <lido:object>
+              <lido:objectID lido:type="local">DE-MUS-059918/lido/dc00126580</lido:objectID>
+              <lido:objectNote>Statuette eines Priesters</lido:objectNote>
+            </lido:object>
+          </lido:relatedWork>
+          <lido:relatedWorkRelType>
+            <lido:conceptID lido:type="http://terminology.lido-schema.org/identifier_type/uri" lido:source="http://digicult.vocnet.org/terminology">http://digicult.vocnet.org/terminology/ter00235</lido:conceptID>
+            <lido:term lido:pref="preferred" xml:lang="de">Konvolut</lido:term>
+          </lido:relatedWorkRelType>
+        </lido:relatedWorkSet>
+      </lido:relatedWorksWrap>
+    </lido:objectRelationWrap>
+  </lido:descriptiveMetadata>
+  <lido:administrativeMetadata xml:lang="de">
+    <lido:rightsWorkWrap>
+      <lido:rightsWorkSet>
+        <lido:rightsType>
+          <lido:term>gemeinfrei</lido:term>
+        </lido:rightsType>
+        <lido:creditLine>Geschenk von Byron Th. Zoumboulakis (Genf)</lido:creditLine>
+      </lido:rightsWorkSet>
+    </lido:rightsWorkWrap>
+    <lido:recordWrap>
+      <lido:recordID lido:type="http://terminology.lido-schema.org/identifier_type/local_identifier">dc00126327</lido:recordID>
+      <lido:recordType>
+        <lido:term lido:pref="preferred" lido:addedSearchTerm="no" xml:lang="de">Einzelobjekt</lido:term>
+      </lido:recordType>
+      <lido:recordSource>
+        <lido:legalBodyName>
+          <lido:appellationValue>digiCULT-Verbund eG</lido:appellationValue>
+        </lido:legalBodyName>
+        <lido:legalBodyWeblink>http://www.digicult-verbund.de</lido:legalBodyWeblink>
+      </lido:recordSource>
+      <lido:recordSource>
+        <lido:legalBodyName>
+          <lido:appellationValue>Museum für Kunst und Gewerbe Hamburg</lido:appellationValue>
+        </lido:legalBodyName>
+        <lido:legalBodyWeblink>http://www.mkg-hamburg.de</lido:legalBodyWeblink>
+      </lido:recordSource>
+      <lido:recordRights>
+        <lido:rightsType>
+          <lido:conceptID lido:type="http://terminology.lido-schema.org/identifier_type/uri" lido:source="http://creativecommons.org">http://creativecommons.org/publicdomain/zero/1.0/</lido:conceptID>
+          <lido:term lido:pref="preferred" lido:addedSearchTerm="no" xml:lang="de">CC0 1.0</lido:term>
+        </lido:rightsType>
+        <lido:rightsHolder>
+          <lido:legalBodyName>
+            <lido:appellationValue>Museum für Kunst und Gewerbe Hamburg</lido:appellationValue>
+          </lido:legalBodyName>
+        </lido:rightsHolder>
+      </lido:recordRights>
+      <lido:recordInfoSet lido:type="lido record">
+        <lido:recordInfoLink>http://sammlungonline.mkg-hamburg.de/de/object/Lanzenspitze/1967.51/dc00126327</lido:recordInfoLink>
+        <lido:recordMetadataDate lido:type="http://terminology.lido-schema.org/recordMetadataDate_type/modified">2021-01-30T17:52:40+01:00</lido:recordMetadataDate>
+      </lido:recordInfoSet>
+      <lido:recordInfoSet lido:type="source record">
+        <lido:recordMetadataDate lido:type="http://terminology.lido-schema.org/recordMetadataDate_type/created">2015-04-06T07:53:59+01:00</lido:recordMetadataDate>
+        <lido:recordMetadataDate lido:type="http://terminology.lido-schema.org/recordMetadataDate_type/modified">2019-09-27T09:12:50+01:00</lido:recordMetadataDate>
+      </lido:recordInfoSet>
+    </lido:recordWrap>
+    <lido:resourceWrap>
+      <lido:resourceSet lido:sortorder="1">
+        <lido:resourceID lido:type="http://terminology.lido-schema.org/identifier_type/local_identifier">219917</lido:resourceID>
+        <lido:resourceRepresentation lido:type="provided_image">
+          <lido:linkResource lido:formatResource="JPEG">http://resources.digicult-museen.net/dam/provided_image/m5ea55731153d4</lido:linkResource>
+        </lido:resourceRepresentation>
+        <lido:resourceType>
+          <lido:term>digitales Bild</lido:term>
+        </lido:resourceType>
+        <lido:resourceSource lido:type="Fotograf">
+          <lido:legalBodyName>
+            <lido:appellationValue>Maria Thrun</lido:appellationValue>
+          </lido:legalBodyName>
+        </lido:resourceSource>
+        <lido:rightsResource>
+          <lido:rightsType>
+            <lido:conceptID lido:type="http://terminology.lido-schema.org/identifier_type/uri">http://creativecommons.org/publicdomain/zero/1.0/</lido:conceptID>
+            <lido:term lido:pref="preferred" lido:addedSearchTerm="no" xml:lang="de">CC0 1.0</lido:term>
+          </lido:rightsType>
+        </lido:rightsResource>
+      </lido:resourceSet>
+    </lido:resourceWrap>
+  </lido:administrativeMetadata>
+</lido:lido>
+</metadata><about></about></record><record xmlns="http://www.openarchives.org/OAI/2.0/"><header status=""><identifier>DE-MUS-059918/lido/dc00126328</identifier><datestamp>2021-01-31T20:15:29Z</datestamp></header><metadata>
+<lido:lido xmlns:lido="http://www.lido-schema.org" xsi:schemaLocation="http://www.lido-schema.org http://www.lido-schema.org/schema/v1.0/lido-v1.0.xsd">
+  <lido:lidoRecID lido:type="http://terminology.lido-schema.org/identifier_type/local_identifier" lido:source="digiCULT-Verbund eG">DE-MUS-059918/lido/dc00126328</lido:lidoRecID>
+  <lido:category>
+      </lido:category>
+  <lido:descriptiveMetadata xml:lang="de">
+    <lido:objectClassificationWrap>
+      <lido:objectWorkTypeWrap>
+        <lido:objectWorkType>
+          <lido:conceptID lido:type="http://terminology.lido-schema.org/identifier_type/uri">http://obg.vocnet.org/ti000040</lido:conceptID>
+          <lido:term lido:pref="preferred" lido:addedSearchTerm="no" xml:lang="de">Anhänger (Schmuck)</lido:term>
+        </lido:objectWorkType>
+      </lido:objectWorkTypeWrap>
+      <lido:classificationWrap>
+        <lido:classification lido:type="Sachgruppe">
+          <lido:term lido:pref="preferred" lido:addedSearchTerm="no" xml:lang="de">Körperschmuck</lido:term>
+          <lido:term lido:pref="preferred" lido:addedSearchTerm="yes" xml:lang="de">Schmuck für Körper und Kleidung (Frauenkleidung)</lido:term>
+          <lido:term lido:pref="preferred" lido:addedSearchTerm="yes" xml:lang="de">Frauenkleidung</lido:term>
+          <lido:term lido:pref="alternative" lido:addedSearchTerm="yes" xml:lang="de">Damenbekleidung</lido:term>
+          <lido:term lido:pref="preferred" lido:addedSearchTerm="yes" xml:lang="de">Kleidung</lido:term>
+          <lido:term lido:pref="preferred" lido:addedSearchTerm="yes" xml:lang="de">Hessische Systematik</lido:term>
+        </lido:classification>
+        <lido:classification lido:type="Stil">
+          <lido:conceptID lido:type="http://terminology.lido-schema.org/identifier_type/uri">http://digicult.vocnet.org/stil/601.112</lido:conceptID>
+          <lido:term lido:pref="preferred" lido:addedSearchTerm="no" xml:lang="de">Antike</lido:term>
+                  </lido:classification>
+        <lido:classification lido:type="Sammlung">
+                    <lido:term lido:pref="preferred" lido:addedSearchTerm="no" xml:lang="de">Antike</lido:term>
+        </lido:classification>
+      </lido:classificationWrap>
+    </lido:objectClassificationWrap>
+    <lido:objectIdentificationWrap>
+      <lido:titleWrap>
+        <lido:titleSet>
+          <lido:appellationValue lido:pref="preferred">Mondsichelförmiger Anhänger</lido:appellationValue>
+        </lido:titleSet>
+      </lido:titleWrap>
+      <lido:inscriptionsWrap>
+        <lido:inscriptions lido:type="Signatur">
+          <lido:inscriptionDescription>
+            <lido:descriptiveNoteValue></lido:descriptiveNoteValue>
+          </lido:inscriptionDescription>
+        </lido:inscriptions>
+      </lido:inscriptionsWrap>
+      <lido:repositoryWrap>
+        <lido:repositorySet>
+          <lido:repositoryName>
+            <lido:legalBodyID lido:type="URI">info:isil/DE-MUS-059918</lido:legalBodyID>
+            <lido:legalBodyName>
+              <lido:appellationValue>Museum für Kunst und Gewerbe Hamburg</lido:appellationValue>
+            </lido:legalBodyName>
+            <lido:legalBodyWeblink>http://www.mkg-hamburg.de</lido:legalBodyWeblink>
+          </lido:repositoryName>
+          <lido:workID lido:type="Inventarnummer">1967.52</lido:workID>
+        </lido:repositorySet>
+      </lido:repositoryWrap>
+      <lido:objectDescriptionWrap>
+        <lido:objectDescriptionSet lido:type="Beschreibung Veröffentlichung">
+          <lido:descriptiveNoteValue>Mondsichelförmige Anhänger finden sich in bronzezeitlichen Kontexten, treten wieder in der hellenistischen Goldschmiedekunst auf und erfahren in römischer Zeit eine neue Entfaltung. 
+Die oben und unten schräg abgekantete Mondsichel scheint mit Hilfe einer verlorenen Wachsform hergestellt worden zu sein. An den Kanten sind keine Nahtspuren nachweisbar. Als Hängeöse dient ein zum Dreiviertelkreis gebogenes Goldblech, dessen Enden durch Auflage eines schmalen Blechstreifens verstärkt wurden. die etwas ungleichmäßig verteilte Querriefelung der Öse ist von außen eingeschnitten.</lido:descriptiveNoteValue>
+        </lido:objectDescriptionSet>
+      </lido:objectDescriptionWrap>
+      <lido:objectMeasurementsWrap>
+        <lido:objectMeasurementsSet>
+          <lido:displayObjectMeasurements>Gesamt: Höhe: 4,39 cm</lido:displayObjectMeasurements>
+        </lido:objectMeasurementsSet>
+      </lido:objectMeasurementsWrap>
+    </lido:objectIdentificationWrap>
+    <lido:eventWrap>
+      <lido:eventSet>
+        <lido:event>
+          <lido:eventType>
+            <lido:conceptID lido:type="http://terminology.lido-schema.org/identifier_type/uri" lido:source="http://terminology.lido-schema.org/eventType">http://terminology.lido-schema.org/lido00007</lido:conceptID>
+            <lido:term lido:pref="preferred" lido:addedSearchTerm="no" xml:lang="de">Herstellung</lido:term>
+          </lido:eventType>
+          <lido:eventDate>
+            <lido:displayDate>frühes 2. Jahrtausend v. Chr.</lido:displayDate>
+            <lido:date>
+              <lido:earliestDate>-2000</lido:earliestDate>
+              <lido:latestDate>-1800</lido:latestDate>
+            </lido:date>
+          </lido:eventDate>
+          <lido:eventMaterialsTech>
+            <lido:displayMaterialsTech>Gold</lido:displayMaterialsTech>
+            <lido:materialsTech>
+              <lido:termMaterialsTech lido:type="Material">
+                <lido:conceptID lido:type="http://terminology.lido-schema.org/identifier_type/uri">http://hamburg.vocnet.org/material/mat00540</lido:conceptID>
+                <lido:term lido:pref="preferred" lido:addedSearchTerm="no" xml:lang="de">Gold</lido:term>
+              </lido:termMaterialsTech>
+            </lido:materialsTech>
+          </lido:eventMaterialsTech>
+          <lido:eventMaterialsTech>
+            <lido:displayMaterialsTech>gegossen</lido:displayMaterialsTech>
+            <lido:materialsTech>
+              <lido:termMaterialsTech lido:type="Technik">
+                <lido:conceptID lido:type="http://terminology.lido-schema.org/identifier_type/uri">http://hamburg.vocnet.org/technik/tech00011</lido:conceptID>
+                <lido:term lido:pref="preferred" lido:addedSearchTerm="no" xml:lang="de">gegossen</lido:term>
+                <lido:term lido:pref="alternative" lido:addedSearchTerm="yes" xml:lang="de">Guß (alte Rechtschreibung)</lido:term>
+                <lido:term lido:pref="alternative" lido:addedSearchTerm="yes" xml:lang="de">Guss</lido:term>
+              </lido:termMaterialsTech>
+            </lido:materialsTech>
+          </lido:eventMaterialsTech>
+          <lido:eventMaterialsTech>
+            <lido:displayMaterialsTech>geschmiedet</lido:displayMaterialsTech>
+            <lido:materialsTech>
+              <lido:termMaterialsTech lido:type="Technik">
+                <lido:conceptID lido:type="http://terminology.lido-schema.org/identifier_type/uri">http://hamburg.vocnet.org/technik/tech00289</lido:conceptID>
+                <lido:term lido:pref="preferred" lido:addedSearchTerm="no" xml:lang="de">geschmiedet</lido:term>
+              </lido:termMaterialsTech>
+            </lido:materialsTech>
+          </lido:eventMaterialsTech>
+        </lido:event>
+      </lido:eventSet>
+    </lido:eventWrap>
+    <lido:objectRelationWrap>
+      <lido:subjectWrap>
+        <lido:subjectSet>
+          <lido:subject lido:type="Ikonographie">
+            <lido:subjectConcept>
+              <lido:conceptID lido:type="http://terminology.lido-schema.org/identifier_type/uri">http://digicult.vocnet.org/ikonographie/3.723</lido:conceptID>
+              <lido:conceptID lido:type="http://terminology.lido-schema.org/identifier_type/uri" lido:source="GND">http://d-nb.info/gnd/4198105-4</lido:conceptID>
+              <lido:conceptID lido:type="local" lido:source="Iconclass">24B</lido:conceptID>
+              <lido:term lido:pref="preferred" lido:addedSearchTerm="no" xml:lang="de">Mond</lido:term>
+            </lido:subjectConcept>
+          </lido:subject>
+        </lido:subjectSet>
+      </lido:subjectWrap>
+          </lido:objectRelationWrap>
+  </lido:descriptiveMetadata>
+  <lido:administrativeMetadata xml:lang="de">
+    <lido:rightsWorkWrap>
+      <lido:rightsWorkSet>
+        <lido:rightsType>
+          <lido:term>gemeinfrei</lido:term>
+        </lido:rightsType>
+        <lido:creditLine>Alter Bestand</lido:creditLine>
+      </lido:rightsWorkSet>
+    </lido:rightsWorkWrap>
+    <lido:recordWrap>
+      <lido:recordID lido:type="http://terminology.lido-schema.org/identifier_type/local_identifier">dc00126328</lido:recordID>
+      <lido:recordType>
+        <lido:term lido:pref="preferred" lido:addedSearchTerm="no" xml:lang="de">Einzelobjekt</lido:term>
+      </lido:recordType>
+      <lido:recordSource>
+        <lido:legalBodyName>
+          <lido:appellationValue>digiCULT-Verbund eG</lido:appellationValue>
+        </lido:legalBodyName>
+        <lido:legalBodyWeblink>http://www.digicult-verbund.de</lido:legalBodyWeblink>
+      </lido:recordSource>
+      <lido:recordSource>
+        <lido:legalBodyName>
+          <lido:appellationValue>Museum für Kunst und Gewerbe Hamburg</lido:appellationValue>
+        </lido:legalBodyName>
+        <lido:legalBodyWeblink>http://www.mkg-hamburg.de</lido:legalBodyWeblink>
+      </lido:recordSource>
+      <lido:recordRights>
+        <lido:rightsType>
+          <lido:conceptID lido:type="http://terminology.lido-schema.org/identifier_type/uri" lido:source="http://creativecommons.org">http://creativecommons.org/publicdomain/zero/1.0/</lido:conceptID>
+          <lido:term lido:pref="preferred" lido:addedSearchTerm="no" xml:lang="de">CC0 1.0</lido:term>
+        </lido:rightsType>
+        <lido:rightsHolder>
+          <lido:legalBodyName>
+            <lido:appellationValue>Museum für Kunst und Gewerbe Hamburg</lido:appellationValue>
+          </lido:legalBodyName>
+        </lido:rightsHolder>
+      </lido:recordRights>
+      <lido:recordInfoSet lido:type="lido record">
+        <lido:recordInfoLink>http://sammlungonline.mkg-hamburg.de/de/object/Mondsichelf%C3%B6rmiger+Anh%C3%A4nger/1967.52/dc00126328</lido:recordInfoLink>
+        <lido:recordMetadataDate lido:type="http://terminology.lido-schema.org/recordMetadataDate_type/modified">2021-01-30T17:52:32+01:00</lido:recordMetadataDate>
+      </lido:recordInfoSet>
+      <lido:recordInfoSet lido:type="source record">
+        <lido:recordMetadataDate lido:type="http://terminology.lido-schema.org/recordMetadataDate_type/created">2015-04-06T07:53:59+01:00</lido:recordMetadataDate>
+        <lido:recordMetadataDate lido:type="http://terminology.lido-schema.org/recordMetadataDate_type/modified">2019-09-27T11:42:33+01:00</lido:recordMetadataDate>
+      </lido:recordInfoSet>
+    </lido:recordWrap>
+    <lido:resourceWrap>
+      <lido:resourceSet lido:sortorder="1">
+        <lido:resourceID lido:type="http://terminology.lido-schema.org/identifier_type/local_identifier">169799</lido:resourceID>
+        <lido:resourceRepresentation lido:type="provided_image">
+          <lido:linkResource lido:formatResource="JPEG">http://resources.digicult-museen.net/dam/provided_image/m5ea55727d42d7</lido:linkResource>
+        </lido:resourceRepresentation>
+        <lido:resourceType>
+          <lido:term>digitales Bild</lido:term>
+        </lido:resourceType>
+        <lido:resourceSource lido:type="Fotograf">
+          <lido:legalBodyName>
+            <lido:appellationValue>Maria Thrun</lido:appellationValue>
+          </lido:legalBodyName>
+        </lido:resourceSource>
+        <lido:rightsResource>
+          <lido:rightsType>
+            <lido:conceptID lido:type="http://terminology.lido-schema.org/identifier_type/uri">http://creativecommons.org/publicdomain/zero/1.0/</lido:conceptID>
+            <lido:term lido:pref="preferred" lido:addedSearchTerm="no" xml:lang="de">CC0 1.0</lido:term>
+          </lido:rightsType>
+        </lido:rightsResource>
+      </lido:resourceSet>
+    </lido:resourceWrap>
+  </lido:administrativeMetadata>
+</lido:lido>
+</metadata><about></about></record><record xmlns="http://www.openarchives.org/OAI/2.0/"><header status=""><identifier>DE-MUS-059918/lido/dc00126346</identifier><datestamp>2021-01-31T20:03:48Z</datestamp></header><metadata>
+<lido:lido xmlns:lido="http://www.lido-schema.org" xsi:schemaLocation="http://www.lido-schema.org http://www.lido-schema.org/schema/v1.0/lido-v1.0.xsd">
+  <lido:lidoRecID lido:type="http://terminology.lido-schema.org/identifier_type/local_identifier" lido:source="digiCULT-Verbund eG">DE-MUS-059918/lido/dc00126346</lido:lidoRecID>
+  <lido:category>
+      </lido:category>
+  <lido:descriptiveMetadata xml:lang="de">
+    <lido:objectClassificationWrap>
+      <lido:objectWorkTypeWrap>
+        <lido:objectWorkType>
+          <lido:conceptID lido:type="http://terminology.lido-schema.org/identifier_type/uri">http://obg.vocnet.org/20.8126</lido:conceptID>
+          <lido:conceptID lido:type="http://terminology.lido-schema.org/identifier_type/uri" lido:source="GND">http://d-nb.info/gnd/4178421-2</lido:conceptID>
+          <lido:term lido:pref="preferred" lido:addedSearchTerm="no" xml:lang="de">Rollsiegel</lido:term>
+        </lido:objectWorkType>
+      </lido:objectWorkTypeWrap>
+      <lido:classificationWrap>
+        <lido:classification lido:type="Sachgruppe">
+          <lido:conceptID lido:type="http://terminology.lido-schema.org/identifier_type/uri">http://digicult.vocnet.org/sachgruppe/1.860</lido:conceptID>
+          <lido:term lido:pref="preferred" lido:addedSearchTerm="no" xml:lang="de">Siegel/Stempel (Herrschaft/Verwaltung)</lido:term>
+        </lido:classification>
+        <lido:classification lido:type="Sachgruppe">
+          <lido:term lido:pref="preferred" lido:addedSearchTerm="no" xml:lang="de">Glyptik</lido:term>
+          <lido:term lido:pref="alternative" lido:addedSearchTerm="no" xml:lang="de">Steinschneidekunst</lido:term>
+          <lido:term lido:pref="alternative" lido:addedSearchTerm="no" xml:lang="de">Steinschnitte</lido:term>
+          <lido:term lido:pref="preferred" lido:addedSearchTerm="yes" xml:lang="de">Kunsthandwerk/Kunstgewerbe</lido:term>
+          <lido:term lido:pref="preferred" lido:addedSearchTerm="yes" xml:lang="de">Bildwerke/Angewandte und Bildende Kunst</lido:term>
+          <lido:term lido:pref="preferred" lido:addedSearchTerm="yes" xml:lang="de">Hessische Systematik</lido:term>
+        </lido:classification>
+        <lido:classification lido:type="Stil">
+          <lido:conceptID lido:type="http://terminology.lido-schema.org/identifier_type/uri">http://digicult.vocnet.org/stil/601.112</lido:conceptID>
+          <lido:term lido:pref="preferred" lido:addedSearchTerm="no" xml:lang="de">Antike</lido:term>
+                  </lido:classification>
+        <lido:classification lido:type="Stil">
+          <lido:conceptID lido:type="http://terminology.lido-schema.org/identifier_type/uri">http://digicult.vocnet.org/stil/601.112</lido:conceptID>
+          <lido:term lido:pref="preferred" lido:addedSearchTerm="no" xml:lang="de">Antike</lido:term>
+                  </lido:classification>
+        <lido:classification lido:type="Sammlung">
+                    <lido:term lido:pref="preferred" lido:addedSearchTerm="no" xml:lang="de">Antike</lido:term>
+        </lido:classification>
+      </lido:classificationWrap>
+    </lido:objectClassificationWrap>
+    <lido:objectIdentificationWrap>
+      <lido:titleWrap>
+        <lido:titleSet>
+          <lido:appellationValue lido:pref="preferred">Rollsiegel (Thronende Gottheit hält den liegenden Himmelsstier, zwei stehende Götter)</lido:appellationValue>
+        </lido:titleSet>
+      </lido:titleWrap>
+      <lido:inscriptionsWrap>
+        <lido:inscriptions lido:type="Signatur">
+          <lido:inscriptionDescription>
+            <lido:descriptiveNoteValue></lido:descriptiveNoteValue>
+          </lido:inscriptionDescription>
+        </lido:inscriptions>
+      </lido:inscriptionsWrap>
+      <lido:repositoryWrap>
+        <lido:repositorySet>
+          <lido:repositoryName>
+            <lido:legalBodyID lido:type="URI">info:isil/DE-MUS-059918</lido:legalBodyID>
+            <lido:legalBodyName>
+              <lido:appellationValue>Museum für Kunst und Gewerbe Hamburg</lido:appellationValue>
+            </lido:legalBodyName>
+            <lido:legalBodyWeblink>http://www.mkg-hamburg.de</lido:legalBodyWeblink>
+          </lido:repositoryName>
+          <lido:workID lido:type="Inventarnummer">1967.82</lido:workID>
+        </lido:repositorySet>
+      </lido:repositoryWrap>
+      <lido:objectDescriptionWrap>
+        <lido:objectDescriptionSet lido:type="Beschreibung Veröffentlichung">
+          <lido:descriptiveNoteValue>Das Bild des Rollsiegels zeigt einen Tempel oder Altar mit seitlich ausragenden Palmenblättern, davor einen nach links gewandten liegenden Stier. Links sitzt eine Gottheit auf einem Stangenhocker. Sie ist in einen langen, glatten Rock mit breitem Fransensaum, gekleidet. Auf dem Kopf trägt sie eine doppelte Hörnerkrone. Die linke Hand ist in Gürtelhöhe vorgestreckt, mit dem eigenartig abgewinkelten rechten Arm greift sie nach dem Kopf des Stieres. Rechts stehen zwei nach links gerichtete Figuren. Von der ersten ist nur der Unterkörper in einem Plissee-Rock zu erkennen, die zweite stellt wohl den Sonnengott dar, gekleidet in einen etwas über knielangen Plissee-Rock und eine einfache Hörnerkrone, eine Hand am Gürtel, in der anderen eine Säge oder ein Messer erhebend.</lido:descriptiveNoteValue>
+        </lido:objectDescriptionSet>
+      </lido:objectDescriptionWrap>
+      <lido:objectMeasurementsWrap>
+        <lido:objectMeasurementsSet>
+          <lido:displayObjectMeasurements>Gesamt: Höhe: 3,26 cm; Durchmesser: 1,74 cm</lido:displayObjectMeasurements>
+        </lido:objectMeasurementsSet>
+      </lido:objectMeasurementsWrap>
+    </lido:objectIdentificationWrap>
+    <lido:eventWrap>
+      <lido:eventSet>
+        <lido:event>
+          <lido:eventType>
+            <lido:conceptID lido:type="http://terminology.lido-schema.org/identifier_type/uri" lido:source="http://terminology.lido-schema.org/eventType">http://terminology.lido-schema.org/lido00007</lido:conceptID>
+            <lido:term lido:pref="preferred" lido:addedSearchTerm="no" xml:lang="de">Herstellung</lido:term>
+          </lido:eventType>
+          <lido:eventDate>
+            <lido:displayDate>um 2280-2180 v. Chr.</lido:displayDate>
+            <lido:date>
+              <lido:earliestDate>-2280</lido:earliestDate>
+              <lido:latestDate>-2180</lido:latestDate>
+            </lido:date>
+          </lido:eventDate>
+          <lido:eventPlace>
+            <lido:displayPlace>Asien Mesopotamien</lido:displayPlace>
+            <lido:place>
+              <lido:placeID lido:type="uri">http://digicult.vocnet.org/ort/6.2</lido:placeID>
+              <lido:placeID lido:type="local" lido:source="TGN">1000004</lido:placeID>
+              <lido:namePlaceSet>
+                <lido:appellationValue lido:pref="preferred" xml:lang="de">Asien</lido:appellationValue>
+              </lido:namePlaceSet>
+            </lido:place>
+          </lido:eventPlace>
+          <lido:eventMaterialsTech>
+            <lido:displayMaterialsTech>Stein (Aragonit)</lido:displayMaterialsTech>
+            <lido:materialsTech>
+              <lido:termMaterialsTech lido:type="Material">
+                <lido:conceptID lido:type="http://terminology.lido-schema.org/identifier_type/uri">http://hamburg.vocnet.org/material/mat00774</lido:conceptID>
+                <lido:term lido:pref="preferred" lido:addedSearchTerm="no" xml:lang="de">Stein</lido:term>
+                              </lido:termMaterialsTech>
+              <lido:extentMaterialsTech>Aragonit</lido:extentMaterialsTech>
+            </lido:materialsTech>
+          </lido:eventMaterialsTech>
+          <lido:eventMaterialsTech>
+            <lido:displayMaterialsTech>gebohrt</lido:displayMaterialsTech>
+            <lido:materialsTech>
+              <lido:termMaterialsTech lido:type="Technik">
+                <lido:conceptID lido:type="http://terminology.lido-schema.org/identifier_type/uri">http://hamburg.vocnet.org/technik/tech00005</lido:conceptID>
+                <lido:term lido:pref="preferred" lido:addedSearchTerm="no" xml:lang="de">gebohrt</lido:term>
+              </lido:termMaterialsTech>
+            </lido:materialsTech>
+          </lido:eventMaterialsTech>
+          <lido:eventMaterialsTech>
+            <lido:displayMaterialsTech>geschliffen</lido:displayMaterialsTech>
+            <lido:materialsTech>
+              <lido:termMaterialsTech lido:type="Technik">
+                <lido:conceptID lido:type="http://terminology.lido-schema.org/identifier_type/uri">http://hamburg.vocnet.org/technik/tech00024</lido:conceptID>
+                <lido:term lido:pref="preferred" lido:addedSearchTerm="no" xml:lang="de">geschliffen</lido:term>
+              </lido:termMaterialsTech>
+            </lido:materialsTech>
+          </lido:eventMaterialsTech>
+          <lido:eventMaterialsTech>
+            <lido:displayMaterialsTech>geschnitten</lido:displayMaterialsTech>
+            <lido:materialsTech>
+              <lido:termMaterialsTech lido:type="Technik">
+                <lido:conceptID lido:type="http://terminology.lido-schema.org/identifier_type/uri">http://hamburg.vocnet.org/technik/tech00026</lido:conceptID>
+                <lido:term lido:pref="preferred" lido:addedSearchTerm="no" xml:lang="de">geschnitten</lido:term>
+              </lido:termMaterialsTech>
+            </lido:materialsTech>
+          </lido:eventMaterialsTech>
+        </lido:event>
+      </lido:eventSet>
+    </lido:eventWrap>
+    <lido:objectRelationWrap>
+      <lido:subjectWrap>
+        <lido:subjectSet>
+          <lido:subject lido:type="Ikonographie">
+            <lido:subjectConcept>
+              <lido:conceptID lido:type="http://terminology.lido-schema.org/identifier_type/uri">http://digicult.vocnet.org/ikonographie/3.684</lido:conceptID>
+              <lido:conceptID lido:type="local" lido:source="Iconclass">11Q7141</lido:conceptID>
+              <lido:term lido:pref="preferred" lido:addedSearchTerm="no" xml:lang="de">Altar</lido:term>
+            </lido:subjectConcept>
+          </lido:subject>
+        </lido:subjectSet>
+        <lido:subjectSet>
+          <lido:subject lido:type="Ikonographie">
+            <lido:subjectConcept>
+              <lido:conceptID lido:type="http://terminology.lido-schema.org/identifier_type/uri">http://digicult.vocnet.org/ikonographie/iko00169</lido:conceptID>
+              <lido:conceptID lido:type="http://terminology.lido-schema.org/identifier_type/uri" lido:source="GND">http://d-nb.info/gnd/4183304-1</lido:conceptID>
+              <lido:conceptID lido:type="http://terminology.lido-schema.org/identifier_type/uri" lido:source="Iconclass">http://www.iconclass.org/rkd/47I2111/</lido:conceptID>
+              <lido:term lido:pref="preferred" lido:addedSearchTerm="no" xml:lang="de">Stier</lido:term>
+            </lido:subjectConcept>
+          </lido:subject>
+        </lido:subjectSet>
+        <lido:subjectSet>
+          <lido:subject lido:type="Ikonographie">
+            <lido:subjectConcept>
+              <lido:conceptID lido:type="http://terminology.lido-schema.org/identifier_type/uri">http://digicult.vocnet.org/ikonographie/iko00275</lido:conceptID>
+              <lido:conceptID lido:type="http://terminology.lido-schema.org/identifier_type/uri" lido:source="Iconclass">http://www.iconclass.org/rkd/44B1212/</lido:conceptID>
+              <lido:term lido:pref="preferred" lido:addedSearchTerm="no" xml:lang="de">Thron</lido:term>
+            </lido:subjectConcept>
+          </lido:subject>
+        </lido:subjectSet>
+        <lido:subjectSet>
+          <lido:subject lido:type="Ikonographie">
+            <lido:subjectConcept>
+              <lido:conceptID lido:type="http://terminology.lido-schema.org/identifier_type/uri">http://digicult.vocnet.org/ikonographie/3.1945</lido:conceptID>
+              <lido:conceptID lido:type="http://terminology.lido-schema.org/identifier_type/uri" lido:source="GND">http://d-nb.info/gnd/4123373-6</lido:conceptID>
+              <lido:conceptID lido:type="local" lido:source="Iconclass">44B1</lido:conceptID>
+              <lido:term lido:pref="preferred" lido:addedSearchTerm="no" xml:lang="de">Herrscher/Landesherr</lido:term>
+              <lido:term lido:pref="alternative" lido:addedSearchTerm="yes" xml:lang="de">Herrscherbildnis</lido:term>
+              <lido:term lido:pref="alternative" lido:addedSearchTerm="yes" xml:lang="de">Herrscherin, Landesherrin</lido:term>
+            </lido:subjectConcept>
+          </lido:subject>
+        </lido:subjectSet>
+        <lido:subjectSet>
+          <lido:subject lido:type="Ikonographie">
+            <lido:subjectConcept>
+              <lido:conceptID lido:type="http://terminology.lido-schema.org/identifier_type/uri">http://digicult.vocnet.org/ikonographie/3.20</lido:conceptID>
+              <lido:conceptID lido:type="http://terminology.lido-schema.org/identifier_type/uri" lido:source="Iconclass">http://www.iconclass.org/rkd/12/</lido:conceptID>
+              <lido:term lido:pref="preferred" lido:addedSearchTerm="no" xml:lang="de">nicht-christliche Religionen</lido:term>
+                          </lido:subjectConcept>
+          </lido:subject>
+        </lido:subjectSet>
+      </lido:subjectWrap>
+          </lido:objectRelationWrap>
+  </lido:descriptiveMetadata>
+  <lido:administrativeMetadata xml:lang="de">
+    <lido:rightsWorkWrap>
+      <lido:rightsWorkSet>
+        <lido:rightsType>
+          <lido:term>gemeinfrei</lido:term>
+        </lido:rightsType>
+        <lido:creditLine>Erworben mit Mitteln der Campe'schen Historischen Kunststiftung | ehemals Sammlung Dr. Johannes Jantzen (Bremen)</lido:creditLine>
+      </lido:rightsWorkSet>
+    </lido:rightsWorkWrap>
+    <lido:recordWrap>
+      <lido:recordID lido:type="http://terminology.lido-schema.org/identifier_type/local_identifier">dc00126346</lido:recordID>
+      <lido:recordType>
+        <lido:term lido:pref="preferred" lido:addedSearchTerm="no" xml:lang="de">Einzelobjekt</lido:term>
+      </lido:recordType>
+      <lido:recordSource>
+        <lido:legalBodyName>
+          <lido:appellationValue>digiCULT-Verbund eG</lido:appellationValue>
+        </lido:legalBodyName>
+        <lido:legalBodyWeblink>http://www.digicult-verbund.de</lido:legalBodyWeblink>
+      </lido:recordSource>
+      <lido:recordSource>
+        <lido:legalBodyName>
+          <lido:appellationValue>Museum für Kunst und Gewerbe Hamburg</lido:appellationValue>
+        </lido:legalBodyName>
+        <lido:legalBodyWeblink>http://www.mkg-hamburg.de</lido:legalBodyWeblink>
+      </lido:recordSource>
+      <lido:recordRights>
+        <lido:rightsType>
+          <lido:conceptID lido:type="http://terminology.lido-schema.org/identifier_type/uri" lido:source="http://creativecommons.org">http://creativecommons.org/publicdomain/zero/1.0/</lido:conceptID>
+          <lido:term lido:pref="preferred" lido:addedSearchTerm="no" xml:lang="de">CC0 1.0</lido:term>
+        </lido:rightsType>
+        <lido:rightsHolder>
+          <lido:legalBodyName>
+            <lido:appellationValue>Museum für Kunst und Gewerbe Hamburg</lido:appellationValue>
+          </lido:legalBodyName>
+        </lido:rightsHolder>
+      </lido:recordRights>
+      <lido:recordInfoSet lido:type="lido record">
+        <lido:recordInfoLink>http://sammlungonline.mkg-hamburg.de/de/object/Rollsiegel+%28Thronende+Gottheit+h%C3%A4lt+den+liegenden+Himmelsstier%2C+zwei+stehende+G%C3%B6tter%29/1967.82/dc00126346</lido:recordInfoLink>
+        <lido:recordMetadataDate lido:type="http://terminology.lido-schema.org/recordMetadataDate_type/modified">2021-01-30T16:21:49+01:00</lido:recordMetadataDate>
+      </lido:recordInfoSet>
+      <lido:recordInfoSet lido:type="source record">
+        <lido:recordMetadataDate lido:type="http://terminology.lido-schema.org/recordMetadataDate_type/created">2015-04-06T07:54:00+01:00</lido:recordMetadataDate>
+        <lido:recordMetadataDate lido:type="http://terminology.lido-schema.org/recordMetadataDate_type/modified">2020-06-17T08:35:17+01:00</lido:recordMetadataDate>
+      </lido:recordInfoSet>
+    </lido:recordWrap>
+    <lido:resourceWrap/>
+  </lido:administrativeMetadata>
+</lido:lido>
+</metadata><about></about></record><record xmlns="http://www.openarchives.org/OAI/2.0/"><header status=""><identifier>DE-MUS-059918/lido/dc00126352</identifier><datestamp>2021-01-31T20:03:54Z</datestamp></header><metadata>
+<lido:lido xmlns:lido="http://www.lido-schema.org" xsi:schemaLocation="http://www.lido-schema.org http://www.lido-schema.org/schema/v1.0/lido-v1.0.xsd">
+  <lido:lidoRecID lido:type="http://terminology.lido-schema.org/identifier_type/local_identifier" lido:source="digiCULT-Verbund eG">DE-MUS-059918/lido/dc00126352</lido:lidoRecID>
+  <lido:category>
+      </lido:category>
+  <lido:descriptiveMetadata xml:lang="de">
+    <lido:objectClassificationWrap>
+      <lido:objectWorkTypeWrap>
+        <lido:objectWorkType>
+          <lido:conceptID lido:type="http://terminology.lido-schema.org/identifier_type/uri">http://obg.vocnet.org/20.8126</lido:conceptID>
+          <lido:conceptID lido:type="http://terminology.lido-schema.org/identifier_type/uri" lido:source="GND">http://d-nb.info/gnd/4178421-2</lido:conceptID>
+          <lido:term lido:pref="preferred" lido:addedSearchTerm="no" xml:lang="de">Rollsiegel</lido:term>
+        </lido:objectWorkType>
+      </lido:objectWorkTypeWrap>
+      <lido:classificationWrap>
+        <lido:classification lido:type="Sachgruppe">
+          <lido:conceptID lido:type="http://terminology.lido-schema.org/identifier_type/uri">http://digicult.vocnet.org/sachgruppe/1.860</lido:conceptID>
+          <lido:term lido:pref="preferred" lido:addedSearchTerm="no" xml:lang="de">Siegel/Stempel (Herrschaft/Verwaltung)</lido:term>
+        </lido:classification>
+        <lido:classification lido:type="Sachgruppe">
+          <lido:term lido:pref="preferred" lido:addedSearchTerm="no" xml:lang="de">Glyptik</lido:term>
+          <lido:term lido:pref="alternative" lido:addedSearchTerm="no" xml:lang="de">Steinschneidekunst</lido:term>
+          <lido:term lido:pref="alternative" lido:addedSearchTerm="no" xml:lang="de">Steinschnitte</lido:term>
+          <lido:term lido:pref="preferred" lido:addedSearchTerm="yes" xml:lang="de">Kunsthandwerk/Kunstgewerbe</lido:term>
+          <lido:term lido:pref="preferred" lido:addedSearchTerm="yes" xml:lang="de">Bildwerke/Angewandte und Bildende Kunst</lido:term>
+          <lido:term lido:pref="preferred" lido:addedSearchTerm="yes" xml:lang="de">Hessische Systematik</lido:term>
+        </lido:classification>
+        <lido:classification lido:type="Stil">
+          <lido:conceptID lido:type="http://terminology.lido-schema.org/identifier_type/uri">http://digicult.vocnet.org/stil/601.112</lido:conceptID>
+          <lido:term lido:pref="preferred" lido:addedSearchTerm="no" xml:lang="de">Antike</lido:term>
+                  </lido:classification>
+        <lido:classification lido:type="Stil">
+          <lido:conceptID lido:type="http://terminology.lido-schema.org/identifier_type/uri">http://digicult.vocnet.org/stil/601.112</lido:conceptID>
+          <lido:term lido:pref="preferred" lido:addedSearchTerm="no" xml:lang="de">Antike</lido:term>
+                  </lido:classification>
+        <lido:classification lido:type="Stil">
+          <lido:conceptID lido:type="http://terminology.lido-schema.org/identifier_type/uri">http://digicult.vocnet.org/stil/601.112</lido:conceptID>
+          <lido:term lido:pref="preferred" lido:addedSearchTerm="no" xml:lang="de">Antike</lido:term>
+                  </lido:classification>
+        <lido:classification lido:type="Sammlung">
+                    <lido:term lido:pref="preferred" lido:addedSearchTerm="no" xml:lang="de">Antike</lido:term>
+        </lido:classification>
+      </lido:classificationWrap>
+    </lido:objectClassificationWrap>
+    <lido:objectIdentificationWrap>
+      <lido:titleWrap>
+        <lido:titleSet>
+          <lido:appellationValue lido:pref="preferred">Rollsiegel (Einführungsszene vor einem 'Gottkönig')</lido:appellationValue>
+        </lido:titleSet>
+      </lido:titleWrap>
+      <lido:inscriptionsWrap>
+        <lido:inscriptions lido:type="Signatur">
+          <lido:inscriptionDescription>
+            <lido:descriptiveNoteValue>Inschrift
+Wo: neben der Darstellung in zwei Kolumnen
+Was: í-lí-ki-ib-ri 
+DUMU ar-ku-ma-la-ak</lido:descriptiveNoteValue>
+          </lido:inscriptionDescription>
+        </lido:inscriptions>
+      </lido:inscriptionsWrap>
+      <lido:repositoryWrap>
+        <lido:repositorySet>
+          <lido:repositoryName>
+            <lido:legalBodyID lido:type="URI">info:isil/DE-MUS-059918</lido:legalBodyID>
+            <lido:legalBodyName>
+              <lido:appellationValue>Museum für Kunst und Gewerbe Hamburg</lido:appellationValue>
+            </lido:legalBodyName>
+            <lido:legalBodyWeblink>http://www.mkg-hamburg.de</lido:legalBodyWeblink>
+          </lido:repositoryName>
+          <lido:workID lido:type="Inventarnummer">1967.88</lido:workID>
+        </lido:repositorySet>
+      </lido:repositoryWrap>
+      <lido:objectDescriptionWrap>
+        <lido:objectDescriptionSet lido:type="Beschreibung Veröffentlichung">
+          <lido:descriptiveNoteValue>Dargestellt ist eine dreifigurige Einführungsszene vor einem ,Gottkönig’, der auf einem Fellhocker sitzt und eine Trinkschale hält. Zwischen den Figuren befinden sich eine Mondsichel, eine ,Waage’, ein Stern und ein Kamm. 
+Die Kopfbedeckung der in einen langen, plissierten Wickelrock gekleideten Einführerin ist keine Hörnerkrone, sondern eine eigentümlich flache Kappe. Ähnlich flach ist auch die Frisur des Eingeführten. 
+An den Gewändern des Thronenden und des Eingeführten ist eine starke Tendenz zu tief einschneidender Schraffur festzustellen. Diese Eigenarten heben sich von der glyptischen Tradition des altbabylonischen Zentralgebietes deutlich ab. 
+Während sich der Name des Siegeleigentümers Ili-kibri gut in die altbabylonische Namenskunde einfügt, ist der Name seines Vaters, Arkumalak, nicht semitisch und damit fremd.
+Eine provinzielle Herkunft muss erwogen werden, ohne dass sich bisher eine Lokalisierung – vielleicht Elam – vornehmen ließe.</lido:descriptiveNoteValue>
+        </lido:objectDescriptionSet>
+      </lido:objectDescriptionWrap>
+      <lido:objectMeasurementsWrap>
+        <lido:objectMeasurementsSet>
+          <lido:displayObjectMeasurements>Gesamt: Höhe: 2,21 cm; Durchmesser: 1,13 cm</lido:displayObjectMeasurements>
+        </lido:objectMeasurementsSet>
+      </lido:objectMeasurementsWrap>
+    </lido:objectIdentificationWrap>
+    <lido:eventWrap>
+      <lido:eventSet>
+        <lido:event>
+          <lido:eventType>
+            <lido:conceptID lido:type="http://terminology.lido-schema.org/identifier_type/uri" lido:source="http://terminology.lido-schema.org/eventType">http://terminology.lido-schema.org/lido00007</lido:conceptID>
+            <lido:term lido:pref="preferred" lido:addedSearchTerm="no" xml:lang="de">Herstellung</lido:term>
+          </lido:eventType>
+          <lido:eventDate>
+            <lido:displayDate>17. Jahrhundert v. Chr.</lido:displayDate>
+            <lido:date>
+              <lido:earliestDate>-1800</lido:earliestDate>
+              <lido:latestDate>-1701</lido:latestDate>
+            </lido:date>
+          </lido:eventDate>
+          <lido:eventPlace>
+            <lido:displayPlace>Syrien Mesopotamien</lido:displayPlace>
+            <lido:place>
+              <lido:placeID lido:type="uri">http://digicult.vocnet.org/ort/6.159</lido:placeID>
+              <lido:namePlaceSet>
+                <lido:appellationValue lido:pref="preferred" xml:lang="fr">République arabe syrienne</lido:appellationValue>
+                <lido:appellationValue lido:pref="preferred" xml:lang="en">Syrian Arab Republic</lido:appellationValue>
+                <lido:appellationValue lido:pref="preferred" xml:lang="de">Syrien</lido:appellationValue>
+                <lido:appellationValue lido:pref="alternative" xml:lang="de">Syrische Arabische Republik</lido:appellationValue>
+              </lido:namePlaceSet>
+            </lido:place>
+          </lido:eventPlace>
+          <lido:eventMaterialsTech>
+            <lido:displayMaterialsTech>Hämatit</lido:displayMaterialsTech>
+            <lido:materialsTech>
+              <lido:termMaterialsTech lido:type="Material">
+                <lido:conceptID lido:type="http://terminology.lido-schema.org/identifier_type/uri">http://hamburg.vocnet.org/material/mat01009</lido:conceptID>
+                <lido:conceptID lido:type="http://terminology.lido-schema.org/identifier_type/uri" lido:source="AAT">http://vocab.getty.edu/aat/300011105</lido:conceptID>
+                <lido:term lido:pref="preferred" lido:addedSearchTerm="no" xml:lang="de">Hämatit</lido:term>
+                <lido:term lido:pref="alternative" lido:addedSearchTerm="yes" xml:lang="de">Roteisenerz</lido:term>
+                <lido:term lido:pref="alternative" lido:addedSearchTerm="yes" xml:lang="de">Roteisenstein</lido:term>
+                <lido:term lido:pref="alternative" lido:addedSearchTerm="yes" xml:lang="de">Specularit</lido:term>
+                <lido:term lido:pref="alternative" lido:addedSearchTerm="yes" xml:lang="de">Blutstein</lido:term>
+                <lido:term lido:pref="alternative" lido:addedSearchTerm="yes" xml:lang="de">Eisenglanz</lido:term>
+              </lido:termMaterialsTech>
+            </lido:materialsTech>
+          </lido:eventMaterialsTech>
+          <lido:eventMaterialsTech>
+            <lido:displayMaterialsTech>gebohrt</lido:displayMaterialsTech>
+            <lido:materialsTech>
+              <lido:termMaterialsTech lido:type="Technik">
+                <lido:conceptID lido:type="http://terminology.lido-schema.org/identifier_type/uri">http://hamburg.vocnet.org/technik/tech00005</lido:conceptID>
+                <lido:term lido:pref="preferred" lido:addedSearchTerm="no" xml:lang="de">gebohrt</lido:term>
+              </lido:termMaterialsTech>
+            </lido:materialsTech>
+          </lido:eventMaterialsTech>
+          <lido:eventMaterialsTech>
+            <lido:displayMaterialsTech>geschliffen</lido:displayMaterialsTech>
+            <lido:materialsTech>
+              <lido:termMaterialsTech lido:type="Technik">
+                <lido:conceptID lido:type="http://terminology.lido-schema.org/identifier_type/uri">http://hamburg.vocnet.org/technik/tech00024</lido:conceptID>
+                <lido:term lido:pref="preferred" lido:addedSearchTerm="no" xml:lang="de">geschliffen</lido:term>
+              </lido:termMaterialsTech>
+            </lido:materialsTech>
+          </lido:eventMaterialsTech>
+          <lido:eventMaterialsTech>
+            <lido:displayMaterialsTech>Steinschnitt</lido:displayMaterialsTech>
+            <lido:materialsTech>
+              <lido:termMaterialsTech lido:type="Technik">
+                <lido:conceptID lido:type="http://terminology.lido-schema.org/identifier_type/uri">http://hamburg.vocnet.org/technik/tech00934</lido:conceptID>
+                <lido:conceptID lido:type="http://terminology.lido-schema.org/identifier_type/uri" lido:source="GND">http://d-nb.info/gnd/4057223-7</lido:conceptID>
+                <lido:conceptID lido:type="http://terminology.lido-schema.org/identifier_type/uri" lido:source="AAT">http://vocab.getty.edu/aat/300054082</lido:conceptID>
+                <lido:term lido:pref="preferred" lido:addedSearchTerm="no" xml:lang="de">Steinschnitt</lido:term>
+                <lido:term lido:pref="alternative" lido:addedSearchTerm="yes" xml:lang="de">geschnitten (Steinbearbeitung)</lido:term>
+                <lido:term lido:pref="alternative" lido:addedSearchTerm="yes" xml:lang="de">Glyptik</lido:term>
+                <lido:term lido:pref="alternative" lido:addedSearchTerm="yes" xml:lang="de">Steinschneidekunst</lido:term>
+              </lido:termMaterialsTech>
+            </lido:materialsTech>
+          </lido:eventMaterialsTech>
+        </lido:event>
+      </lido:eventSet>
+    </lido:eventWrap>
+    <lido:objectRelationWrap>
+      <lido:subjectWrap>
+        <lido:subjectSet>
+          <lido:subject lido:type="Ikonographie">
+            <lido:subjectConcept>
+              <lido:conceptID lido:type="http://terminology.lido-schema.org/identifier_type/uri">http://digicult.vocnet.org/ikonographie/3.1945</lido:conceptID>
+              <lido:conceptID lido:type="http://terminology.lido-schema.org/identifier_type/uri" lido:source="GND">http://d-nb.info/gnd/4123373-6</lido:conceptID>
+              <lido:conceptID lido:type="local" lido:source="Iconclass">44B1</lido:conceptID>
+              <lido:term lido:pref="preferred" lido:addedSearchTerm="no" xml:lang="de">Herrscher/Landesherr</lido:term>
+              <lido:term lido:pref="alternative" lido:addedSearchTerm="yes" xml:lang="de">Herrscherbildnis</lido:term>
+              <lido:term lido:pref="alternative" lido:addedSearchTerm="yes" xml:lang="de">Herrscherin, Landesherrin</lido:term>
+            </lido:subjectConcept>
+          </lido:subject>
+        </lido:subjectSet>
+        <lido:subjectSet>
+          <lido:subject lido:type="Ikonographie">
+            <lido:subjectConcept>
+              <lido:conceptID lido:type="http://terminology.lido-schema.org/identifier_type/uri">http://digicult.vocnet.org/ikonographie/iko00275</lido:conceptID>
+              <lido:conceptID lido:type="http://terminology.lido-schema.org/identifier_type/uri" lido:source="Iconclass">http://www.iconclass.org/rkd/44B1212/</lido:conceptID>
+              <lido:term lido:pref="preferred" lido:addedSearchTerm="no" xml:lang="de">Thron</lido:term>
+            </lido:subjectConcept>
+          </lido:subject>
+        </lido:subjectSet>
+        <lido:subjectSet>
+          <lido:subject lido:type="Ikonographie">
+            <lido:subjectConcept>
+              <lido:conceptID lido:type="http://terminology.lido-schema.org/identifier_type/uri">http://digicult.vocnet.org/ikonographie/3.3440</lido:conceptID>
+              <lido:conceptID lido:type="local" lido:source="Iconclass">44B16</lido:conceptID>
+              <lido:term lido:pref="preferred" lido:addedSearchTerm="no" xml:lang="de">Einsetzung eines Herrschers</lido:term>
+                          </lido:subjectConcept>
+          </lido:subject>
+        </lido:subjectSet>
+        <lido:subjectSet>
+          <lido:subject lido:type="Ikonographie">
+            <lido:subjectConcept>
+              <lido:conceptID lido:type="http://terminology.lido-schema.org/identifier_type/uri">http://digicult.vocnet.org/ikonographie/3.2149</lido:conceptID>
+              <lido:conceptID lido:type="http://terminology.lido-schema.org/identifier_type/uri" lido:source="GND">http://d-nb.info/gnd/4197033-0</lido:conceptID>
+              <lido:conceptID lido:type="http://terminology.lido-schema.org/identifier_type/uri" lido:source="GND">http://d-nb.info/gnd/4427155-4</lido:conceptID>
+              <lido:conceptID lido:type="http://terminology.lido-schema.org/identifier_type/uri" lido:source="GND">http://d-nb.info/gnd/4232367-8</lido:conceptID>
+              <lido:conceptID lido:type="local" lido:source="Iconclass">49L1</lido:conceptID>
+              <lido:term lido:pref="preferred" lido:addedSearchTerm="no" xml:lang="de">Buchstaben, Alphabet, Schrift</lido:term>
+            </lido:subjectConcept>
+          </lido:subject>
+        </lido:subjectSet>
+      </lido:subjectWrap>
+          </lido:objectRelationWrap>
+  </lido:descriptiveMetadata>
+  <lido:administrativeMetadata xml:lang="de">
+    <lido:rightsWorkWrap>
+      <lido:rightsWorkSet>
+        <lido:rightsType>
+          <lido:term>gemeinfrei</lido:term>
+        </lido:rightsType>
+        <lido:creditLine>Erworben mit Mitteln der Campe'schen Historischen Kunststiftung | ehemals Sammlung Dr. Johannes Jantzen (Bremen)</lido:creditLine>
+      </lido:rightsWorkSet>
+    </lido:rightsWorkWrap>
+    <lido:recordWrap>
+      <lido:recordID lido:type="http://terminology.lido-schema.org/identifier_type/local_identifier">dc00126352</lido:recordID>
+      <lido:recordType>
+        <lido:term lido:pref="preferred" lido:addedSearchTerm="no" xml:lang="de">Einzelobjekt</lido:term>
+      </lido:recordType>
+      <lido:recordSource>
+        <lido:legalBodyName>
+          <lido:appellationValue>digiCULT-Verbund eG</lido:appellationValue>
+        </lido:legalBodyName>
+        <lido:legalBodyWeblink>http://www.digicult-verbund.de</lido:legalBodyWeblink>
+      </lido:recordSource>
+      <lido:recordSource>
+        <lido:legalBodyName>
+          <lido:appellationValue>Museum für Kunst und Gewerbe Hamburg</lido:appellationValue>
+        </lido:legalBodyName>
+        <lido:legalBodyWeblink>http://www.mkg-hamburg.de</lido:legalBodyWeblink>
+      </lido:recordSource>
+      <lido:recordRights>
+        <lido:rightsType>
+          <lido:conceptID lido:type="http://terminology.lido-schema.org/identifier_type/uri" lido:source="http://creativecommons.org">http://creativecommons.org/publicdomain/zero/1.0/</lido:conceptID>
+          <lido:term lido:pref="preferred" lido:addedSearchTerm="no" xml:lang="de">CC0 1.0</lido:term>
+        </lido:rightsType>
+        <lido:rightsHolder>
+          <lido:legalBodyName>
+            <lido:appellationValue>Museum für Kunst und Gewerbe Hamburg</lido:appellationValue>
+          </lido:legalBodyName>
+        </lido:rightsHolder>
+      </lido:recordRights>
+      <lido:recordInfoSet lido:type="lido record">
+        <lido:recordInfoLink>http://sammlungonline.mkg-hamburg.de/de/object/Rollsiegel+%28Einf%C3%BChrungsszene+vor+einem+%27Gottk%C3%B6nig%27%29/1967.88/dc00126352</lido:recordInfoLink>
+        <lido:recordMetadataDate lido:type="http://terminology.lido-schema.org/recordMetadataDate_type/modified">2021-01-30T16:23:05+01:00</lido:recordMetadataDate>
+      </lido:recordInfoSet>
+      <lido:recordInfoSet lido:type="source record">
+        <lido:recordMetadataDate lido:type="http://terminology.lido-schema.org/recordMetadataDate_type/created">2015-04-06T07:54:01+01:00</lido:recordMetadataDate>
+        <lido:recordMetadataDate lido:type="http://terminology.lido-schema.org/recordMetadataDate_type/modified">2020-06-10T10:59:47+01:00</lido:recordMetadataDate>
+      </lido:recordInfoSet>
+    </lido:recordWrap>
+    <lido:resourceWrap/>
+  </lido:administrativeMetadata>
+</lido:lido>
+</metadata><about></about></record><record xmlns="http://www.openarchives.org/OAI/2.0/"><header status=""><identifier>DE-MUS-059918/lido/dc00126383</identifier><datestamp>2021-01-31T20:04:30Z</datestamp></header><metadata>
+<lido:lido xmlns:lido="http://www.lido-schema.org" xsi:schemaLocation="http://www.lido-schema.org http://www.lido-schema.org/schema/v1.0/lido-v1.0.xsd">
+  <lido:lidoRecID lido:type="http://terminology.lido-schema.org/identifier_type/local_identifier" lido:source="digiCULT-Verbund eG">DE-MUS-059918/lido/dc00126383</lido:lidoRecID>
+  <lido:category>
+      </lido:category>
+  <lido:descriptiveMetadata xml:lang="de">
+    <lido:objectClassificationWrap>
+      <lido:objectWorkTypeWrap>
+        <lido:objectWorkType>
+          <lido:conceptID lido:type="http://terminology.lido-schema.org/identifier_type/uri">http://obg.vocnet.org/bh000092</lido:conceptID>
+          <lido:conceptID lido:type="http://terminology.lido-schema.org/identifier_type/uri" lido:source="GND">http://d-nb.info/gnd/4046277-8</lido:conceptID>
+          <lido:term lido:pref="preferred" lido:addedSearchTerm="no" xml:lang="de">Skulptur</lido:term>
+                  </lido:objectWorkType>
+      </lido:objectWorkTypeWrap>
+      <lido:classificationWrap>
+        <lido:classification lido:type="Sachgruppe">
+          <lido:conceptID lido:type="http://terminology.lido-schema.org/identifier_type/uri">http://digicult.vocnet.org/sachgruppe/1.1165</lido:conceptID>
+          <lido:term lido:pref="preferred" lido:addedSearchTerm="no" xml:lang="de">Skulpturen</lido:term>
+                  </lido:classification>
+        <lido:classification lido:type="Stil">
+          <lido:conceptID lido:type="http://terminology.lido-schema.org/identifier_type/uri">http://digicult.vocnet.org/stil/601.173</lido:conceptID>
+                    <lido:conceptID lido:type="local" lido:source="ULAN">500058949</lido:conceptID>
+          <lido:conceptID lido:type="http://terminology.lido-schema.org/identifier_type/uri" lido:source="GND">http://d-nb.info/gnd/118505122</lido:conceptID>
+          <lido:term lido:pref="preferred" lido:addedSearchTerm="no" xml:lang="de">Augustus</lido:term>
+          <lido:term lido:pref="alternative" lido:addedSearchTerm="yes" xml:lang="de">Octavius</lido:term>
+          <lido:term lido:pref="alternative" lido:addedSearchTerm="yes" xml:lang="de">Oktavian</lido:term>
+          <lido:term lido:pref="alternative" lido:addedSearchTerm="yes" xml:lang="de">Ottaviano</lido:term>
+          <lido:term lido:pref="alternative" lido:addedSearchTerm="yes" xml:lang="de">Augustus Caesar</lido:term>
+          <lido:term lido:pref="alternative" lido:addedSearchTerm="yes" xml:lang="de">Auguste</lido:term>
+          <lido:term lido:pref="alternative" lido:addedSearchTerm="yes" xml:lang="de">Gaius Julius Caesar Octavianus</lido:term>
+          <lido:term lido:pref="alternative" lido:addedSearchTerm="yes" xml:lang="de">Octavius Cesar Auguste</lido:term>
+          <lido:term lido:pref="alternative" lido:addedSearchTerm="yes" xml:lang="de">Octavian</lido:term>
+          <lido:term lido:pref="alternative" lido:addedSearchTerm="yes" xml:lang="de">Octavianus</lido:term>
+          <lido:term lido:pref="alternative" lido:addedSearchTerm="yes" xml:lang="de">Gaius Octavius</lido:term>
+          <lido:term lido:pref="alternative" lido:addedSearchTerm="yes" xml:lang="de">Augustus, Gaius Iulius Caesar</lido:term>
+        </lido:classification>
+        <lido:classification lido:type="Stil">
+          <lido:conceptID lido:type="http://terminology.lido-schema.org/identifier_type/uri">http://digicult.vocnet.org/stil/601.171</lido:conceptID>
+          <lido:term lido:pref="preferred" lido:addedSearchTerm="no" xml:lang="de">Frühe Kaiserzeit</lido:term>
+          <lido:term lido:pref="alternative" lido:addedSearchTerm="yes" xml:lang="de">Prinzipat</lido:term>
+        </lido:classification>
+        <lido:classification lido:type="Stil">
+          <lido:conceptID lido:type="http://terminology.lido-schema.org/identifier_type/uri">http://digicult.vocnet.org/stil/601.114</lido:conceptID>
+          <lido:term lido:pref="preferred" lido:addedSearchTerm="no" xml:lang="de">Römische Antike</lido:term>
+        </lido:classification>
+        <lido:classification lido:type="Sammlung">
+                    <lido:term lido:pref="preferred" lido:addedSearchTerm="no" xml:lang="de">Antike</lido:term>
+        </lido:classification>
+      </lido:classificationWrap>
+    </lido:objectClassificationWrap>
+    <lido:objectIdentificationWrap>
+      <lido:titleWrap>
+        <lido:titleSet>
+          <lido:appellationValue lido:pref="preferred">Bildnis der Kaiserin Livia (Typus Marbury Hall)</lido:appellationValue>
+        </lido:titleSet>
+      </lido:titleWrap>
+      <lido:inscriptionsWrap>
+        <lido:inscriptions lido:type="Signatur">
+          <lido:inscriptionDescription>
+            <lido:descriptiveNoteValue></lido:descriptiveNoteValue>
+          </lido:inscriptionDescription>
+        </lido:inscriptions>
+      </lido:inscriptionsWrap>
+      <lido:repositoryWrap>
+        <lido:repositorySet>
+          <lido:repositoryName>
+            <lido:legalBodyID lido:type="URI">info:isil/DE-MUS-059918</lido:legalBodyID>
+            <lido:legalBodyName>
+              <lido:appellationValue>Museum für Kunst und Gewerbe Hamburg</lido:appellationValue>
+            </lido:legalBodyName>
+            <lido:legalBodyWeblink>http://www.mkg-hamburg.de</lido:legalBodyWeblink>
+          </lido:repositoryName>
+          <lido:workID lido:type="Inventarnummer">1967.132</lido:workID>
+        </lido:repositorySet>
+      </lido:repositoryWrap>
+      <lido:objectDescriptionWrap>
+        <lido:objectDescriptionSet lido:type="Beschreibung Veröffentlichung">
+          <lido:descriptiveNoteValue>In dem Kopf ist Livia, die Frau des Kaisers Augustus, zu erkennen. Wie die Rückseite zeigt, wurde der Kopf aus einem Architekturbruchstück gefertigt. Der Stein ist hinten an der linken Seite abgeschrägt und trägt in der Mitte einen 4 cm tiefen Einschnitt. Um dies zu kaschieren, war der Kopf wohl ursprünglich in eine Gewandstatue eingesetzt.
+Charakteristisch sind die breite gerade Stirn, die flachen, weit geöffneten Augen, die vollen Wangen, der kleine, fest geschlossene Mund und das straffe Kinn. Über die Stirn fällt eine sanft gewellte Rolle (lat. nodus), die hinten zu einem schmalen, in der Mitte des Kopfes liegenden Zopf geflochten ist. Ovid empfiehlt diese Frisur in seiner Ars Amatoria (3, 139) für Mädchen mit rundlichen Gesichtszügen). Die Gesichtshaut des Kopfes ist glatt poliert, während die Haare zur besseren Haftung eines Farbauftrags rau belassen wurden. Von der ursprünglichen Farbigkeit der Pupillen haben sich geringe Reste erhalten. 
+
+Livia Drusilla wurde am 30. Januar 58 v. Chr. als Tochter des Marcus Livius Drusus Claudianus und der Alfidia geboren. In erster Ehe heiratete sie 43 v. Chr. Tiberius Claudius Nero, in zweiter 38 v. Chr. schließlich Octavianus. Sie überlebte ihn um 15 Jahre und starb hochbetagt im Alter von 86 Jahren. 
+
+Wie bei den Bildnissen des Augustus, so lassen auch die verschiedenen Porträttypen der Livia kaum etwas von ihrem natürlichen Altern in einem langen Leben erkennen.</lido:descriptiveNoteValue>
+        </lido:objectDescriptionSet>
+      </lido:objectDescriptionWrap>
+      <lido:objectMeasurementsWrap>
+        <lido:objectMeasurementsSet>
+          <lido:displayObjectMeasurements>Gesamt: Höhe: 24 cm; Breite: 20 cm; Tiefe: 17 cm</lido:displayObjectMeasurements>
+        </lido:objectMeasurementsSet>
+      </lido:objectMeasurementsWrap>
+    </lido:objectIdentificationWrap>
+    <lido:eventWrap>
+      <lido:eventSet>
+        <lido:event>
+          <lido:eventType>
+            <lido:conceptID lido:type="http://terminology.lido-schema.org/identifier_type/uri" lido:source="http://terminology.lido-schema.org/eventType">http://terminology.lido-schema.org/lido00007</lido:conceptID>
+            <lido:term lido:pref="preferred" lido:addedSearchTerm="no" xml:lang="de">Herstellung</lido:term>
+          </lido:eventType>
+          <lido:eventDate>
+            <lido:displayDate>um 30 v. Chr. bis 29 n. Chr.</lido:displayDate>
+            <lido:date>
+              <lido:earliestDate>-0030</lido:earliestDate>
+              <lido:latestDate>0029</lido:latestDate>
+            </lido:date>
+          </lido:eventDate>
+          <lido:eventPlace>
+            <lido:displayPlace>Ägypten vielleicht Ägypten</lido:displayPlace>
+            <lido:place>
+              <lido:placeID lido:type="uri">http://digicult.vocnet.org/ort/6.113</lido:placeID>
+              <lido:placeID lido:type="uri" lido:source="GND">http://d-nb.info/gnd/4000556-2</lido:placeID>
+              <lido:placeID lido:type="local" lido:source="TGN">7016833</lido:placeID>
+              <lido:namePlaceSet>
+                <lido:appellationValue lido:pref="preferred" xml:lang="de">Ägypten</lido:appellationValue>
+              </lido:namePlaceSet>
+            </lido:place>
+          </lido:eventPlace>
+          <lido:eventMaterialsTech>
+            <lido:displayMaterialsTech>Marmor</lido:displayMaterialsTech>
+            <lido:materialsTech>
+              <lido:termMaterialsTech lido:type="Material">
+                <lido:conceptID lido:type="http://terminology.lido-schema.org/identifier_type/uri">http://hamburg.vocnet.org/material/mat00810</lido:conceptID>
+                <lido:term lido:pref="preferred" lido:addedSearchTerm="no" xml:lang="de">Marmor</lido:term>
+              </lido:termMaterialsTech>
+            </lido:materialsTech>
+          </lido:eventMaterialsTech>
+          <lido:eventMaterialsTech>
+            <lido:displayMaterialsTech>gemeißelt</lido:displayMaterialsTech>
+            <lido:materialsTech>
+              <lido:termMaterialsTech lido:type="Technik">
+                <lido:conceptID lido:type="http://terminology.lido-schema.org/identifier_type/uri">http://hamburg.vocnet.org/technik/tech00324</lido:conceptID>
+                <lido:term lido:pref="preferred" lido:addedSearchTerm="no" xml:lang="de">gemeißelt</lido:term>
+              </lido:termMaterialsTech>
+            </lido:materialsTech>
+          </lido:eventMaterialsTech>
+        </lido:event>
+      </lido:eventSet>
+    </lido:eventWrap>
+    <lido:objectRelationWrap>
+      <lido:subjectWrap>
+        <lido:subjectSet>
+          <lido:subject lido:type="Ikonographie">
+            <lido:subjectConcept>
+              <lido:conceptID lido:type="http://terminology.lido-schema.org/identifier_type/uri">http://digicult.vocnet.org/ikonographie/3.1079</lido:conceptID>
+              <lido:conceptID lido:type="http://terminology.lido-schema.org/identifier_type/uri" lido:source="GND">http://d-nb.info/gnd/4230459-3</lido:conceptID>
+              <lido:conceptID lido:type="local" lido:source="Iconclass">61B1(+51)</lido:conceptID>
+              <lido:term lido:pref="preferred" lido:addedSearchTerm="no" xml:lang="de">Kopfbild</lido:term>
+              <lido:term lido:pref="alternative" lido:addedSearchTerm="yes" xml:lang="de">Kopf &amp;lt;Motiv&amp;gt; / Bildnis</lido:term>
+            </lido:subjectConcept>
+          </lido:subject>
+        </lido:subjectSet>
+        <lido:subjectSet>
+          <lido:subject lido:type="Ikonographie">
+            <lido:subjectConcept>
+              <lido:conceptID lido:type="http://terminology.lido-schema.org/identifier_type/uri">http://digicult.vocnet.org/ikonographie/3.867</lido:conceptID>
+              <lido:conceptID lido:type="http://terminology.lido-schema.org/identifier_type/uri" lido:source="GND">http://d-nb.info/gnd/4157111-3</lido:conceptID>
+              <lido:conceptID lido:type="http://terminology.lido-schema.org/identifier_type/uri" lido:source="GND">http://d-nb.info/gnd/4230326-6</lido:conceptID>
+              <lido:conceptID lido:type="local" lido:source="Iconclass">31A2211</lido:conceptID>
+              <lido:conceptID lido:type="local" lido:source="Iconclass">31A221</lido:conceptID>
+              <lido:term lido:pref="preferred" lido:addedSearchTerm="no" xml:lang="de">Kopf, Gesicht</lido:term>
+            </lido:subjectConcept>
+          </lido:subject>
+        </lido:subjectSet>
+        <lido:subjectSet>
+          <lido:subject lido:type="Ikonographie">
+            <lido:subjectConcept>
+              <lido:conceptID lido:type="http://terminology.lido-schema.org/identifier_type/uri">http://digicult.vocnet.org/ikonographie/3.1058</lido:conceptID>
+              <lido:conceptID lido:type="http://terminology.lido-schema.org/identifier_type/uri" lido:source="GND">http://d-nb.info/gnd/4006627-7</lido:conceptID>
+              <lido:conceptID lido:type="http://terminology.lido-schema.org/identifier_type/uri" lido:source="GND">http://d-nb.info/gnd/4145422-4</lido:conceptID>
+              <lido:conceptID lido:type="http://terminology.lido-schema.org/identifier_type/uri" lido:source="Iconclass">http://www.iconclass.org/rkd/61B/</lido:conceptID>
+              <lido:term lido:pref="preferred" lido:addedSearchTerm="no" xml:lang="de">Porträt</lido:term>
+              <lido:term lido:pref="alternative" lido:addedSearchTerm="yes" xml:lang="de">Bildnis</lido:term>
+              <lido:term lido:pref="alternative" lido:addedSearchTerm="yes" xml:lang="de">Konterfei</lido:term>
+              <lido:term lido:pref="alternative" lido:addedSearchTerm="yes" xml:lang="de">Portrait</lido:term>
+            </lido:subjectConcept>
+          </lido:subject>
+        </lido:subjectSet>
+        <lido:subjectSet>
+          <lido:subject lido:type="Ikonographie">
+            <lido:subjectConcept>
+              <lido:conceptID lido:type="http://terminology.lido-schema.org/identifier_type/uri">http://digicult.vocnet.org/ikonographie/3.3301</lido:conceptID>
+              <lido:conceptID lido:type="http://terminology.lido-schema.org/identifier_type/uri" lido:source="GND">http://d-nb.info/gnd/4163019-1</lido:conceptID>
+              <lido:conceptID lido:type="http://terminology.lido-schema.org/identifier_type/uri" lido:source="GND">http://d-nb.info/gnd/4164379-3</lido:conceptID>
+              <lido:conceptID lido:type="local" lido:source="Iconclass">44B1511</lido:conceptID>
+              <lido:term lido:pref="preferred" lido:addedSearchTerm="no" xml:lang="de">Königin, Kaiserin</lido:term>
+              <lido:term lido:pref="alternative" lido:addedSearchTerm="yes" xml:lang="de">Kaiserin</lido:term>
+              <lido:term lido:pref="alternative" lido:addedSearchTerm="yes" xml:lang="de">Königin</lido:term>
+            </lido:subjectConcept>
+          </lido:subject>
+        </lido:subjectSet>
+        <lido:subjectSet>
+          <lido:subject>
+            <lido:subjectActor>
+                            <lido:actor lido:type="http://terminology.lido-schema.org/actor_type/person">
+                <lido:actorID lido:type="http://terminology.lido-schema.org/identifier_type/uri" lido:source="Temporärer Identifikator digiCULT.web">http://digicult.vocnet.org/terminology/ter00325#actor/112227</lido:actorID>
+                <lido:actorID lido:type="uri" lido:source="GND">http://d-nb.info/gnd/119226014</lido:actorID>
+                <lido:nameActorSet>
+                  <lido:appellationValue lido:pref="preferred">, Livia Drusilla</lido:appellationValue>
+                </lido:nameActorSet>
+                <lido:nameActorSet>
+                  <lido:appellationValue lido:pref="alternative">, Livia Drusilla</lido:appellationValue>
+                </lido:nameActorSet>
+                <lido:nameActorSet>
+                  <lido:appellationValue lido:pref="alternative">, Livia</lido:appellationValue>
+                </lido:nameActorSet>
+                <lido:nameActorSet>
+                  <lido:appellationValue lido:pref="alternative">, Iulia Augusta</lido:appellationValue>
+                </lido:nameActorSet>
+                <lido:nameActorSet>
+                  <lido:appellationValue lido:pref="alternative">, Diva Augusta</lido:appellationValue>
+                </lido:nameActorSet>
+              </lido:actor>
+            </lido:subjectActor>
+            <lido:subjectDate>
+              <lido:date>
+                <lido:earliestDate>58</lido:earliestDate>
+                <lido:latestDate>29</lido:latestDate>
+              </lido:date>
+            </lido:subjectDate>
+          </lido:subject>
+        </lido:subjectSet>
+      </lido:subjectWrap>
+          </lido:objectRelationWrap>
+  </lido:descriptiveMetadata>
+  <lido:administrativeMetadata xml:lang="de">
+    <lido:rightsWorkWrap>
+      <lido:rightsWorkSet>
+        <lido:rightsType>
+          <lido:term>gemeinfrei</lido:term>
+        </lido:rightsType>
+        <lido:creditLine>Erworben mit Mitteln der Campe'schen Historischen Kunststiftung</lido:creditLine>
+      </lido:rightsWorkSet>
+    </lido:rightsWorkWrap>
+    <lido:recordWrap>
+      <lido:recordID lido:type="http://terminology.lido-schema.org/identifier_type/local_identifier">dc00126383</lido:recordID>
+      <lido:recordType>
+        <lido:term lido:pref="preferred" lido:addedSearchTerm="no" xml:lang="de">Einzelobjekt</lido:term>
+      </lido:recordType>
+      <lido:recordSource>
+        <lido:legalBodyName>
+          <lido:appellationValue>digiCULT-Verbund eG</lido:appellationValue>
+        </lido:legalBodyName>
+        <lido:legalBodyWeblink>http://www.digicult-verbund.de</lido:legalBodyWeblink>
+      </lido:recordSource>
+      <lido:recordSource>
+        <lido:legalBodyName>
+          <lido:appellationValue>Museum für Kunst und Gewerbe Hamburg</lido:appellationValue>
+        </lido:legalBodyName>
+        <lido:legalBodyWeblink>http://www.mkg-hamburg.de</lido:legalBodyWeblink>
+      </lido:recordSource>
+      <lido:recordRights>
+        <lido:rightsType>
+          <lido:conceptID lido:type="http://terminology.lido-schema.org/identifier_type/uri" lido:source="http://creativecommons.org">http://creativecommons.org/publicdomain/zero/1.0/</lido:conceptID>
+          <lido:term lido:pref="preferred" lido:addedSearchTerm="no" xml:lang="de">CC0 1.0</lido:term>
+        </lido:rightsType>
+        <lido:rightsHolder>
+          <lido:legalBodyName>
+            <lido:appellationValue>Museum für Kunst und Gewerbe Hamburg</lido:appellationValue>
+          </lido:legalBodyName>
+        </lido:rightsHolder>
+      </lido:recordRights>
+      <lido:recordInfoSet lido:type="lido record">
+        <lido:recordInfoLink>http://sammlungonline.mkg-hamburg.de/de/object/Bildnis+der+Kaiserin+Livia+%28Typus+Marbury+Hall%29/1967.132/dc00126383</lido:recordInfoLink>
+        <lido:recordMetadataDate lido:type="http://terminology.lido-schema.org/recordMetadataDate_type/modified">2021-01-30T16:34:40+01:00</lido:recordMetadataDate>
+      </lido:recordInfoSet>
+      <lido:recordInfoSet lido:type="source record">
+        <lido:recordMetadataDate lido:type="http://terminology.lido-schema.org/recordMetadataDate_type/created">2015-04-06T07:54:03+01:00</lido:recordMetadataDate>
+        <lido:recordMetadataDate lido:type="http://terminology.lido-schema.org/recordMetadataDate_type/modified">2020-03-27T11:11:50+01:00</lido:recordMetadataDate>
+      </lido:recordInfoSet>
+    </lido:recordWrap>
+    <lido:resourceWrap>
+      <lido:resourceSet lido:sortorder="1">
+        <lido:resourceID lido:type="http://terminology.lido-schema.org/identifier_type/local_identifier">227834</lido:resourceID>
+        <lido:resourceRepresentation lido:type="provided_image">
+          <lido:linkResource lido:formatResource="JPEG">http://resources.digicult-museen.net/dam/provided_image/m5ea5454f65d91</lido:linkResource>
+        </lido:resourceRepresentation>
+        <lido:resourceType>
+          <lido:term>digitales Bild</lido:term>
+        </lido:resourceType>
+        <lido:resourceSource lido:type="Fotograf">
+          <lido:legalBodyName>
+            <lido:appellationValue>Maria Thrun</lido:appellationValue>
+          </lido:legalBodyName>
+        </lido:resourceSource>
+        <lido:rightsResource>
+          <lido:rightsType>
+            <lido:conceptID lido:type="http://terminology.lido-schema.org/identifier_type/uri">http://creativecommons.org/publicdomain/zero/1.0/</lido:conceptID>
+            <lido:term lido:pref="preferred" lido:addedSearchTerm="no" xml:lang="de">CC0 1.0</lido:term>
+          </lido:rightsType>
+        </lido:rightsResource>
+      </lido:resourceSet>
+      <lido:resourceSet lido:sortorder="2">
+        <lido:resourceID lido:type="http://terminology.lido-schema.org/identifier_type/local_identifier">227835</lido:resourceID>
+        <lido:resourceRepresentation lido:type="provided_image">
+          <lido:linkResource lido:formatResource="JPEG">http://resources.digicult-museen.net/dam/provided_image/m5ea5454fa808a</lido:linkResource>
+        </lido:resourceRepresentation>
+        <lido:resourceType>
+          <lido:term>digitales Bild</lido:term>
+        </lido:resourceType>
+        <lido:resourceSource lido:type="Fotograf">
+          <lido:legalBodyName>
+            <lido:appellationValue>Maria Thrun</lido:appellationValue>
+          </lido:legalBodyName>
+        </lido:resourceSource>
+        <lido:rightsResource>
+          <lido:rightsType>
+            <lido:conceptID lido:type="http://terminology.lido-schema.org/identifier_type/uri">http://creativecommons.org/publicdomain/zero/1.0/</lido:conceptID>
+            <lido:term lido:pref="preferred" lido:addedSearchTerm="no" xml:lang="de">CC0 1.0</lido:term>
+          </lido:rightsType>
+        </lido:rightsResource>
+      </lido:resourceSet>
+      <lido:resourceSet lido:sortorder="3">
+        <lido:resourceID lido:type="http://terminology.lido-schema.org/identifier_type/local_identifier">227836</lido:resourceID>
+        <lido:resourceRepresentation lido:type="provided_image">
+          <lido:linkResource lido:formatResource="JPEG">http://resources.digicult-museen.net/dam/provided_image/m5ea5454fdd4c1</lido:linkResource>
+        </lido:resourceRepresentation>
+        <lido:resourceType>
+          <lido:term>digitales Bild</lido:term>
+        </lido:resourceType>
+        <lido:resourceSource lido:type="Fotograf">
+          <lido:legalBodyName>
+            <lido:appellationValue>Maria Thrun</lido:appellationValue>
+          </lido:legalBodyName>
+        </lido:resourceSource>
+        <lido:rightsResource>
+          <lido:rightsType>
+            <lido:conceptID lido:type="http://terminology.lido-schema.org/identifier_type/uri">http://creativecommons.org/publicdomain/zero/1.0/</lido:conceptID>
+            <lido:term lido:pref="preferred" lido:addedSearchTerm="no" xml:lang="de">CC0 1.0</lido:term>
+          </lido:rightsType>
+        </lido:rightsResource>
+      </lido:resourceSet>
+      <lido:resourceSet lido:sortorder="4">
+        <lido:resourceID lido:type="http://terminology.lido-schema.org/identifier_type/local_identifier">227837</lido:resourceID>
+        <lido:resourceRepresentation lido:type="provided_image">
+          <lido:linkResource lido:formatResource="JPEG">http://resources.digicult-museen.net/dam/provided_image/m5ea545501e346</lido:linkResource>
+        </lido:resourceRepresentation>
+        <lido:resourceType>
+          <lido:term>digitales Bild</lido:term>
+        </lido:resourceType>
+        <lido:resourceSource lido:type="Fotograf">
+          <lido:legalBodyName>
+            <lido:appellationValue>Maria Thrun</lido:appellationValue>
+          </lido:legalBodyName>
+        </lido:resourceSource>
+        <lido:rightsResource>
+          <lido:rightsType>
+            <lido:conceptID lido:type="http://terminology.lido-schema.org/identifier_type/uri">http://creativecommons.org/publicdomain/zero/1.0/</lido:conceptID>
+            <lido:term lido:pref="preferred" lido:addedSearchTerm="no" xml:lang="de">CC0 1.0</lido:term>
+          </lido:rightsType>
+        </lido:rightsResource>
+      </lido:resourceSet>
+      <lido:resourceSet lido:sortorder="5">
+        <lido:resourceID lido:type="http://terminology.lido-schema.org/identifier_type/local_identifier">227838</lido:resourceID>
+        <lido:resourceRepresentation lido:type="provided_image">
+          <lido:linkResource lido:formatResource="JPEG">http://resources.digicult-museen.net/dam/provided_image/m5ea545505192a</lido:linkResource>
+        </lido:resourceRepresentation>
+        <lido:resourceType>
+          <lido:term>digitales Bild</lido:term>
+        </lido:resourceType>
+        <lido:resourceSource lido:type="Fotograf">
+          <lido:legalBodyName>
+            <lido:appellationValue>Maria Thrun</lido:appellationValue>
+          </lido:legalBodyName>
+        </lido:resourceSource>
+        <lido:rightsResource>
+          <lido:rightsType>
+            <lido:conceptID lido:type="http://terminology.lido-schema.org/identifier_type/uri">http://creativecommons.org/publicdomain/zero/1.0/</lido:conceptID>
+            <lido:term lido:pref="preferred" lido:addedSearchTerm="no" xml:lang="de">CC0 1.0</lido:term>
+          </lido:rightsType>
+        </lido:rightsResource>
+      </lido:resourceSet>
+    </lido:resourceWrap>
+  </lido:administrativeMetadata>
+</lido:lido>
+</metadata><about></about></record><record xmlns="http://www.openarchives.org/OAI/2.0/"><header status=""><identifier>DE-MUS-059918/lido/dc00126389</identifier><datestamp>2021-01-31T20:02:57Z</datestamp></header><metadata>
+<lido:lido xmlns:lido="http://www.lido-schema.org" xsi:schemaLocation="http://www.lido-schema.org http://www.lido-schema.org/schema/v1.0/lido-v1.0.xsd">
+  <lido:lidoRecID lido:type="http://terminology.lido-schema.org/identifier_type/local_identifier" lido:source="digiCULT-Verbund eG">DE-MUS-059918/lido/dc00126389</lido:lidoRecID>
+  <lido:category>
+      </lido:category>
+  <lido:descriptiveMetadata xml:lang="de">
+    <lido:objectClassificationWrap>
+      <lido:objectWorkTypeWrap>
+        <lido:objectWorkType>
+          <lido:conceptID lido:type="http://terminology.lido-schema.org/identifier_type/uri">http://obg.vocnet.org/bh000092</lido:conceptID>
+          <lido:conceptID lido:type="http://terminology.lido-schema.org/identifier_type/uri" lido:source="GND">http://d-nb.info/gnd/4046277-8</lido:conceptID>
+          <lido:term lido:pref="preferred" lido:addedSearchTerm="no" xml:lang="de">Skulptur</lido:term>
+                  </lido:objectWorkType>
+      </lido:objectWorkTypeWrap>
+      <lido:classificationWrap>
+        <lido:classification lido:type="Sachgruppe">
+          <lido:conceptID lido:type="http://terminology.lido-schema.org/identifier_type/uri">http://digicult.vocnet.org/sachgruppe/1.1165</lido:conceptID>
+          <lido:term lido:pref="preferred" lido:addedSearchTerm="no" xml:lang="de">Skulpturen</lido:term>
+        </lido:classification>
+        <lido:classification lido:type="Sachgruppe">
+          <lido:conceptID lido:type="http://terminology.lido-schema.org/identifier_type/uri">http://digicult.vocnet.org/sachgruppe/1.1141</lido:conceptID>
+          <lido:term lido:pref="preferred" lido:addedSearchTerm="no" xml:lang="de">Dreidimensionale Bildwerke</lido:term>
+        </lido:classification>
+        <lido:classification lido:type="Sachgruppe">
+          <lido:term lido:pref="preferred" lido:addedSearchTerm="no" xml:lang="de">Grabdenkmal</lido:term>
+          <lido:term lido:pref="preferred" lido:addedSearchTerm="yes" xml:lang="de">Tod/Begräbnis</lido:term>
+          <lido:term lido:pref="alternative" lido:addedSearchTerm="yes" xml:lang="de">Trauerfeier</lido:term>
+          <lido:term lido:pref="alternative" lido:addedSearchTerm="yes" xml:lang="de">Totenfeier</lido:term>
+          <lido:term lido:pref="alternative" lido:addedSearchTerm="yes" xml:lang="de">Beisetzung</lido:term>
+          <lido:term lido:pref="alternative" lido:addedSearchTerm="yes" xml:lang="de">Beerdigung</lido:term>
+          <lido:term lido:pref="alternative" lido:addedSearchTerm="yes" xml:lang="de">Bestattung</lido:term>
+          <lido:term lido:pref="preferred" lido:addedSearchTerm="yes" xml:lang="de">Brauch/Fest (Lebenslauf)</lido:term>
+          <lido:term lido:pref="preferred" lido:addedSearchTerm="yes" xml:lang="de">Brauch/Fest</lido:term>
+          <lido:term lido:pref="preferred" lido:addedSearchTerm="yes" xml:lang="de">Hessische Systematik</lido:term>
+        </lido:classification>
+        <lido:classification lido:type="Sachgruppe">
+          <lido:conceptID lido:type="http://terminology.lido-schema.org/identifier_type/uri">http://digicult.vocnet.org/sachgruppe/hs00089</lido:conceptID>
+          <lido:term lido:pref="preferred" lido:addedSearchTerm="no" xml:lang="de">Grabausstattung</lido:term>
+        </lido:classification>
+        <lido:classification lido:type="Stil">
+          <lido:conceptID lido:type="http://terminology.lido-schema.org/identifier_type/uri">http://digicult.vocnet.org/stil/601.159</lido:conceptID>
+          <lido:term lido:pref="preferred" lido:addedSearchTerm="no" xml:lang="de">Spätklassik  (Griechische Antike)</lido:term>
+        </lido:classification>
+        <lido:classification lido:type="Stil">
+          <lido:conceptID lido:type="http://terminology.lido-schema.org/identifier_type/uri">http://digicult.vocnet.org/stil/601.113</lido:conceptID>
+          <lido:term lido:pref="preferred" lido:addedSearchTerm="no" xml:lang="de">Griechische Antike</lido:term>
+                  </lido:classification>
+        <lido:classification lido:type="Sammlung">
+                    <lido:term lido:pref="preferred" lido:addedSearchTerm="no" xml:lang="de">Antike</lido:term>
+        </lido:classification>
+      </lido:classificationWrap>
+    </lido:objectClassificationWrap>
+    <lido:objectIdentificationWrap>
+      <lido:titleWrap>
+        <lido:titleSet>
+          <lido:appellationValue lido:pref="preferred">Jünglingstorso</lido:appellationValue>
+        </lido:titleSet>
+      </lido:titleWrap>
+      <lido:inscriptionsWrap>
+        <lido:inscriptions lido:type="Signatur">
+          <lido:inscriptionDescription>
+            <lido:descriptiveNoteValue></lido:descriptiveNoteValue>
+          </lido:inscriptionDescription>
+        </lido:inscriptions>
+      </lido:inscriptionsWrap>
+      <lido:repositoryWrap>
+        <lido:repositorySet>
+          <lido:repositoryName>
+            <lido:legalBodyID lido:type="URI">info:isil/DE-MUS-059918</lido:legalBodyID>
+            <lido:legalBodyName>
+              <lido:appellationValue>Museum für Kunst und Gewerbe Hamburg</lido:appellationValue>
+            </lido:legalBodyName>
+            <lido:legalBodyWeblink>http://www.mkg-hamburg.de</lido:legalBodyWeblink>
+          </lido:repositoryName>
+          <lido:workID lido:type="Inventarnummer">1967.165</lido:workID>
+        </lido:repositorySet>
+      </lido:repositoryWrap>
+      <lido:objectDescriptionWrap>
+        <lido:objectDescriptionSet lido:type="Beschreibung Veröffentlichung">
+          <lido:descriptiveNoteValue>Es handelt sich um den Torso eines Knaben oder jungen Mannes, da die bei anderen Statuen dieser Zeit üblichen Muskulaturangaben weicher und graziler ausfallen. Kopf, Arme und Beine fehlen. Das Standbein rechts mit dem fast bis zum Knie reichenden Oberschenkel ist schräg zur Körpermitte geführt. Das Spielbein ist im Hüftgelenk leicht gebeugt und war wohl zurückgesetzt. Die linke Schulter ist geringfügig angehoben. Die rechte Taille stärker eingezogen als die linke. Der rechte, vom Rumpf leicht abgewinkelte Oberarm ist etwa in der Mitte abgebrochen. Der Linke ist eng anliegend am Oberkörper. Die zu ergänzende Armhaltung lässt vermuten, dass der Dargestellte eine Opferhandlung vollzieht. Es handelte sich möglicherweise um eine Grabstatue. 
+Die Statue ist ein griechisches Original.</lido:descriptiveNoteValue>
+        </lido:objectDescriptionSet>
+      </lido:objectDescriptionWrap>
+      <lido:objectMeasurementsWrap>
+        <lido:objectMeasurementsSet>
+          <lido:displayObjectMeasurements>Gesamt: Höhe: 71,5 cm; Breite: 36,4 cm; Tiefe: 18,1 cm</lido:displayObjectMeasurements>
+        </lido:objectMeasurementsSet>
+      </lido:objectMeasurementsWrap>
+    </lido:objectIdentificationWrap>
+    <lido:eventWrap>
+      <lido:eventSet>
+        <lido:event>
+          <lido:eventType>
+            <lido:conceptID lido:type="http://terminology.lido-schema.org/identifier_type/uri" lido:source="http://terminology.lido-schema.org/eventType">http://terminology.lido-schema.org/lido00007</lido:conceptID>
+            <lido:term lido:pref="preferred" lido:addedSearchTerm="no" xml:lang="de">Herstellung</lido:term>
+          </lido:eventType>
+          <lido:eventDate>
+            <lido:displayDate>Mitte 4. Jahrhundert v. Chr.</lido:displayDate>
+            <lido:date>
+              <lido:earliestDate>-0355</lido:earliestDate>
+              <lido:latestDate>-0346</lido:latestDate>
+            </lido:date>
+          </lido:eventDate>
+          <lido:eventMaterialsTech>
+            <lido:displayMaterialsTech>Marmor (Parischer Marmor)</lido:displayMaterialsTech>
+            <lido:materialsTech>
+              <lido:termMaterialsTech lido:type="Material">
+                <lido:conceptID lido:type="http://terminology.lido-schema.org/identifier_type/uri">http://hamburg.vocnet.org/material/mat00810</lido:conceptID>
+                <lido:term lido:pref="preferred" lido:addedSearchTerm="no" xml:lang="de">Marmor</lido:term>
+                              </lido:termMaterialsTech>
+              <lido:extentMaterialsTech>Parischer Marmor</lido:extentMaterialsTech>
+            </lido:materialsTech>
+          </lido:eventMaterialsTech>
+          <lido:eventMaterialsTech>
+            <lido:displayMaterialsTech>gemeißelt</lido:displayMaterialsTech>
+            <lido:materialsTech>
+              <lido:termMaterialsTech lido:type="Technik">
+                <lido:conceptID lido:type="http://terminology.lido-schema.org/identifier_type/uri">http://hamburg.vocnet.org/technik/tech00324</lido:conceptID>
+                <lido:term lido:pref="preferred" lido:addedSearchTerm="no" xml:lang="de">gemeißelt</lido:term>
+              </lido:termMaterialsTech>
+            </lido:materialsTech>
+          </lido:eventMaterialsTech>
+        </lido:event>
+      </lido:eventSet>
+    </lido:eventWrap>
+    <lido:objectRelationWrap>
+      <lido:subjectWrap>
+        <lido:subjectSet>
+          <lido:subject lido:type="Ikonographie">
+            <lido:subjectConcept>
+              <lido:conceptID lido:type="http://terminology.lido-schema.org/identifier_type/uri">http://digicult.vocnet.org/ikonographie/3.966</lido:conceptID>
+              <lido:conceptID lido:type="http://terminology.lido-schema.org/identifier_type/uri" lido:source="GND">http://d-nb.info/gnd/4123709-2</lido:conceptID>
+              <lido:conceptID lido:type="local" lido:source="Iconclass">31D14</lido:conceptID>
+              <lido:term lido:pref="preferred" lido:addedSearchTerm="no" xml:lang="de">Mann</lido:term>
+            </lido:subjectConcept>
+          </lido:subject>
+        </lido:subjectSet>
+        <lido:subjectSet>
+          <lido:subject lido:type="Ikonographie">
+            <lido:subjectConcept>
+              <lido:conceptID lido:type="http://terminology.lido-schema.org/identifier_type/uri">http://digicult.vocnet.org/ikonographie/3.1468</lido:conceptID>
+              <lido:conceptID lido:type="http://terminology.lido-schema.org/identifier_type/uri" lido:source="GND">http://d-nb.info/gnd/4168477-1</lido:conceptID>
+              <lido:conceptID lido:type="local" lido:source="Iconclass">31A</lido:conceptID>
+              <lido:term lido:pref="preferred" lido:addedSearchTerm="no" xml:lang="de">männlicher Akt</lido:term>
+              <lido:term lido:pref="alternative" lido:addedSearchTerm="yes" xml:lang="de">Mann / Aktdarstellung</lido:term>
+              <lido:term lido:pref="alternative" lido:addedSearchTerm="yes" xml:lang="de">Männliche Aktdarstellung</lido:term>
+            </lido:subjectConcept>
+          </lido:subject>
+        </lido:subjectSet>
+      </lido:subjectWrap>
+          </lido:objectRelationWrap>
+  </lido:descriptiveMetadata>
+  <lido:administrativeMetadata xml:lang="de">
+    <lido:rightsWorkWrap>
+      <lido:rightsWorkSet>
+        <lido:rightsType>
+          <lido:term>gemeinfrei</lido:term>
+        </lido:rightsType>
+        <lido:creditLine>Erworben mit Mitteln der Campe'schen Historischen Kunststiftung</lido:creditLine>
+      </lido:rightsWorkSet>
+    </lido:rightsWorkWrap>
+    <lido:recordWrap>
+      <lido:recordID lido:type="http://terminology.lido-schema.org/identifier_type/local_identifier">dc00126389</lido:recordID>
+      <lido:recordType>
+        <lido:term lido:pref="preferred" lido:addedSearchTerm="no" xml:lang="de">Einzelobjekt</lido:term>
+      </lido:recordType>
+      <lido:recordSource>
+        <lido:legalBodyName>
+          <lido:appellationValue>digiCULT-Verbund eG</lido:appellationValue>
+        </lido:legalBodyName>
+        <lido:legalBodyWeblink>http://www.digicult-verbund.de</lido:legalBodyWeblink>
+      </lido:recordSource>
+      <lido:recordSource>
+        <lido:legalBodyName>
+          <lido:appellationValue>Museum für Kunst und Gewerbe Hamburg</lido:appellationValue>
+        </lido:legalBodyName>
+        <lido:legalBodyWeblink>http://www.mkg-hamburg.de</lido:legalBodyWeblink>
+      </lido:recordSource>
+      <lido:recordRights>
+        <lido:rightsType>
+          <lido:conceptID lido:type="http://terminology.lido-schema.org/identifier_type/uri" lido:source="http://creativecommons.org">http://creativecommons.org/publicdomain/zero/1.0/</lido:conceptID>
+          <lido:term lido:pref="preferred" lido:addedSearchTerm="no" xml:lang="de">CC0 1.0</lido:term>
+        </lido:rightsType>
+        <lido:rightsHolder>
+          <lido:legalBodyName>
+            <lido:appellationValue>Museum für Kunst und Gewerbe Hamburg</lido:appellationValue>
+          </lido:legalBodyName>
+        </lido:rightsHolder>
+      </lido:recordRights>
+      <lido:recordInfoSet lido:type="lido record">
+        <lido:recordInfoLink>http://sammlungonline.mkg-hamburg.de/de/object/J%C3%BCnglingstorso/1967.165/dc00126389</lido:recordInfoLink>
+        <lido:recordMetadataDate lido:type="http://terminology.lido-schema.org/recordMetadataDate_type/modified">2021-01-30T15:51:17+01:00</lido:recordMetadataDate>
+      </lido:recordInfoSet>
+      <lido:recordInfoSet lido:type="source record">
+        <lido:recordMetadataDate lido:type="http://terminology.lido-schema.org/recordMetadataDate_type/created">2015-04-06T07:54:04+01:00</lido:recordMetadataDate>
+        <lido:recordMetadataDate lido:type="http://terminology.lido-schema.org/recordMetadataDate_type/modified">2020-09-04T15:48:01+01:00</lido:recordMetadataDate>
+      </lido:recordInfoSet>
+    </lido:recordWrap>
+    <lido:resourceWrap>
+      <lido:resourceSet lido:sortorder="1">
+        <lido:resourceID lido:type="http://terminology.lido-schema.org/identifier_type/local_identifier">188693</lido:resourceID>
+        <lido:resourceRepresentation lido:type="provided_image">
+          <lido:linkResource lido:formatResource="JPEG">http://resources.digicult-museen.net/dam/provided_image/m601572656ff66</lido:linkResource>
+        </lido:resourceRepresentation>
+        <lido:resourceType>
+          <lido:term>digitales Bild</lido:term>
+        </lido:resourceType>
+        <lido:resourceSource lido:type="Fotograf">
+          <lido:legalBodyName>
+            <lido:appellationValue>Joachim Hiltmann, Stanislaw Rowinski, Andreas Torneberg</lido:appellationValue>
+          </lido:legalBodyName>
+        </lido:resourceSource>
+        <lido:rightsResource>
+          <lido:rightsType>
+            <lido:conceptID lido:type="http://terminology.lido-schema.org/identifier_type/uri">http://creativecommons.org/publicdomain/zero/1.0/</lido:conceptID>
+            <lido:term lido:pref="preferred" lido:addedSearchTerm="no" xml:lang="de">CC0 1.0</lido:term>
+          </lido:rightsType>
+        </lido:rightsResource>
+      </lido:resourceSet>
+      <lido:resourceSet lido:sortorder="2">
+        <lido:resourceID lido:type="http://terminology.lido-schema.org/identifier_type/local_identifier">235679</lido:resourceID>
+        <lido:resourceRepresentation lido:type="provided_image">
+          <lido:linkResource lido:formatResource="JPEG">http://resources.digicult-museen.net/dam/provided_image/m601572658c9fb</lido:linkResource>
+        </lido:resourceRepresentation>
+        <lido:resourceType>
+          <lido:term>digitales Bild</lido:term>
+        </lido:resourceType>
+        <lido:resourceSource lido:type="Fotograf">
+          <lido:legalBodyName>
+            <lido:appellationValue>Maria Thrun</lido:appellationValue>
+          </lido:legalBodyName>
+        </lido:resourceSource>
+        <lido:rightsResource>
+          <lido:rightsType>
+            <lido:conceptID lido:type="http://terminology.lido-schema.org/identifier_type/uri">http://creativecommons.org/publicdomain/zero/1.0/</lido:conceptID>
+            <lido:term lido:pref="preferred" lido:addedSearchTerm="no" xml:lang="de">CC0 1.0</lido:term>
+          </lido:rightsType>
+        </lido:rightsResource>
+      </lido:resourceSet>
+    </lido:resourceWrap>
+  </lido:administrativeMetadata>
+</lido:lido>
+</metadata><about></about></record><record xmlns="http://www.openarchives.org/OAI/2.0/"><header status=""><identifier>DE-MUS-059918/lido/dc00126439</identifier><datestamp>2021-01-31T20:02:42Z</datestamp></header><metadata>
+<lido:lido xmlns:lido="http://www.lido-schema.org" xsi:schemaLocation="http://www.lido-schema.org http://www.lido-schema.org/schema/v1.0/lido-v1.0.xsd">
+  <lido:lidoRecID lido:type="http://terminology.lido-schema.org/identifier_type/local_identifier" lido:source="digiCULT-Verbund eG">DE-MUS-059918/lido/dc00126439</lido:lidoRecID>
+  <lido:category>
+      </lido:category>
+  <lido:descriptiveMetadata xml:lang="de">
+    <lido:objectClassificationWrap>
+      <lido:objectWorkTypeWrap>
+        <lido:objectWorkType>
+          <lido:conceptID lido:type="http://terminology.lido-schema.org/identifier_type/uri">http://obg.vocnet.org/obg00194</lido:conceptID>
+          <lido:conceptID lido:type="http://terminology.lido-schema.org/identifier_type/uri" lido:source="GND">http://d-nb.info/gnd/4129665-5</lido:conceptID>
+          <lido:term lido:pref="preferred" lido:addedSearchTerm="no" xml:lang="de">Statue</lido:term>
+                  </lido:objectWorkType>
+      </lido:objectWorkTypeWrap>
+      <lido:classificationWrap>
+        <lido:classification lido:type="Sachgruppe">
+          <lido:conceptID lido:type="http://terminology.lido-schema.org/identifier_type/uri">http://digicult.vocnet.org/sachgruppe/1.1165</lido:conceptID>
+          <lido:term lido:pref="preferred" lido:addedSearchTerm="no" xml:lang="de">Skulpturen</lido:term>
+        </lido:classification>
+        <lido:classification lido:type="Sachgruppe">
+          <lido:term lido:pref="preferred" lido:addedSearchTerm="no" xml:lang="de">Grabdenkmal</lido:term>
+          <lido:term lido:pref="preferred" lido:addedSearchTerm="yes" xml:lang="de">Tod/Begräbnis</lido:term>
+          <lido:term lido:pref="alternative" lido:addedSearchTerm="yes" xml:lang="de">Trauerfeier</lido:term>
+          <lido:term lido:pref="alternative" lido:addedSearchTerm="yes" xml:lang="de">Totenfeier</lido:term>
+          <lido:term lido:pref="alternative" lido:addedSearchTerm="yes" xml:lang="de">Beisetzung</lido:term>
+          <lido:term lido:pref="alternative" lido:addedSearchTerm="yes" xml:lang="de">Beerdigung</lido:term>
+          <lido:term lido:pref="alternative" lido:addedSearchTerm="yes" xml:lang="de">Bestattung</lido:term>
+          <lido:term lido:pref="preferred" lido:addedSearchTerm="yes" xml:lang="de">Brauch/Fest (Lebenslauf)</lido:term>
+          <lido:term lido:pref="preferred" lido:addedSearchTerm="yes" xml:lang="de">Brauch/Fest</lido:term>
+          <lido:term lido:pref="preferred" lido:addedSearchTerm="yes" xml:lang="de">Hessische Systematik</lido:term>
+        </lido:classification>
+        <lido:classification lido:type="Stil">
+          <lido:conceptID lido:type="http://terminology.lido-schema.org/identifier_type/uri">http://digicult.vocnet.org/stil/601.170</lido:conceptID>
+          <lido:term lido:pref="preferred" lido:addedSearchTerm="no" xml:lang="de">spätrepublikanisch</lido:term>
+                  </lido:classification>
+        <lido:classification lido:type="Sammlung">
+                    <lido:term lido:pref="preferred" lido:addedSearchTerm="no" xml:lang="de">Antike</lido:term>
+        </lido:classification>
+      </lido:classificationWrap>
+    </lido:objectClassificationWrap>
+    <lido:objectIdentificationWrap>
+      <lido:titleWrap>
+        <lido:titleSet>
+          <lido:appellationValue lido:pref="preferred">Bildnis eines unbekannten Römers</lido:appellationValue>
+        </lido:titleSet>
+      </lido:titleWrap>
+      <lido:inscriptionsWrap>
+        <lido:inscriptions lido:type="Signatur">
+          <lido:inscriptionDescription>
+            <lido:descriptiveNoteValue></lido:descriptiveNoteValue>
+          </lido:inscriptionDescription>
+        </lido:inscriptions>
+      </lido:inscriptionsWrap>
+      <lido:repositoryWrap>
+        <lido:repositorySet>
+          <lido:repositoryName>
+            <lido:legalBodyID lido:type="URI">info:isil/DE-MUS-059918</lido:legalBodyID>
+            <lido:legalBodyName>
+              <lido:appellationValue>Museum für Kunst und Gewerbe Hamburg</lido:appellationValue>
+            </lido:legalBodyName>
+            <lido:legalBodyWeblink>http://www.mkg-hamburg.de</lido:legalBodyWeblink>
+          </lido:repositoryName>
+          <lido:workID lido:type="Inventarnummer">1967.214</lido:workID>
+        </lido:repositorySet>
+      </lido:repositoryWrap>
+      <lido:objectDescriptionWrap>
+        <lido:objectDescriptionSet lido:type="Beschreibung Veröffentlichung">
+          <lido:descriptiveNoteValue>Der rundliche Kopf mit gedrungenen Proportionen ist wahrscheinlich das äußerst wirklichkeitsnahe Bildnis eines höheren militärischen Führers.
+Geballte, fast brutale physische Kraft ist bestimmend für den Eindruck dieses Kopfes, der – in eine Togastatue eingesetzt – ursprünglich wohl zu einer Grabstatue gehörte. Die Porträtzüge und Zufälligkeiten des Erscheinungsbildes sind in schonungsloser Offenheit geschildert: die großen, abstehenden Ohren, der schiefe Mund, die „Krähenfüße“ an den Augen, die Wangenwarzen und der kurzgeschorene Schädel. Die engstehenden Augen mit den kräftigen Brauen und den Stirnrunzeln geben dem Gesicht seinen finsteren, entschlossenen Ausdruck. Die strenge Physiognomie setzt dabei Werte der Aristokratie der späten römischen Republik ins Bild: Sorge (lat. cura) und Verantwortung für die res publica, Würde (lat. gravitas), Ernsthaftigkeit (lat. severitas), Beständigkeit (lat. constantia) und auctoritas. Treue (lat. fides) zeigt eine Narbe auf der Stirn, die von einer im Kampf erlittenen Verletzung zeugt.
+Der Kopf gehört zu jenen veristischen Porträts des 1. Jahrhunderts v. Chr., die vor allem von zahlreichen Grabreliefs bekannt und in erster Linie als Selbstdarstellung der Mittelschicht zu verstehen sind.</lido:descriptiveNoteValue>
+        </lido:objectDescriptionSet>
+      </lido:objectDescriptionWrap>
+      <lido:objectMeasurementsWrap>
+        <lido:objectMeasurementsSet>
+          <lido:displayObjectMeasurements>Gesamt: Höhe: 34 cm; Breite: 20,8 cm; Tiefe: 22,5 cm</lido:displayObjectMeasurements>
+        </lido:objectMeasurementsSet>
+      </lido:objectMeasurementsWrap>
+    </lido:objectIdentificationWrap>
+    <lido:eventWrap>
+      <lido:eventSet>
+        <lido:event>
+          <lido:eventType>
+            <lido:conceptID lido:type="http://terminology.lido-schema.org/identifier_type/uri" lido:source="http://terminology.lido-schema.org/eventType">http://terminology.lido-schema.org/lido00007</lido:conceptID>
+            <lido:term lido:pref="preferred" lido:addedSearchTerm="no" xml:lang="de">Herstellung</lido:term>
+          </lido:eventType>
+          <lido:eventDate>
+            <lido:displayDate>3. Viertel 1. Jahrhundert v. Chr.</lido:displayDate>
+            <lido:date>
+              <lido:earliestDate>-0050</lido:earliestDate>
+              <lido:latestDate>-0025</lido:latestDate>
+            </lido:date>
+          </lido:eventDate>
+          <lido:eventMaterialsTech>
+            <lido:displayMaterialsTech>Marmor (pentelischer Marmor)</lido:displayMaterialsTech>
+            <lido:materialsTech>
+              <lido:termMaterialsTech lido:type="Material">
+                <lido:conceptID lido:type="http://terminology.lido-schema.org/identifier_type/uri">http://hamburg.vocnet.org/material/mat00810</lido:conceptID>
+                <lido:term lido:pref="preferred" lido:addedSearchTerm="no" xml:lang="de">Marmor</lido:term>
+                              </lido:termMaterialsTech>
+              <lido:extentMaterialsTech>pentelischer Marmor</lido:extentMaterialsTech>
+            </lido:materialsTech>
+          </lido:eventMaterialsTech>
+          <lido:eventMaterialsTech>
+            <lido:displayMaterialsTech>gemeißelt</lido:displayMaterialsTech>
+            <lido:materialsTech>
+              <lido:termMaterialsTech lido:type="Technik">
+                <lido:conceptID lido:type="http://terminology.lido-schema.org/identifier_type/uri">http://hamburg.vocnet.org/technik/tech00324</lido:conceptID>
+                <lido:term lido:pref="preferred" lido:addedSearchTerm="no" xml:lang="de">gemeißelt</lido:term>
+              </lido:termMaterialsTech>
+            </lido:materialsTech>
+          </lido:eventMaterialsTech>
+        </lido:event>
+      </lido:eventSet>
+    </lido:eventWrap>
+    <lido:objectRelationWrap>
+      <lido:subjectWrap>
+        <lido:subjectSet>
+          <lido:subject lido:type="Ikonographie">
+            <lido:subjectConcept>
+              <lido:conceptID lido:type="http://terminology.lido-schema.org/identifier_type/uri">http://digicult.vocnet.org/ikonographie/3.1079</lido:conceptID>
+              <lido:conceptID lido:type="http://terminology.lido-schema.org/identifier_type/uri" lido:source="GND">http://d-nb.info/gnd/4230459-3</lido:conceptID>
+              <lido:conceptID lido:type="local" lido:source="Iconclass">61B1(+51)</lido:conceptID>
+              <lido:term lido:pref="preferred" lido:addedSearchTerm="no" xml:lang="de">Kopfbild</lido:term>
+              <lido:term lido:pref="alternative" lido:addedSearchTerm="yes" xml:lang="de">Kopf &amp;lt;Motiv&amp;gt; / Bildnis</lido:term>
+            </lido:subjectConcept>
+          </lido:subject>
+        </lido:subjectSet>
+        <lido:subjectSet>
+          <lido:subject lido:type="Ikonographie">
+            <lido:subjectConcept>
+              <lido:conceptID lido:type="http://terminology.lido-schema.org/identifier_type/uri">http://digicult.vocnet.org/ikonographie/3.1121</lido:conceptID>
+              <lido:conceptID lido:type="http://terminology.lido-schema.org/identifier_type/uri" lido:source="GND">http://d-nb.info/gnd/4203799-2</lido:conceptID>
+              <lido:conceptID lido:type="local" lido:source="Iconclass">61B</lido:conceptID>
+              <lido:term lido:pref="preferred" lido:addedSearchTerm="no" xml:lang="de">historische Person</lido:term>
+              <lido:term lido:pref="alternative" lido:addedSearchTerm="yes" xml:lang="de">Historische Persönlichkeit</lido:term>
+            </lido:subjectConcept>
+          </lido:subject>
+        </lido:subjectSet>
+        <lido:subjectSet>
+          <lido:subject lido:type="Ikonographie">
+            <lido:subjectConcept>
+              <lido:conceptID lido:type="http://terminology.lido-schema.org/identifier_type/uri">http://digicult.vocnet.org/ikonographie/3.966</lido:conceptID>
+              <lido:conceptID lido:type="http://terminology.lido-schema.org/identifier_type/uri" lido:source="GND">http://d-nb.info/gnd/4123709-2</lido:conceptID>
+              <lido:conceptID lido:type="local" lido:source="Iconclass">31D14</lido:conceptID>
+              <lido:term lido:pref="preferred" lido:addedSearchTerm="no" xml:lang="de">Mann</lido:term>
+            </lido:subjectConcept>
+          </lido:subject>
+        </lido:subjectSet>
+        <lido:subjectSet>
+          <lido:subject lido:type="Ikonographie">
+            <lido:subjectConcept>
+              <lido:conceptID lido:type="http://terminology.lido-schema.org/identifier_type/uri">http://digicult.vocnet.org/ikonographie/3.1058</lido:conceptID>
+              <lido:conceptID lido:type="http://terminology.lido-schema.org/identifier_type/uri" lido:source="GND">http://d-nb.info/gnd/4006627-7</lido:conceptID>
+              <lido:conceptID lido:type="http://terminology.lido-schema.org/identifier_type/uri" lido:source="GND">http://d-nb.info/gnd/4145422-4</lido:conceptID>
+              <lido:conceptID lido:type="http://terminology.lido-schema.org/identifier_type/uri" lido:source="Iconclass">http://www.iconclass.org/rkd/61B/</lido:conceptID>
+              <lido:term lido:pref="preferred" lido:addedSearchTerm="no" xml:lang="de">Porträt</lido:term>
+              <lido:term lido:pref="alternative" lido:addedSearchTerm="yes" xml:lang="de">Bildnis</lido:term>
+              <lido:term lido:pref="alternative" lido:addedSearchTerm="yes" xml:lang="de">Konterfei</lido:term>
+              <lido:term lido:pref="alternative" lido:addedSearchTerm="yes" xml:lang="de">Portrait</lido:term>
+            </lido:subjectConcept>
+          </lido:subject>
+        </lido:subjectSet>
+      </lido:subjectWrap>
+          </lido:objectRelationWrap>
+  </lido:descriptiveMetadata>
+  <lido:administrativeMetadata xml:lang="de">
+    <lido:rightsWorkWrap>
+      <lido:rightsWorkSet>
+        <lido:rightsType>
+          <lido:term>gemeinfrei</lido:term>
+        </lido:rightsType>
+        <lido:creditLine>Eigentum der Stiftung für die Hamburger Kunstsammlungen / St. 254</lido:creditLine>
+      </lido:rightsWorkSet>
+    </lido:rightsWorkWrap>
+    <lido:recordWrap>
+      <lido:recordID lido:type="http://terminology.lido-schema.org/identifier_type/local_identifier">dc00126439</lido:recordID>
+      <lido:recordType>
+        <lido:term lido:pref="preferred" lido:addedSearchTerm="no" xml:lang="de">Einzelobjekt</lido:term>
+      </lido:recordType>
+      <lido:recordSource>
+        <lido:legalBodyName>
+          <lido:appellationValue>digiCULT-Verbund eG</lido:appellationValue>
+        </lido:legalBodyName>
+        <lido:legalBodyWeblink>http://www.digicult-verbund.de</lido:legalBodyWeblink>
+      </lido:recordSource>
+      <lido:recordSource>
+        <lido:legalBodyName>
+          <lido:appellationValue>Museum für Kunst und Gewerbe Hamburg</lido:appellationValue>
+        </lido:legalBodyName>
+        <lido:legalBodyWeblink>http://www.mkg-hamburg.de</lido:legalBodyWeblink>
+      </lido:recordSource>
+      <lido:recordRights>
+        <lido:rightsType>
+          <lido:conceptID lido:type="http://terminology.lido-schema.org/identifier_type/uri" lido:source="http://creativecommons.org">http://creativecommons.org/publicdomain/zero/1.0/</lido:conceptID>
+          <lido:term lido:pref="preferred" lido:addedSearchTerm="no" xml:lang="de">CC0 1.0</lido:term>
+        </lido:rightsType>
+        <lido:rightsHolder>
+          <lido:legalBodyName>
+            <lido:appellationValue>Museum für Kunst und Gewerbe Hamburg</lido:appellationValue>
+          </lido:legalBodyName>
+        </lido:rightsHolder>
+      </lido:recordRights>
+      <lido:recordInfoSet lido:type="lido record">
+        <lido:recordInfoLink>http://sammlungonline.mkg-hamburg.de/de/object/Bildnis+eines+unbekannten+R%C3%B6mers/1967.214/dc00126439</lido:recordInfoLink>
+        <lido:recordMetadataDate lido:type="http://terminology.lido-schema.org/recordMetadataDate_type/modified">2021-01-30T15:48:16+01:00</lido:recordMetadataDate>
+      </lido:recordInfoSet>
+      <lido:recordInfoSet lido:type="source record">
+        <lido:recordMetadataDate lido:type="http://terminology.lido-schema.org/recordMetadataDate_type/created">2015-04-06T07:54:08+01:00</lido:recordMetadataDate>
+        <lido:recordMetadataDate lido:type="http://terminology.lido-schema.org/recordMetadataDate_type/modified">2020-09-15T17:22:43+01:00</lido:recordMetadataDate>
+      </lido:recordInfoSet>
+    </lido:recordWrap>
+    <lido:resourceWrap>
+      <lido:resourceSet lido:sortorder="1">
+        <lido:resourceID lido:type="http://terminology.lido-schema.org/identifier_type/local_identifier">136184</lido:resourceID>
+        <lido:resourceRepresentation lido:type="provided_image">
+          <lido:linkResource lido:formatResource="JPEG">http://resources.digicult-museen.net/dam/provided_image/m57d2fa3232cc7</lido:linkResource>
+        </lido:resourceRepresentation>
+        <lido:resourceType>
+          <lido:term>digitales Bild</lido:term>
+        </lido:resourceType>
+        <lido:resourceSource lido:type="Fotograf">
+          <lido:legalBodyName>
+            <lido:appellationValue>Maria Thrun</lido:appellationValue>
+          </lido:legalBodyName>
+        </lido:resourceSource>
+        <lido:rightsResource>
+          <lido:rightsType>
+            <lido:conceptID lido:type="http://terminology.lido-schema.org/identifier_type/uri">http://creativecommons.org/publicdomain/zero/1.0/</lido:conceptID>
+            <lido:term lido:pref="preferred" lido:addedSearchTerm="no" xml:lang="de">CC0 1.0</lido:term>
+          </lido:rightsType>
+        </lido:rightsResource>
+      </lido:resourceSet>
+    </lido:resourceWrap>
+  </lido:administrativeMetadata>
+</lido:lido>
+</metadata><about></about></record><record xmlns="http://www.openarchives.org/OAI/2.0/"><header status=""><identifier>DE-MUS-059918/lido/dc00126455</identifier><datestamp>2021-01-31T20:07:22Z</datestamp></header><metadata>
+<lido:lido xmlns:lido="http://www.lido-schema.org" xsi:schemaLocation="http://www.lido-schema.org http://www.lido-schema.org/schema/v1.0/lido-v1.0.xsd">
+  <lido:lidoRecID lido:type="http://terminology.lido-schema.org/identifier_type/local_identifier" lido:source="digiCULT-Verbund eG">DE-MUS-059918/lido/dc00126455</lido:lidoRecID>
+  <lido:category>
+      </lido:category>
+  <lido:descriptiveMetadata xml:lang="de">
+    <lido:objectClassificationWrap>
+      <lido:objectWorkTypeWrap>
+        <lido:objectWorkType>
+          <lido:conceptID lido:type="http://terminology.lido-schema.org/identifier_type/uri">http://obg.vocnet.org/x000579x</lido:conceptID>
+          <lido:conceptID lido:type="http://terminology.lido-schema.org/identifier_type/uri" lido:source="GND">http://d-nb.info/gnd/4046277-8</lido:conceptID>
+          <lido:term lido:pref="preferred" lido:addedSearchTerm="no" xml:lang="de">Plastik (Bildwerk)</lido:term>
+                  </lido:objectWorkType>
+      </lido:objectWorkTypeWrap>
+      <lido:classificationWrap>
+        <lido:classification lido:type="Sachgruppe">
+          <lido:conceptID lido:type="http://terminology.lido-schema.org/identifier_type/uri">http://digicult.vocnet.org/sachgruppe/1.1499</lido:conceptID>
+          <lido:term lido:pref="preferred" lido:addedSearchTerm="no" xml:lang="de">Keramik</lido:term>
+        </lido:classification>
+        <lido:classification lido:type="Sachgruppe">
+          <lido:conceptID lido:type="http://terminology.lido-schema.org/identifier_type/uri">http://digicult.vocnet.org/sachgruppe/hs00035</lido:conceptID>
+          <lido:term lido:pref="preferred" lido:addedSearchTerm="no" xml:lang="de">Kleinplastiken/Kleinkunst</lido:term>
+        </lido:classification>
+        <lido:classification lido:type="Stil">
+          <lido:conceptID lido:type="http://terminology.lido-schema.org/identifier_type/uri">http://digicult.vocnet.org/stil/601.112</lido:conceptID>
+          <lido:term lido:pref="preferred" lido:addedSearchTerm="no" xml:lang="de">Antike</lido:term>
+                  </lido:classification>
+        <lido:classification lido:type="Stil">
+          <lido:conceptID lido:type="http://terminology.lido-schema.org/identifier_type/uri">http://digicult.vocnet.org/stil/601.112</lido:conceptID>
+          <lido:term lido:pref="preferred" lido:addedSearchTerm="no" xml:lang="de">Antike</lido:term>
+                  </lido:classification>
+        <lido:classification lido:type="Sammlung">
+                    <lido:term lido:pref="preferred" lido:addedSearchTerm="no" xml:lang="de">Antike</lido:term>
+        </lido:classification>
+      </lido:classificationWrap>
+    </lido:objectClassificationWrap>
+    <lido:objectIdentificationWrap>
+      <lido:titleWrap>
+        <lido:titleSet>
+          <lido:appellationValue lido:pref="preferred">Kleiner Kopf</lido:appellationValue>
+        </lido:titleSet>
+      </lido:titleWrap>
+      <lido:inscriptionsWrap>
+        <lido:inscriptions lido:type="Signatur">
+          <lido:inscriptionDescription>
+            <lido:descriptiveNoteValue></lido:descriptiveNoteValue>
+          </lido:inscriptionDescription>
+        </lido:inscriptions>
+      </lido:inscriptionsWrap>
+      <lido:repositoryWrap>
+        <lido:repositorySet>
+          <lido:repositoryName>
+            <lido:legalBodyID lido:type="URI">info:isil/DE-MUS-059918</lido:legalBodyID>
+            <lido:legalBodyName>
+              <lido:appellationValue>Museum für Kunst und Gewerbe Hamburg</lido:appellationValue>
+            </lido:legalBodyName>
+            <lido:legalBodyWeblink>http://www.mkg-hamburg.de</lido:legalBodyWeblink>
+          </lido:repositoryName>
+          <lido:workID lido:type="Inventarnummer">1967.251</lido:workID>
+        </lido:repositorySet>
+      </lido:repositoryWrap>
+      <lido:objectDescriptionWrap>
+        <lido:objectDescriptionSet lido:type="Beschreibung Veröffentlichung">
+          <lido:descriptiveNoteValue>Der frontalansichtige Kopf ist gekennzeichnet durch große, nahezu runde Augenhöhlen mit umlaufendem Bogen, dem abstehenden, weit ausladenden linken Ohr sowie einem schmalen, horizontal geritzten Mund. Die Nase ist ein wenig vorgebogen. Die Wangen sind flach und treten nicht hervor. Unterhalb des Kinns ist der Ansatz des Halses erhalten. Oberhalb der Stirn befinden sich je zwei horizontale Ritzlinien, die Haar oder Kopfbedeckung angeben. Ein Loch auf der Rückseite diente der Befestigung. Ehemals war der Kopf wohl vollständig mit einem rötlichen Überzug versehen. Der fratzenhafte Kopf könnte möglicherweise einen Gott oder Dämon darstellen. Die schwarze Färbung des Tons auf der Rückseite dürfte auf eine nachträgliche Verbrennung zurückzuführen sein.</lido:descriptiveNoteValue>
+        </lido:objectDescriptionSet>
+      </lido:objectDescriptionWrap>
+      <lido:objectMeasurementsWrap>
+        <lido:objectMeasurementsSet>
+          <lido:displayObjectMeasurements>Gesamt: Höhe: 7,7 cm; Breite: 7,4 cm; Tiefe: 4,2 cm</lido:displayObjectMeasurements>
+        </lido:objectMeasurementsSet>
+      </lido:objectMeasurementsWrap>
+    </lido:objectIdentificationWrap>
+    <lido:eventWrap>
+      <lido:eventSet>
+        <lido:event>
+          <lido:eventType>
+            <lido:conceptID lido:type="http://terminology.lido-schema.org/identifier_type/uri" lido:source="http://terminology.lido-schema.org/eventType">http://terminology.lido-schema.org/lido00007</lido:conceptID>
+            <lido:term lido:pref="preferred" lido:addedSearchTerm="no" xml:lang="de">Herstellung</lido:term>
+          </lido:eventType>
+          <lido:eventDate>
+            <lido:displayDate>5.-4. Jahrtausend v. Chr.</lido:displayDate>
+            <lido:date>
+              <lido:earliestDate>-5000</lido:earliestDate>
+              <lido:latestDate>-3000</lido:latestDate>
+            </lido:date>
+          </lido:eventDate>
+          <lido:eventMaterialsTech>
+            <lido:displayMaterialsTech>Ton</lido:displayMaterialsTech>
+            <lido:materialsTech>
+              <lido:termMaterialsTech lido:type="Material">
+                <lido:conceptID lido:type="http://terminology.lido-schema.org/identifier_type/uri">http://hamburg.vocnet.org/material/mat00028</lido:conceptID>
+                <lido:term lido:pref="preferred" lido:addedSearchTerm="no" xml:lang="de">Ton</lido:term>
+              </lido:termMaterialsTech>
+            </lido:materialsTech>
+          </lido:eventMaterialsTech>
+          <lido:eventMaterialsTech>
+            <lido:displayMaterialsTech>handmodelliert</lido:displayMaterialsTech>
+            <lido:materialsTech>
+              <lido:termMaterialsTech lido:type="Technik">
+                <lido:conceptID lido:type="http://terminology.lido-schema.org/identifier_type/uri">http://hamburg.vocnet.org/technik/tech00242</lido:conceptID>
+                <lido:term lido:pref="preferred" lido:addedSearchTerm="no" xml:lang="de">handmodelliert</lido:term>
+              </lido:termMaterialsTech>
+            </lido:materialsTech>
+          </lido:eventMaterialsTech>
+        </lido:event>
+      </lido:eventSet>
+    </lido:eventWrap>
+    <lido:objectRelationWrap>
+      <lido:subjectWrap/>
+          </lido:objectRelationWrap>
+  </lido:descriptiveMetadata>
+  <lido:administrativeMetadata xml:lang="de">
+    <lido:rightsWorkWrap>
+      <lido:rightsWorkSet>
+        <lido:rightsType>
+          <lido:term>gemeinfrei</lido:term>
+        </lido:rightsType>
+        <lido:creditLine>Erworben mit Mitteln der Campe'schen Historischen Kunststiftung</lido:creditLine>
+      </lido:rightsWorkSet>
+    </lido:rightsWorkWrap>
+    <lido:recordWrap>
+      <lido:recordID lido:type="http://terminology.lido-schema.org/identifier_type/local_identifier">dc00126455</lido:recordID>
+      <lido:recordType>
+        <lido:term lido:pref="preferred" lido:addedSearchTerm="no" xml:lang="de">Einzelobjekt</lido:term>
+      </lido:recordType>
+      <lido:recordSource>
+        <lido:legalBodyName>
+          <lido:appellationValue>digiCULT-Verbund eG</lido:appellationValue>
+        </lido:legalBodyName>
+        <lido:legalBodyWeblink>http://www.digicult-verbund.de</lido:legalBodyWeblink>
+      </lido:recordSource>
+      <lido:recordSource>
+        <lido:legalBodyName>
+          <lido:appellationValue>Museum für Kunst und Gewerbe Hamburg</lido:appellationValue>
+        </lido:legalBodyName>
+        <lido:legalBodyWeblink>http://www.mkg-hamburg.de</lido:legalBodyWeblink>
+      </lido:recordSource>
+      <lido:recordRights>
+        <lido:rightsType>
+          <lido:conceptID lido:type="http://terminology.lido-schema.org/identifier_type/uri" lido:source="http://creativecommons.org">http://creativecommons.org/publicdomain/zero/1.0/</lido:conceptID>
+          <lido:term lido:pref="preferred" lido:addedSearchTerm="no" xml:lang="de">CC0 1.0</lido:term>
+        </lido:rightsType>
+        <lido:rightsHolder>
+          <lido:legalBodyName>
+            <lido:appellationValue>Museum für Kunst und Gewerbe Hamburg</lido:appellationValue>
+          </lido:legalBodyName>
+        </lido:rightsHolder>
+      </lido:recordRights>
+      <lido:recordInfoSet lido:type="lido record">
+        <lido:recordInfoLink>http://sammlungonline.mkg-hamburg.de/de/object/Kleiner+Kopf/1967.251/dc00126455</lido:recordInfoLink>
+        <lido:recordMetadataDate lido:type="http://terminology.lido-schema.org/recordMetadataDate_type/modified">2021-01-30T17:18:37+01:00</lido:recordMetadataDate>
+      </lido:recordInfoSet>
+      <lido:recordInfoSet lido:type="source record">
+        <lido:recordMetadataDate lido:type="http://terminology.lido-schema.org/recordMetadataDate_type/created">2015-04-06T07:54:09+01:00</lido:recordMetadataDate>
+        <lido:recordMetadataDate lido:type="http://terminology.lido-schema.org/recordMetadataDate_type/modified">2019-12-16T16:44:21+01:00</lido:recordMetadataDate>
+      </lido:recordInfoSet>
+    </lido:recordWrap>
+    <lido:resourceWrap>
+      <lido:resourceSet lido:sortorder="1">
+        <lido:resourceID lido:type="http://terminology.lido-schema.org/identifier_type/local_identifier">222105</lido:resourceID>
+        <lido:resourceRepresentation lido:type="provided_image">
+          <lido:linkResource lido:formatResource="JPEG">http://resources.digicult-museen.net/dam/provided_image/m5ea54d984094e</lido:linkResource>
+        </lido:resourceRepresentation>
+        <lido:resourceType>
+          <lido:term>digitales Bild</lido:term>
+        </lido:resourceType>
+        <lido:resourceSource lido:type="Fotograf">
+          <lido:legalBodyName>
+            <lido:appellationValue>Maria Thrun</lido:appellationValue>
+          </lido:legalBodyName>
+        </lido:resourceSource>
+        <lido:rightsResource>
+          <lido:rightsType>
+            <lido:conceptID lido:type="http://terminology.lido-schema.org/identifier_type/uri">http://creativecommons.org/publicdomain/zero/1.0/</lido:conceptID>
+            <lido:term lido:pref="preferred" lido:addedSearchTerm="no" xml:lang="de">CC0 1.0</lido:term>
+          </lido:rightsType>
+        </lido:rightsResource>
+      </lido:resourceSet>
+    </lido:resourceWrap>
+  </lido:administrativeMetadata>
+</lido:lido>
+</metadata><about></about></record><record xmlns="http://www.openarchives.org/OAI/2.0/"><header status=""><identifier>DE-MUS-059918/lido/dc00126460</identifier><datestamp>2021-01-31T20:03:48Z</datestamp></header><metadata>
+<lido:lido xmlns:lido="http://www.lido-schema.org" xsi:schemaLocation="http://www.lido-schema.org http://www.lido-schema.org/schema/v1.0/lido-v1.0.xsd">
+  <lido:lidoRecID lido:type="http://terminology.lido-schema.org/identifier_type/local_identifier" lido:source="digiCULT-Verbund eG">DE-MUS-059918/lido/dc00126460</lido:lidoRecID>
+  <lido:category>
+      </lido:category>
+  <lido:descriptiveMetadata xml:lang="de">
+    <lido:objectClassificationWrap>
+      <lido:objectWorkTypeWrap>
+        <lido:objectWorkType>
+          <lido:conceptID lido:type="http://terminology.lido-schema.org/identifier_type/uri">http://obg.vocnet.org/mr000063</lido:conceptID>
+          <lido:term lido:pref="preferred" lido:addedSearchTerm="no" xml:lang="de">Schlagstock</lido:term>
+          <lido:term lido:pref="alternative" lido:addedSearchTerm="yes" xml:lang="de">Keule (Waffe)</lido:term>
+          <lido:term lido:pref="alternative" lido:addedSearchTerm="yes" xml:lang="de">Spanisches Rohr</lido:term>
+          <lido:term lido:pref="alternative" lido:addedSearchTerm="yes" xml:lang="de">Bengel (Waffe)</lido:term>
+          <lido:term lido:pref="alternative" lido:addedSearchTerm="yes" xml:lang="de">Knüttel</lido:term>
+          <lido:term lido:pref="alternative" lido:addedSearchTerm="yes" xml:lang="de">Rohrstock</lido:term>
+          <lido:term lido:pref="alternative" lido:addedSearchTerm="yes" xml:lang="de">Knüppel</lido:term>
+          <lido:term lido:pref="alternative" lido:addedSearchTerm="yes" xml:lang="de">Prügel</lido:term>
+                  </lido:objectWorkType>
+      </lido:objectWorkTypeWrap>
+      <lido:classificationWrap>
+        <lido:classification lido:type="Sachgruppe">
+          <lido:conceptID lido:type="http://terminology.lido-schema.org/identifier_type/uri">http://digicult.vocnet.org/sachgruppe/1.1103</lido:conceptID>
+          <lido:term lido:pref="preferred" lido:addedSearchTerm="no" xml:lang="de">Votivgaben</lido:term>
+        </lido:classification>
+        <lido:classification lido:type="Stil">
+          <lido:conceptID lido:type="http://terminology.lido-schema.org/identifier_type/uri">http://digicult.vocnet.org/stil/601.162</lido:conceptID>
+          <lido:term lido:pref="preferred" lido:addedSearchTerm="no" xml:lang="de">hochhellenistisch</lido:term>
+        </lido:classification>
+        <lido:classification lido:type="Stil">
+          <lido:conceptID lido:type="http://terminology.lido-schema.org/identifier_type/uri">http://digicult.vocnet.org/stil/601.163</lido:conceptID>
+          <lido:term lido:pref="preferred" lido:addedSearchTerm="no" xml:lang="de">späthellenistisch</lido:term>
+        </lido:classification>
+        <lido:classification lido:type="Stil">
+          <lido:conceptID lido:type="http://terminology.lido-schema.org/identifier_type/uri">http://digicult.vocnet.org/stil/601.171</lido:conceptID>
+          <lido:term lido:pref="preferred" lido:addedSearchTerm="no" xml:lang="de">Frühe Kaiserzeit</lido:term>
+          <lido:term lido:pref="alternative" lido:addedSearchTerm="yes" xml:lang="de">Prinzipat</lido:term>
+        </lido:classification>
+        <lido:classification lido:type="Sammlung">
+                    <lido:term lido:pref="preferred" lido:addedSearchTerm="no" xml:lang="de">Antike</lido:term>
+        </lido:classification>
+      </lido:classificationWrap>
+    </lido:objectClassificationWrap>
+    <lido:objectIdentificationWrap>
+      <lido:titleWrap>
+        <lido:titleSet>
+          <lido:appellationValue lido:pref="preferred">Keule mit Inschrift (Votivgabe für Herakles?)</lido:appellationValue>
+        </lido:titleSet>
+      </lido:titleWrap>
+      <lido:inscriptionsWrap>
+        <lido:inscriptions lido:type="Signatur">
+          <lido:inscriptionDescription>
+            <lido:descriptiveNoteValue>Inschrift
+Wo: am Griffende
+Was: ΕΥΚΡΑ | ΤΕΙΑ</lido:descriptiveNoteValue>
+          </lido:inscriptionDescription>
+        </lido:inscriptions>
+      </lido:inscriptionsWrap>
+      <lido:repositoryWrap>
+        <lido:repositorySet>
+          <lido:repositoryName>
+            <lido:legalBodyID lido:type="URI">info:isil/DE-MUS-059918</lido:legalBodyID>
+            <lido:legalBodyName>
+              <lido:appellationValue>Museum für Kunst und Gewerbe Hamburg</lido:appellationValue>
+            </lido:legalBodyName>
+            <lido:legalBodyWeblink>http://www.mkg-hamburg.de</lido:legalBodyWeblink>
+          </lido:repositoryName>
+          <lido:workID lido:type="Inventarnummer">1968.3</lido:workID>
+        </lido:repositorySet>
+      </lido:repositoryWrap>
+      <lido:objectDescriptionWrap>
+        <lido:objectDescriptionSet lido:type="Beschreibung Veröffentlichung">
+          <lido:descriptiveNoteValue>Der griechische Held Herakles trägt als eines seiner traditionellen Attribute eine Keule. 
+Diese kleinformatige Keule war wohl ein Weihgeschenk an ihn. Sie ist aus einem Stück gegossen. Die Astnarben werden von tropfenförmigen Vertiefungen umrahmt. Am Griffende ist der Mädchen- bzw. Frauenname EYKPATEIA in zwei Zeilen eingeschlagen.</lido:descriptiveNoteValue>
+        </lido:objectDescriptionSet>
+      </lido:objectDescriptionWrap>
+      <lido:objectMeasurementsWrap>
+        <lido:objectMeasurementsSet>
+          <lido:displayObjectMeasurements>Gesamt: Breite: 18,2 cm; Durchmesser: 2 cm</lido:displayObjectMeasurements>
+        </lido:objectMeasurementsSet>
+      </lido:objectMeasurementsWrap>
+    </lido:objectIdentificationWrap>
+    <lido:eventWrap>
+      <lido:eventSet>
+        <lido:event>
+          <lido:eventType>
+            <lido:conceptID lido:type="http://terminology.lido-schema.org/identifier_type/uri" lido:source="http://terminology.lido-schema.org/eventType">http://terminology.lido-schema.org/lido00007</lido:conceptID>
+            <lido:term lido:pref="preferred" lido:addedSearchTerm="no" xml:lang="de">Herstellung</lido:term>
+          </lido:eventType>
+          <lido:eventDate>
+            <lido:displayDate>2. / 1. Jahrhundert v. Chr.</lido:displayDate>
+            <lido:date>
+              <lido:earliestDate>-0200</lido:earliestDate>
+              <lido:latestDate>-0001</lido:latestDate>
+            </lido:date>
+          </lido:eventDate>
+          <lido:eventMaterialsTech>
+            <lido:displayMaterialsTech>Bronze</lido:displayMaterialsTech>
+            <lido:materialsTech>
+              <lido:termMaterialsTech lido:type="Material">
+                <lido:conceptID lido:type="http://terminology.lido-schema.org/identifier_type/uri">http://hamburg.vocnet.org/material/mat00528</lido:conceptID>
+                <lido:term lido:pref="preferred" lido:addedSearchTerm="no" xml:lang="de">Bronze</lido:term>
+              </lido:termMaterialsTech>
+            </lido:materialsTech>
+          </lido:eventMaterialsTech>
+          <lido:eventMaterialsTech>
+            <lido:displayMaterialsTech>gegossen</lido:displayMaterialsTech>
+            <lido:materialsTech>
+              <lido:termMaterialsTech lido:type="Technik">
+                <lido:conceptID lido:type="http://terminology.lido-schema.org/identifier_type/uri">http://hamburg.vocnet.org/technik/tech00011</lido:conceptID>
+                <lido:term lido:pref="preferred" lido:addedSearchTerm="no" xml:lang="de">gegossen</lido:term>
+                <lido:term lido:pref="alternative" lido:addedSearchTerm="yes" xml:lang="de">Guß (alte Rechtschreibung)</lido:term>
+                <lido:term lido:pref="alternative" lido:addedSearchTerm="yes" xml:lang="de">Guss</lido:term>
+              </lido:termMaterialsTech>
+            </lido:materialsTech>
+          </lido:eventMaterialsTech>
+          <lido:eventMaterialsTech>
+            <lido:displayMaterialsTech>geritzt</lido:displayMaterialsTech>
+            <lido:materialsTech>
+              <lido:termMaterialsTech lido:type="Technik">
+                <lido:conceptID lido:type="http://terminology.lido-schema.org/identifier_type/uri">http://hamburg.vocnet.org/technik/tech00889</lido:conceptID>
+                <lido:term lido:pref="preferred" lido:addedSearchTerm="no" xml:lang="de">geritzt</lido:term>
+              </lido:termMaterialsTech>
+            </lido:materialsTech>
+          </lido:eventMaterialsTech>
+        </lido:event>
+      </lido:eventSet>
+    </lido:eventWrap>
+    <lido:objectRelationWrap>
+      <lido:subjectWrap>
+        <lido:subjectSet>
+          <lido:subject lido:type="Ikonographie">
+            <lido:subjectConcept>
+              <lido:conceptID lido:type="http://terminology.lido-schema.org/identifier_type/uri">http://digicult.vocnet.org/ikonographie/3.2846</lido:conceptID>
+              <lido:conceptID lido:type="http://terminology.lido-schema.org/identifier_type/uri" lido:source="GND">http://d-nb.info/gnd/4131920-5</lido:conceptID>
+              <lido:conceptID lido:type="local" lido:source="Iconclass">45C1</lido:conceptID>
+              <lido:term lido:pref="preferred" lido:addedSearchTerm="no" xml:lang="de">Waffen</lido:term>
+                          </lido:subjectConcept>
+          </lido:subject>
+        </lido:subjectSet>
+        <lido:subjectSet>
+          <lido:subject lido:type="Ikonographie">
+            <lido:subjectConcept>
+              <lido:conceptID lido:type="http://terminology.lido-schema.org/identifier_type/uri">http://digicult.vocnet.org/ikonographie/3.427</lido:conceptID>
+              <lido:conceptID lido:type="local" lido:source="Iconclass">94L</lido:conceptID>
+              <lido:term lido:pref="preferred" lido:addedSearchTerm="no" xml:lang="de">Geschichte von Herkules (Herakles)</lido:term>
+              <lido:term lido:pref="alternative" lido:addedSearchTerm="yes" xml:lang="de">Geschichte von Hercules</lido:term>
+                          </lido:subjectConcept>
+          </lido:subject>
+        </lido:subjectSet>
+        <lido:subjectSet>
+          <lido:subject/>
+        </lido:subjectSet>
+      </lido:subjectWrap>
+          </lido:objectRelationWrap>
+  </lido:descriptiveMetadata>
+  <lido:administrativeMetadata xml:lang="de">
+    <lido:rightsWorkWrap>
+      <lido:rightsWorkSet>
+        <lido:rightsType>
+          <lido:term>gemeinfrei</lido:term>
+        </lido:rightsType>
+      </lido:rightsWorkSet>
+    </lido:rightsWorkWrap>
+    <lido:recordWrap>
+      <lido:recordID lido:type="http://terminology.lido-schema.org/identifier_type/local_identifier">dc00126460</lido:recordID>
+      <lido:recordType>
+        <lido:term lido:pref="preferred" lido:addedSearchTerm="no" xml:lang="de">Einzelobjekt</lido:term>
+      </lido:recordType>
+      <lido:recordSource>
+        <lido:legalBodyName>
+          <lido:appellationValue>digiCULT-Verbund eG</lido:appellationValue>
+        </lido:legalBodyName>
+        <lido:legalBodyWeblink>http://www.digicult-verbund.de</lido:legalBodyWeblink>
+      </lido:recordSource>
+      <lido:recordSource>
+        <lido:legalBodyName>
+          <lido:appellationValue>Museum für Kunst und Gewerbe Hamburg</lido:appellationValue>
+        </lido:legalBodyName>
+        <lido:legalBodyWeblink>http://www.mkg-hamburg.de</lido:legalBodyWeblink>
+      </lido:recordSource>
+      <lido:recordRights>
+        <lido:rightsType>
+          <lido:conceptID lido:type="http://terminology.lido-schema.org/identifier_type/uri" lido:source="http://creativecommons.org">http://creativecommons.org/publicdomain/zero/1.0/</lido:conceptID>
+          <lido:term lido:pref="preferred" lido:addedSearchTerm="no" xml:lang="de">CC0 1.0</lido:term>
+        </lido:rightsType>
+        <lido:rightsHolder>
+          <lido:legalBodyName>
+            <lido:appellationValue>Museum für Kunst und Gewerbe Hamburg</lido:appellationValue>
+          </lido:legalBodyName>
+        </lido:rightsHolder>
+      </lido:recordRights>
+      <lido:recordInfoSet lido:type="lido record">
+        <lido:recordInfoLink>http://sammlungonline.mkg-hamburg.de/de/object/Keule+mit+Inschrift+%28Votivgabe+f%C3%BCr+Herakles%3F%29/1968.3/dc00126460</lido:recordInfoLink>
+        <lido:recordMetadataDate lido:type="http://terminology.lido-schema.org/recordMetadataDate_type/modified">2021-01-30T16:21:55+01:00</lido:recordMetadataDate>
+      </lido:recordInfoSet>
+      <lido:recordInfoSet lido:type="source record">
+        <lido:recordMetadataDate lido:type="http://terminology.lido-schema.org/recordMetadataDate_type/created">2015-04-06T07:54:09+01:00</lido:recordMetadataDate>
+        <lido:recordMetadataDate lido:type="http://terminology.lido-schema.org/recordMetadataDate_type/modified">2020-06-17T08:30:00+01:00</lido:recordMetadataDate>
+      </lido:recordInfoSet>
+    </lido:recordWrap>
+    <lido:resourceWrap>
+      <lido:resourceSet lido:sortorder="1">
+        <lido:resourceID lido:type="http://terminology.lido-schema.org/identifier_type/local_identifier">231155</lido:resourceID>
+        <lido:resourceRepresentation lido:type="provided_image">
+          <lido:linkResource lido:formatResource="JPEG">http://resources.digicult-museen.net/dam/provided_image/m6015799314623</lido:linkResource>
+        </lido:resourceRepresentation>
+        <lido:resourceType>
+          <lido:term>digitales Bild</lido:term>
+        </lido:resourceType>
+        <lido:resourceSource lido:type="Fotograf">
+          <lido:legalBodyName>
+            <lido:appellationValue>Maria Thrun</lido:appellationValue>
+          </lido:legalBodyName>
+        </lido:resourceSource>
+        <lido:rightsResource>
+          <lido:rightsType>
+            <lido:conceptID lido:type="http://terminology.lido-schema.org/identifier_type/uri">http://creativecommons.org/publicdomain/zero/1.0/</lido:conceptID>
+            <lido:term lido:pref="preferred" lido:addedSearchTerm="no" xml:lang="de">CC0 1.0</lido:term>
+          </lido:rightsType>
+        </lido:rightsResource>
+      </lido:resourceSet>
+      <lido:resourceSet lido:sortorder="2">
+        <lido:resourceID lido:type="http://terminology.lido-schema.org/identifier_type/local_identifier">231156</lido:resourceID>
+        <lido:resourceRepresentation lido:type="provided_image">
+          <lido:linkResource lido:formatResource="JPEG">http://resources.digicult-museen.net/dam/provided_image/m6015799333172</lido:linkResource>
+        </lido:resourceRepresentation>
+        <lido:resourceType>
+          <lido:term>digitales Bild</lido:term>
+        </lido:resourceType>
+        <lido:resourceSource lido:type="Fotograf">
+          <lido:legalBodyName>
+            <lido:appellationValue>Maria Thrun</lido:appellationValue>
+          </lido:legalBodyName>
+        </lido:resourceSource>
+        <lido:rightsResource>
+          <lido:rightsType>
+            <lido:conceptID lido:type="http://terminology.lido-schema.org/identifier_type/uri">http://creativecommons.org/publicdomain/zero/1.0/</lido:conceptID>
+            <lido:term lido:pref="preferred" lido:addedSearchTerm="no" xml:lang="de">CC0 1.0</lido:term>
+          </lido:rightsType>
+        </lido:rightsResource>
+      </lido:resourceSet>
+    </lido:resourceWrap>
+  </lido:administrativeMetadata>
+</lido:lido>
+</metadata><about></about></record><record xmlns="http://www.openarchives.org/OAI/2.0/"><header status=""><identifier>DE-MUS-059918/lido/dc00126469</identifier><datestamp>2021-01-31T20:16:41Z</datestamp></header><metadata>
+<lido:lido xmlns:lido="http://www.lido-schema.org" xsi:schemaLocation="http://www.lido-schema.org http://www.lido-schema.org/schema/v1.0/lido-v1.0.xsd">
+  <lido:lidoRecID lido:type="http://terminology.lido-schema.org/identifier_type/local_identifier" lido:source="digiCULT-Verbund eG">DE-MUS-059918/lido/dc00126469</lido:lidoRecID>
+  <lido:category>
+      </lido:category>
+  <lido:descriptiveMetadata xml:lang="de">
+    <lido:objectClassificationWrap>
+      <lido:objectWorkTypeWrap>
+        <lido:objectWorkType>
+          <lido:conceptID lido:type="http://terminology.lido-schema.org/identifier_type/uri">http://obg.vocnet.org/00000073</lido:conceptID>
+          <lido:conceptID lido:type="http://terminology.lido-schema.org/identifier_type/uri" lido:source="GND">http://d-nb.info/gnd/4132596-5</lido:conceptID>
+          <lido:conceptID lido:type="http://terminology.lido-schema.org/identifier_type/uri" lido:source="AAT">http://vocab.getty.edu/aat/300196293</lido:conceptID>
+          <lido:term lido:pref="preferred" lido:addedSearchTerm="no" xml:lang="de">Waage</lido:term>
+                  </lido:objectWorkType>
+      </lido:objectWorkTypeWrap>
+      <lido:classificationWrap>
+        <lido:classification lido:type="Sachgruppe">
+          <lido:conceptID lido:type="http://terminology.lido-schema.org/identifier_type/uri">http://digicult.vocnet.org/sachgruppe/1.1141</lido:conceptID>
+          <lido:term lido:pref="preferred" lido:addedSearchTerm="no" xml:lang="de">Dreidimensionale Bildwerke</lido:term>
+        </lido:classification>
+        <lido:classification lido:type="Sachgruppe">
+          <lido:conceptID lido:type="http://terminology.lido-schema.org/identifier_type/uri">http://digicult.vocnet.org/sachgruppe/1.463</lido:conceptID>
+          <lido:term lido:pref="preferred" lido:addedSearchTerm="no" xml:lang="de">Waagen</lido:term>
+        </lido:classification>
+        <lido:classification lido:type="Sachgruppe">
+          <lido:conceptID lido:type="http://terminology.lido-schema.org/identifier_type/uri">http://digicult.vocnet.org/sachgruppe/1.849</lido:conceptID>
+          <lido:term lido:pref="preferred" lido:addedSearchTerm="no" xml:lang="de">Gewichte</lido:term>
+        </lido:classification>
+        <lido:classification lido:type="Sachgruppe">
+          <lido:conceptID lido:type="http://terminology.lido-schema.org/identifier_type/uri">http://digicult.vocnet.org/sachgruppe/1.407</lido:conceptID>
+          <lido:term lido:pref="preferred" lido:addedSearchTerm="no" xml:lang="de">Messen/Wiegen</lido:term>
+        </lido:classification>
+        <lido:classification lido:type="Stil">
+          <lido:conceptID lido:type="http://terminology.lido-schema.org/identifier_type/uri">http://digicult.vocnet.org/stil/601.178</lido:conceptID>
+          <lido:term lido:pref="preferred" lido:addedSearchTerm="no" xml:lang="de">Mittlere Kaiserzeit</lido:term>
+        </lido:classification>
+        <lido:classification lido:type="Stil">
+          <lido:conceptID lido:type="http://terminology.lido-schema.org/identifier_type/uri">http://digicult.vocnet.org/stil/stil00021</lido:conceptID>
+          <lido:conceptID lido:type="local" lido:source="ULAN">500115700</lido:conceptID>
+          <lido:conceptID lido:type="http://terminology.lido-schema.org/identifier_type/uri" lido:source="GND">http://d-nb.info/gnd/118503499</lido:conceptID>
+                    <lido:term lido:pref="preferred" lido:addedSearchTerm="no" xml:lang="de">Antoninus Pius</lido:term>
+          <lido:term lido:pref="alternative" lido:addedSearchTerm="yes" xml:lang="de">Titus Aurelius Fulvus Boionius Arrius Antoninus</lido:term>
+          <lido:term lido:pref="alternative" lido:addedSearchTerm="yes" xml:lang="de">Titus Aurelius Fulvius Boionius Arrius Antoninus</lido:term>
+          <lido:term lido:pref="alternative" lido:addedSearchTerm="yes" xml:lang="de">Caesar Titus Aelius Hadrianus Antoninus Augustus Pius</lido:term>
+          <lido:term lido:pref="alternative" lido:addedSearchTerm="yes" xml:lang="de">Caesar Aelius Hadrianus Antoninus Augustus Pius</lido:term>
+        </lido:classification>
+        <lido:classification lido:type="Stil">
+          <lido:conceptID lido:type="http://terminology.lido-schema.org/identifier_type/uri">http://digicult.vocnet.org/stil/stil00022</lido:conceptID>
+          <lido:conceptID lido:type="local" lido:source="ULAN">500115701</lido:conceptID>
+          <lido:conceptID lido:type="http://terminology.lido-schema.org/identifier_type/uri" lido:source="GND">http://d-nb.info/gnd/118577468</lido:conceptID>
+                    <lido:term lido:pref="preferred" lido:addedSearchTerm="no" xml:lang="de">Mark Aurel</lido:term>
+          <lido:term lido:pref="alternative" lido:addedSearchTerm="yes" xml:lang="de">Marcus Annius Verus</lido:term>
+          <lido:term lido:pref="alternative" lido:addedSearchTerm="yes" xml:lang="de">Caesar Marcus Aurelius Antoninus Augustus</lido:term>
+          <lido:term lido:pref="alternative" lido:addedSearchTerm="yes" xml:lang="de">Marcus Aurelius Antoninus</lido:term>
+          <lido:term lido:pref="alternative" lido:addedSearchTerm="yes" xml:lang="de">Marcus Aurelius</lido:term>
+        </lido:classification>
+        <lido:classification lido:type="Stil">
+          <lido:conceptID lido:type="http://terminology.lido-schema.org/identifier_type/uri">http://digicult.vocnet.org/stil/stil00024</lido:conceptID>
+          <lido:conceptID lido:type="local" lido:source="ULAN">500355670</lido:conceptID>
+          <lido:conceptID lido:type="http://terminology.lido-schema.org/identifier_type/uri" lido:source="GND">http://d-nb.info/gnd/118521713</lido:conceptID>
+                    <lido:term lido:pref="preferred" lido:addedSearchTerm="no" xml:lang="de">Commodus</lido:term>
+          <lido:term lido:pref="alternative" lido:addedSearchTerm="yes" xml:lang="de">Caesar Marcus Aurelius Commodus Antoninus Augustus</lido:term>
+        </lido:classification>
+        <lido:classification lido:type="Stil">
+          <lido:conceptID lido:type="http://terminology.lido-schema.org/identifier_type/uri">http://digicult.vocnet.org/stil/stil00026</lido:conceptID>
+          <lido:conceptID lido:type="local" lido:source="ULAN">500115702</lido:conceptID>
+          <lido:conceptID lido:type="http://terminology.lido-schema.org/identifier_type/uri" lido:source="GND">http://d-nb.info/gnd/118764659</lido:conceptID>
+                    <lido:term lido:pref="preferred" lido:addedSearchTerm="no" xml:lang="de">Septimius Severus</lido:term>
+          <lido:term lido:pref="alternative" lido:addedSearchTerm="yes" xml:lang="de">Lucius Septimius Severus Pertinax</lido:term>
+          <lido:term lido:pref="alternative" lido:addedSearchTerm="yes" xml:lang="de">Lucius Septimius Severus</lido:term>
+        </lido:classification>
+        <lido:classification lido:type="Stil">
+          <lido:conceptID lido:type="http://terminology.lido-schema.org/identifier_type/uri">http://digicult.vocnet.org/stil/601.114</lido:conceptID>
+          <lido:term lido:pref="preferred" lido:addedSearchTerm="no" xml:lang="de">Römische Antike</lido:term>
+        </lido:classification>
+        <lido:classification lido:type="Sammlung">
+                    <lido:term lido:pref="preferred" lido:addedSearchTerm="no" xml:lang="de">Antike</lido:term>
+        </lido:classification>
+      </lido:classificationWrap>
+    </lido:objectClassificationWrap>
+    <lido:objectIdentificationWrap>
+      <lido:titleWrap>
+        <lido:titleSet>
+          <lido:appellationValue lido:pref="preferred">Laufgewicht einer Schnellwaage in Form einer Büste der Minerva</lido:appellationValue>
+        </lido:titleSet>
+      </lido:titleWrap>
+      <lido:inscriptionsWrap>
+        <lido:inscriptions lido:type="Signatur">
+          <lido:inscriptionDescription>
+            <lido:descriptiveNoteValue></lido:descriptiveNoteValue>
+          </lido:inscriptionDescription>
+        </lido:inscriptions>
+      </lido:inscriptionsWrap>
+      <lido:repositoryWrap>
+        <lido:repositorySet>
+          <lido:repositoryName>
+            <lido:legalBodyID lido:type="URI">info:isil/DE-MUS-059918</lido:legalBodyID>
+            <lido:legalBodyName>
+              <lido:appellationValue>Museum für Kunst und Gewerbe Hamburg</lido:appellationValue>
+            </lido:legalBodyName>
+            <lido:legalBodyWeblink>http://www.mkg-hamburg.de</lido:legalBodyWeblink>
+          </lido:repositoryName>
+          <lido:workID lido:type="Inventarnummer">1968.35</lido:workID>
+        </lido:repositorySet>
+      </lido:repositoryWrap>
+      <lido:objectDescriptionWrap>
+        <lido:objectDescriptionSet lido:type="Beschreibung Veröffentlichung">
+          <lido:descriptiveNoteValue>Die hohl gegossene kleine Büste der Göttin Minerva hat offenbar erst in zweiter Verwendung als geeichtes und verschiebbares Laufgewicht gedient. Die Öse ist – wie so häufig – erst nachträglich angelötet worden. Das Innere wurde wohl anschließend mit Blei ausgefüllt. 
+Dargestellt ist die Göttin Minerva, die an zurückgeschobenem, weit ausladenden Helm sowie der Ägis an ihrer rechten Schulter erkennbar ist.</lido:descriptiveNoteValue>
+        </lido:objectDescriptionSet>
+      </lido:objectDescriptionWrap>
+      <lido:objectMeasurementsWrap>
+        <lido:objectMeasurementsSet>
+          <lido:displayObjectMeasurements>Gesamt: Höhe: 6,5 cm; Höhe: 5,7 cm (ohne Öse)</lido:displayObjectMeasurements>
+        </lido:objectMeasurementsSet>
+      </lido:objectMeasurementsWrap>
+    </lido:objectIdentificationWrap>
+    <lido:eventWrap>
+      <lido:eventSet>
+        <lido:event>
+          <lido:eventType>
+            <lido:conceptID lido:type="http://terminology.lido-schema.org/identifier_type/uri" lido:source="http://terminology.lido-schema.org/eventType">http://terminology.lido-schema.org/lido00007</lido:conceptID>
+            <lido:term lido:pref="preferred" lido:addedSearchTerm="no" xml:lang="de">Herstellung</lido:term>
+          </lido:eventType>
+          <lido:eventDate>
+            <lido:displayDate>2. Hälfte 2. / Beginn 3. Jahrhundert n. Chr.</lido:displayDate>
+            <lido:date>
+              <lido:earliestDate>0150</lido:earliestDate>
+              <lido:latestDate>0220</lido:latestDate>
+            </lido:date>
+          </lido:eventDate>
+          <lido:eventMaterialsTech>
+            <lido:displayMaterialsTech>Bronze</lido:displayMaterialsTech>
+            <lido:materialsTech>
+              <lido:termMaterialsTech lido:type="Material">
+                <lido:conceptID lido:type="http://terminology.lido-schema.org/identifier_type/uri">http://hamburg.vocnet.org/material/mat00528</lido:conceptID>
+                <lido:term lido:pref="preferred" lido:addedSearchTerm="no" xml:lang="de">Bronze</lido:term>
+              </lido:termMaterialsTech>
+            </lido:materialsTech>
+          </lido:eventMaterialsTech>
+          <lido:eventMaterialsTech>
+            <lido:displayMaterialsTech>Blei</lido:displayMaterialsTech>
+            <lido:materialsTech>
+              <lido:termMaterialsTech lido:type="Material">
+                <lido:conceptID lido:type="http://terminology.lido-schema.org/identifier_type/uri">http://hamburg.vocnet.org/material/mat00527</lido:conceptID>
+                <lido:term lido:pref="preferred" lido:addedSearchTerm="no" xml:lang="de">Blei</lido:term>
+              </lido:termMaterialsTech>
+            </lido:materialsTech>
+          </lido:eventMaterialsTech>
+          <lido:eventMaterialsTech>
+            <lido:displayMaterialsTech>gegossen</lido:displayMaterialsTech>
+            <lido:materialsTech>
+              <lido:termMaterialsTech lido:type="Technik">
+                <lido:conceptID lido:type="http://terminology.lido-schema.org/identifier_type/uri">http://hamburg.vocnet.org/technik/tech00011</lido:conceptID>
+                <lido:term lido:pref="preferred" lido:addedSearchTerm="no" xml:lang="de">gegossen</lido:term>
+                <lido:term lido:pref="alternative" lido:addedSearchTerm="yes" xml:lang="de">Guß (alte Rechtschreibung)</lido:term>
+                <lido:term lido:pref="alternative" lido:addedSearchTerm="yes" xml:lang="de">Guss</lido:term>
+              </lido:termMaterialsTech>
+            </lido:materialsTech>
+          </lido:eventMaterialsTech>
+          <lido:eventMaterialsTech>
+            <lido:displayMaterialsTech>gelötet</lido:displayMaterialsTech>
+            <lido:materialsTech>
+              <lido:termMaterialsTech lido:type="Technik">
+                <lido:conceptID lido:type="http://terminology.lido-schema.org/identifier_type/uri">http://hamburg.vocnet.org/technik/tech00295</lido:conceptID>
+                <lido:term lido:pref="preferred" lido:addedSearchTerm="no" xml:lang="de">gelötet</lido:term>
+              </lido:termMaterialsTech>
+            </lido:materialsTech>
+          </lido:eventMaterialsTech>
+        </lido:event>
+      </lido:eventSet>
+    </lido:eventWrap>
+    <lido:objectRelationWrap>
+      <lido:subjectWrap>
+        <lido:subjectSet>
+          <lido:subject lido:type="Ikonographie">
+            <lido:subjectConcept>
+              <lido:conceptID lido:type="http://terminology.lido-schema.org/identifier_type/uri">http://digicult.vocnet.org/ikonographie/3.364</lido:conceptID>
+              <lido:conceptID lido:type="local" lido:source="Iconclass">92C2</lido:conceptID>
+              <lido:term lido:pref="preferred" lido:addedSearchTerm="no" xml:lang="de">Geschichte der Minerva (Pallas, Athene)</lido:term>
+                          </lido:subjectConcept>
+          </lido:subject>
+        </lido:subjectSet>
+        <lido:subjectSet>
+          <lido:subject lido:type="Ikonographie">
+            <lido:subjectConcept>
+              <lido:conceptID lido:type="http://terminology.lido-schema.org/identifier_type/uri">http://digicult.vocnet.org/ikonographie/iko00203</lido:conceptID>
+              <lido:conceptID lido:type="http://terminology.lido-schema.org/identifier_type/uri" lido:source="Iconclass">http://www.iconclass.org/rkd/45C221/</lido:conceptID>
+              <lido:term lido:pref="preferred" lido:addedSearchTerm="no" xml:lang="de">Helm</lido:term>
+            </lido:subjectConcept>
+          </lido:subject>
+        </lido:subjectSet>
+        <lido:subjectSet>
+          <lido:subject lido:type="Ikonographie">
+            <lido:subjectConcept>
+              <lido:conceptID lido:type="http://terminology.lido-schema.org/identifier_type/uri">http://digicult.vocnet.org/ikonographie/3.39</lido:conceptID>
+              <lido:conceptID lido:type="local" lido:source="Iconclass">92</lido:conceptID>
+              <lido:term lido:pref="preferred" lido:addedSearchTerm="no" xml:lang="de">Götter (klass. Mythologie)</lido:term>
+            </lido:subjectConcept>
+          </lido:subject>
+        </lido:subjectSet>
+      </lido:subjectWrap>
+          </lido:objectRelationWrap>
+  </lido:descriptiveMetadata>
+  <lido:administrativeMetadata xml:lang="de">
+    <lido:rightsWorkWrap>
+      <lido:rightsWorkSet>
+        <lido:rightsType>
+          <lido:term>gemeinfrei</lido:term>
+        </lido:rightsType>
+      </lido:rightsWorkSet>
+    </lido:rightsWorkWrap>
+    <lido:recordWrap>
+      <lido:recordID lido:type="http://terminology.lido-schema.org/identifier_type/local_identifier">dc00126469</lido:recordID>
+      <lido:recordType>
+        <lido:term lido:pref="preferred" lido:addedSearchTerm="no" xml:lang="de">Einzelobjekt</lido:term>
+      </lido:recordType>
+      <lido:recordSource>
+        <lido:legalBodyName>
+          <lido:appellationValue>digiCULT-Verbund eG</lido:appellationValue>
+        </lido:legalBodyName>
+        <lido:legalBodyWeblink>http://www.digicult-verbund.de</lido:legalBodyWeblink>
+      </lido:recordSource>
+      <lido:recordSource>
+        <lido:legalBodyName>
+          <lido:appellationValue>Museum für Kunst und Gewerbe Hamburg</lido:appellationValue>
+        </lido:legalBodyName>
+        <lido:legalBodyWeblink>http://www.mkg-hamburg.de</lido:legalBodyWeblink>
+      </lido:recordSource>
+      <lido:recordRights>
+        <lido:rightsType>
+          <lido:conceptID lido:type="http://terminology.lido-schema.org/identifier_type/uri" lido:source="http://creativecommons.org">http://creativecommons.org/publicdomain/zero/1.0/</lido:conceptID>
+          <lido:term lido:pref="preferred" lido:addedSearchTerm="no" xml:lang="de">CC0 1.0</lido:term>
+        </lido:rightsType>
+        <lido:rightsHolder>
+          <lido:legalBodyName>
+            <lido:appellationValue>Museum für Kunst und Gewerbe Hamburg</lido:appellationValue>
+          </lido:legalBodyName>
+        </lido:rightsHolder>
+      </lido:recordRights>
+      <lido:recordInfoSet lido:type="lido record">
+        <lido:recordInfoLink>http://sammlungonline.mkg-hamburg.de/de/object/Laufgewicht+einer+Schnellwaage+in+Form+einer+B%C3%BCste+der+Minerva/1968.35/dc00126469</lido:recordInfoLink>
+        <lido:recordMetadataDate lido:type="http://terminology.lido-schema.org/recordMetadataDate_type/modified">2021-01-30T17:59:29+01:00</lido:recordMetadataDate>
+      </lido:recordInfoSet>
+      <lido:recordInfoSet lido:type="source record">
+        <lido:recordMetadataDate lido:type="http://terminology.lido-schema.org/recordMetadataDate_type/created">2015-04-06T07:54:10+01:00</lido:recordMetadataDate>
+        <lido:recordMetadataDate lido:type="http://terminology.lido-schema.org/recordMetadataDate_type/modified">2019-08-26T15:29:47+01:00</lido:recordMetadataDate>
+      </lido:recordInfoSet>
+    </lido:recordWrap>
+    <lido:resourceWrap/>
+  </lido:administrativeMetadata>
+</lido:lido>
+</metadata><about></about></record><resumptionToken completeListSize="14148" cursor="6520" expirationDate="2022-02-23T09:06:13Z">rt62149975038805.21851577</resumptionToken></ListRecords><ListSets><resumptionToken completeListSize="" cursor="" expirationDate=""></resumptionToken></ListSets></Response>

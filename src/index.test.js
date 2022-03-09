@@ -5,6 +5,7 @@ describe('Part 1', () => {
   let records = []
   let records2 = []
   let records3 = []
+  let records4 = []
   let recn = 0
   let lid = ''
   let rid = ''
@@ -15,19 +16,24 @@ describe('Part 1', () => {
   let md={}
   let md2={}
   let md3={}
+  let md4={}
   let links = []
   let links2 = []
   let links3 = []
+  let links4 = []
 
   const data = fs.readFileSync('./testdata/lido1.xml').toString()
   const data2 = fs.readFileSync('./testdata/lido2.xml').toString()
   const data3 = fs.readFileSync('./testdata/lido3.xml').toString()
+  const data4 = fs.readFileSync('./testdata/lido4.xml').toString()
   let myreader = new LidoReader(data)
   let myreader2 = new LidoReader(data2)
   let myreader3 = new LidoReader(data3)
+  let myreader4 = new LidoReader(data4)
   records = myreader.getAllRecords()
   records2 = myreader2.getAllRecords()
   records3 = myreader3.getAllRecords()
+  records4 = myreader4.getAllRecords()
   lid = records[0].getLidoRecordID()
   rid = records[0].getRecordID()
   rid2 = records2[0].getRecordID()
@@ -53,6 +59,7 @@ describe('Part 1', () => {
   links2 = records2[0].getRelatedLinks()
   md3.inventarnummer1 = records3[5].getIdentificationByType('Inventarnummer')
   md3.year = records3[5].getCreationYear()
+  md4.year = records4[1].getCreationYear()
   md3.inventarnummer2 = records3[5].getIdentificationByType('Inventarnummer')
 
   beforeEach(() => {
@@ -114,6 +121,7 @@ describe('Part 1', () => {
   })
 
   it('Test metadata.', () => {
+    expect(md4.year).toBe('-2000')
     expect(md3.year).toBe('1912')
     expect(md3.inventarnummer1).toBe('AB1988.661')
     expect(md3.inventarnummer2).toBe('AB1988.661')
