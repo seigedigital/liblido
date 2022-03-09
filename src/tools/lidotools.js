@@ -122,17 +122,17 @@ module.exports = {
         ].includes(concept)) {
 
           let date = xmltools.getXmlValue('./lido:eventDate/lido:displayDate',nodes[key],select)
-          if(date!==null) {
+          if(date!==null && date.match(/\d{4}/)!==null) {
             return date.match(/\d{4}/)[0]
           }
 
           date = xmltools.getXmlValue('./lido:eventDate/lido:date/lido:earliestDate',nodes[key],select)
-          if(date!==null) {
+          if(date!==null && date.match(/\d{4}/)!==null) {
             return date.match(/\d{4}/)[0]
           }
 
           date = xmltools.getXmlValue('./lido:eventDate/lido:date/lido:latestDate',nodes[key],select)
-          if(date!==null) {
+          if(date!==null && date.match(/\d{4}/)!==null) {
             return date.match(/\d{4}/)[0]
           }
 
@@ -153,17 +153,17 @@ module.exports = {
         ,'http://terminology.lido-schema.org/eventType/production'
         ].includes(concept)) {
 
-          let place = xmltools.getXmlValue('.//lido:eventPlace[lido:place[@lido:politicalEntity="minting_place"]]/lido:displayPlace',nodes[key],select)
+          let place = xmltools.getXmlValue('./lido:eventPlace[lido:place[@lido:politicalEntity="minting_place"]]/lido:displayPlace',nodes[key],select)
           if(place!==null) {
             return place
           }
 
-          place = xmltools.getXmlValue('.//lido:eventPlace/lido:displayPlace',nodes[key],select)
+          place = xmltools.getXmlValue('./lido:eventPlace/lido:displayPlace',nodes[key],select)
           if(place!==null) {
             return place
           }
 
-          place = xmltools.getXmlValue('.//lido:eventPlace/lido:namePlaceSet/lido:appellationValue[@lido:pref="preferred"]',nodes[key],select)
+          place = xmltools.getXmlValue('./lido:eventPlace/lido:namePlaceSet/lido:appellationValue[@lido:pref="preferred"]',nodes[key],select)
           if(place!==null) {
             return place
           }
