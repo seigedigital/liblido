@@ -109,6 +109,30 @@ module.exports = {
     return xmltools.getXmlValue('.//lido:descriptiveMetadata/lido:objectIdentificationWrap/lido:titleWrap/lido:titleSet/lido:appellationValue',node,select)
   },
 
+  // Returns [{name:"",unit:"",value:""},...]
+  getPhysicalMeasurements: function(node,select) {
+    let retval = []
+    let nodes = xmltools.getNodes('.//lido:descriptiveMetadata/lido:objectIdentificationWrap/lido:objectMeasurementsWrap/lido:objectMeasurementsSet/lido:objectMeasurements/lido:measurementsSet',node,select)
+    for(let key in nodes) {
+      let t = xmltools.getXmlValue('./lido:measurementType',nodes[key],select)
+      let u = xmltools.getXmlValue('./lido:measurementUnit',nodes[key],select)
+      let v = xmltools.getXmlValue('./lido:measurementValue',nodes[key],select)
+      retval.push({name:t,unit:u,value:v})
+    }
+    return retval
+  },
+
+  getMaterial: function(node,select) {
+    let retval = []
+    let nodes = xmltools.getNodes('.//lido:materialsTech/lido:termMaterialsTech',node,select)
+    for(let key in nodes) {
+      let cids = xmltools.getXmlValues('./lido:conceptID',nodes[key],select)
+      let t = xmltools.getXmlValues('./lido:term',nodes[key],select)
+      retval.push({uris:cids,terms:t})
+    }
+    return retval
+  },
+
   getCreationYear: function(node,select) {
     let nodes = xmltools.getNodes('.//lido:descriptiveMetadata/lido:eventWrap/lido:eventSet/lido:event',node,select)
     for(let key in nodes) {

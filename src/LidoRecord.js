@@ -73,6 +73,14 @@ class LidoRecord {
     return lidotools.getRecordInfoLink(this.node,this.select)
   }
 
+  getPhysicalMeasurements() {
+    return lidotools.getPhysicalMeasurements(this.node,this.select)
+  }
+
+  getMaterial() {
+    return lidotools.getMaterial(this.node,this.select)
+  }
+
 }
 
 module.exports = LidoRecord

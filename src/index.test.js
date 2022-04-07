@@ -61,6 +61,8 @@ describe('Part 1', () => {
   md3.year = records3[5].getCreationYear()
   md4.year = records4[1].getCreationYear()
   md3.inventarnummer2 = records3[5].getIdentificationByType('Inventarnummer')
+  md.phys = records[0].getPhysicalMeasurements()
+  md.material = records[0].getMaterial()
 
   beforeEach(() => {
     // nothing
@@ -125,6 +127,11 @@ describe('Part 1', () => {
     expect(md3.year).toBe('1912')
     expect(md3.inventarnummer1).toBe('AB1988.661')
     expect(md3.inventarnummer2).toBe('AB1988.661')
+  })
+
+  it('Test metadata.', () => {
+    expect(md.phys).toStrictEqual([{"name": "diameter", "unit": "mm", "value": "38.89"}, {"name": "weight", "unit": "g", "value": "27.5"}, {"name": "orientation", "unit": "clock", "value": "12"}])
+    expect(md.material).toStrictEqual([{"terms": ["Metalle", "Silber"], "uris": ["http://uri.gbv.de/terminology/kenom_ikmk_material/277086d7-bc08-4757-98ba-d6c125276479", "http://nomisma.org/id/ar", "http://uri.gbv.de/terminology/ikmk_material/1", "http://vocab.getty.edu/aat/300011029", "http://d-nb.info/gnd/4133759-1"]}, {"terms": ["Prägung"], "uris": []}])
   })
 
 })
