@@ -6,6 +6,7 @@ describe('Part 1', () => {
   let records2 = []
   let records3 = []
   let records4 = []
+  let records5 = []
   let recn = 0
   let lid = ''
   let rid = ''
@@ -17,23 +18,27 @@ describe('Part 1', () => {
   let md2={}
   let md3={}
   let md4={}
+  let md5={}
   let links = []
   let links2 = []
   let links3 = []
-  let links4 = []
+  let links5 = []
 
   const data = fs.readFileSync('./testdata/lido1.xml').toString()
   const data2 = fs.readFileSync('./testdata/lido2.xml').toString()
   const data3 = fs.readFileSync('./testdata/lido3.xml').toString()
   const data4 = fs.readFileSync('./testdata/lido4.xml').toString()
+  const data5 = fs.readFileSync('./testdata/lido5.xml').toString()
   let myreader = new LidoReader(data)
   let myreader2 = new LidoReader(data2)
   let myreader3 = new LidoReader(data3)
   let myreader4 = new LidoReader(data4)
+  let myreader5 = new LidoReader(data5)
   records = myreader.getAllRecords()
   records2 = myreader2.getAllRecords()
   records3 = myreader3.getAllRecords()
   records4 = myreader4.getAllRecords()
+  records5 = myreader5.getAllRecords()
   lid = records[0].getLidoRecordID()
   rid = records[0].getRecordID()
   rid2 = records2[0].getRecordID()
@@ -63,6 +68,7 @@ describe('Part 1', () => {
   md3.inventarnummer2 = records3[5].getIdentificationByType('Inventarnummer')
   md.phys = records[0].getPhysicalMeasurements()
   md.material = records[0].getMaterial()
+  md5.year = records5[0].getCreationYear()
 
   beforeEach(() => {
     // nothing
@@ -132,6 +138,12 @@ describe('Part 1', () => {
   it('Test metadata.', () => {
     expect(md.phys).toStrictEqual([{"name": "diameter", "unit": "mm", "value": "38.89"}, {"name": "weight", "unit": "g", "value": "27.5"}, {"name": "orientation", "unit": "clock", "value": "12"}])
     expect(md.material).toStrictEqual([{"terms": ["Metalle", "Silber"], "uris": ["http://uri.gbv.de/terminology/kenom_ikmk_material/277086d7-bc08-4757-98ba-d6c125276479", "http://nomisma.org/id/ar", "http://uri.gbv.de/terminology/ikmk_material/1", "http://vocab.getty.edu/aat/300011029", "http://d-nb.info/gnd/4133759-1"]}, {"terms": ["Prägung"], "uris": []}])
+  })
+
+  // 5
+  it('Test metadata.', () => {
+    expect(records5.length).toBe(1)
+    expect(md5.year).toBe('-6')
   })
 
 })
