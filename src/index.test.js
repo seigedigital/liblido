@@ -69,6 +69,7 @@ describe('Part 1', () => {
   md.phys = records[0].getPhysicalMeasurements()
   md.material = records[0].getMaterial()
   md5.year = records5[0].getCreationYear()
+  md2.creators = records2[1].getAllCreators()
 
   beforeEach(() => {
     // nothing
@@ -144,6 +145,7 @@ describe('Part 1', () => {
   it('Test metadata.', () => {
     expect(records5.length).toBe(1)
     expect(md5.year).toBe('-6')
+    expect(md2.creators).toStrictEqual(['Hamann, Johann Hinrich W. (Fotograf/in)','Hamann, Heinrich (Fotograf/in)','Atelier J. Hamann (Fotograf/in)'])
   })
 
 })

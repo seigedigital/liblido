@@ -81,6 +81,10 @@ class LidoRecord {
     return lidotools.getMaterial(this.node,this.select)
   }
 
+  getAllCreators() {
+    return lidotools.getAllCreators(this.node,this.select)
+  }
+
 }
 
 module.exports = LidoRecord
