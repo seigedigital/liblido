@@ -59,7 +59,7 @@ module.exports = {
   },
 
   getXmlValueFromNode: function (node) {
-    return(node.childNodes[0].nodeValue)
+    return(node.childNodes[0].nodeValue||null)
   },
 
   getXmlAttrValue: function (node,name,select) {
