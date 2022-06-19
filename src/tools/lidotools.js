@@ -292,7 +292,7 @@ module.exports = {
           results = [...results,...xmltools.getXmlValues('.//lido:eventActor/lido:displayActorInRole',node,select)]
       }
     }
-    return results
+    return [...new Set(results)]
   },
 
   clone: function(i) {
